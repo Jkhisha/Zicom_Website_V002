@@ -1,0 +1,49 @@
+{
+  "id": "ashulia-cgs-250-mmscfd",
+  "slug": "ashulia-cgs-250-mmscfd",
+  "href": "/projects#ashulia-cgs-250-mmscfd",
+  "title": "250 MMSCFD Ashulia CGS",
+  "capacity": "250 MMSCFD",
+  "category": "city-gate-stations",
+  "location": "Ashulia",
+  "client": "[TBC]",
+  "year": "[TBC]",
+  "scope": "[TBC]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": true,
+  "coverImage": {
+    "src": "/images/250-mmscfd-ashulia-cgs-1.jpg",
+    "alt": "250 MMSCFD Ashulia CGS, photo 1",
+    "sourceFile": "250 MMSCFD ASHULIA CGS_1.jpeg"
+  },
+  "gallery": {
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/250-mmscfd-ashulia-cgs-1.jpg",
+        "alt": "250 MMSCFD Ashulia CGS, photo 1",
+        "sourceFile": "250 MMSCFD ASHULIA CGS_1.jpeg"
+      },
+      {
+        "src": "/images/250-mmscfd-ashulia-cgs-2.jpg",
+        "alt": "250 MMSCFD Ashulia CGS, photo 2",
+        "sourceFile": "250 MMSCFD ASHULIA CGS_2.jpg"
+      },
+      {
+        "src": "/images/250-mmscfd-ashulia-cgs-3.jpg",
+        "alt": "250 MMSCFD Ashulia CGS, photo 3",
+        "sourceFile": "250 MMSCFD ASHULIA CGS_3.jpg"
+      },
+      {
+        "src": "/images/250-mmscfd-ashulia-cgs-4.jpg",
+        "alt": "250 MMSCFD Ashulia CGS, photo 4",
+        "sourceFile": "250 MMSCFD ASHULIA CGS_ 4.jpg"
+      },
+      {
+        "src": "/images/250-mmscfd-ashulia-cgs-5.jpg",
+        "alt": "250 MMSCFD Ashulia CGS, photo 5",
+        "sourceFile": "250 MMSCFD ASHULIA CGS_5.jpg"
+      }
+    ]
+  }
+}

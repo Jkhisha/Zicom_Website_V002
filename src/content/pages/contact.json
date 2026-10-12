@@ -1,0 +1,78 @@
+{
+  "id": "contact",
+  "slug": "/contact",
+  "template": "contact",
+  "seo": {
+    "title": "Contact Us",
+    "description": "Reach our team for quotes, technical questions or support."
+  },
+  "breadcrumb": [
+    "Home",
+    "Contact"
+  ],
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Contact Us",
+    "subtitle": "Reach our team for quotes, technical questions or support."
+  },
+  "offices": "site.offices",
+  "form": {
+    "title": "Send us an inquiry",
+    "text": "We'll respond promptly.",
+    "recipient": "[TBC: inquiry email address]",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Full name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "company",
+        "label": "Company",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "tel",
+        "required": false
+      },
+      {
+        "name": "topic",
+        "label": "Topic",
+        "type": "select",
+        "required": true,
+        "options": [
+          "EPC project",
+          "Process automation",
+          "Terminal automation",
+          "Products & quotes",
+          "Services & calibration",
+          "Careers",
+          "Other"
+        ]
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "required": true
+      }
+    ],
+    "consent": "I agree to Zicom storing my details to respond to this inquiry.",
+    "submitLabel": "Send inquiry",
+    "successRedirect": "/contact/thank-you",
+    "error": "Something went wrong. Please try again, or email us directly."
+  },
+  "map": {
+    "embed": "[TBC: map embed URLs for each office]"
+  }
+}

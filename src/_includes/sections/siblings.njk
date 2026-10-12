@@ -1,0 +1,12 @@
+{% from "sections/_macros.njk" import shead %}
+{#- "More in this section" sibling nav; the current page is marked. -#}
+<section class="section section--cream" id="{{ s.id }}" data-label="{{ s.title or 'More' }}"><div class="container">
+  {{ shead(s) }}
+  <ul class="siblings">
+    {%- for it in s.items %}
+    <li class="sibling{{ ' sibling--current' if it.current }}">
+      {%- if it.current %}<span>{{ it.label }}</span>{% else %}<a href="{{ it.href }}">{{ it.label }}</a>{% endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+</div></section>

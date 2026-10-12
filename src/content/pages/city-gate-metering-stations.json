@@ -1,0 +1,182 @@
+{
+  "id": "city-gate-metering-stations",
+  "slug": "/solutions/epc-oil-gas/city-gate-metering-stations",
+  "template": "detail-page",
+  "seo": {
+    "title": "City Gate & Metering Stations",
+    "description": "City gate, metering, town border and regulating stations, with custody transfer accuracy."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "EPC in Oil & Gas",
+    "City Gate & Metering Stations"
+  ],
+  "parent": {
+    "label": "EPC in Oil & Gas",
+    "href": "/solutions/epc-oil-gas"
+  },
+  "hero": {
+    "eyebrow": "EPC in Oil & Gas",
+    "title": "City Gate & Metering Stations",
+    "subtitle": "City gate, metering, town border and regulating stations, with custody transfer accuracy.",
+    "image": {
+      "src": "/images/250-mmscfd-bakhrabad-ms-4.jpg",
+      "alt": "Bakhrabad metering station at night"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "cgs-overview",
+      "title": "Where transmission meets distribution",
+      "text": "A city gate station steps high-pressure transmission gas down to distribution pressure and measures it on the way through. We build these stations complete — pressure reduction, filtration, heating, custody metering and controls."
+    },
+    {
+      "type": "list",
+      "id": "scope",
+      "title": "What a station includes",
+      "items": [
+        "Gas regulators and shut-off valves",
+        "Pressure relief valves",
+        "Knock-out drums and filter separators",
+        "Gas heaters",
+        "Flow computers and online gas chromatographs",
+        "Piping systems and isolation valves"
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "record",
+      "items": [
+        {
+          "value": "50+",
+          "label": "Stations delivered"
+        },
+        {
+          "value": "4",
+          "label": "GTCL stations under one contract, 2025"
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "filter": {
+        "category": [
+          "city-gate-stations",
+          "metering-stations",
+          "tbs-rms"
+        ]
+      }
+    },
+    {
+      "type": "spec-table",
+      "id": "cgs-spec",
+      "title": "At a glance",
+      "rows": [
+        {
+          "label": "Function",
+          "value": "Pressure reduction and custody-grade metering at the city/distribution boundary"
+        },
+        {
+          "label": "Scope",
+          "value": "Filtration, pre-heating, pressure regulation, metering runs, flow computers and controls"
+        },
+        {
+          "label": "Measurement",
+          "value": "Custody-grade metering with flow computers for billing-quality data"
+        },
+        {
+          "label": "Delivery",
+          "value": "Skid-mounted where practical, factory tested before shipment"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "cgs-why",
+      "eyebrow": "Why it matters",
+      "title": "The meter is the cash register",
+      "text": "At custody points, measurement is money. We engineer the metering and flow computing so the numbers are accurate, traceable and defensible.",
+      "link": {
+        "label": "Flow computers",
+        "href": "/solutions/epc-oil-gas/flow-computers"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in EPC in Oil & Gas",
+      "items": [
+        {
+          "label": "Gas Process Plants",
+          "href": "/solutions/epc-oil-gas/gas-process-plants",
+          "current": false
+        },
+        {
+          "label": "Compressor Stations",
+          "href": "/solutions/epc-oil-gas/compressor-stations",
+          "current": false
+        },
+        {
+          "label": "City Gate & Metering Stations",
+          "href": "/solutions/epc-oil-gas/city-gate-metering-stations",
+          "current": true
+        },
+        {
+          "label": "Regulating and Metering Stations",
+          "href": "/solutions/epc-oil-gas/rms-skids",
+          "current": false
+        },
+        {
+          "label": "Flow Computers",
+          "href": "/solutions/epc-oil-gas/flow-computers",
+          "current": false
+        },
+        {
+          "label": "Water Bath Heaters",
+          "href": "/solutions/epc-oil-gas/water-bath-heaters",
+          "current": false
+        },
+        {
+          "label": "Filtration & Separation",
+          "href": "/solutions/epc-oil-gas/filtration-separation",
+          "current": false
+        },
+        {
+          "label": "PIG Launchers & Receivers",
+          "href": "/solutions/epc-oil-gas/pig-launchers-receivers",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "laksam-ms-50-mmscfd",
+  "slug": "laksam-ms-50-mmscfd",
+  "href": "/projects#laksam-ms-50-mmscfd",
+  "title": "50 MMSCFD Laksam MS",
+  "capacity": "50 MMSCFD",
+  "category": "metering-stations",
+  "location": "Laksam",
+  "client": "Gas Transmission Company Limited (GTCL)",
+  "year": 2025,
+  "scope": "Regulating and metering station, lump-sum turnkey",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/50-mmscfd-laksam-ms-1.jpg",
+    "alt": "50 MMSCFD Laksam MS, photo 1",
+    "sourceFile": "50 MMSCFD LAKSAM MS_1.jpeg"
+  },
+  "gallery": {
+    "count": 4,
+    "images": [
+      {
+        "src": "/images/50-mmscfd-laksam-ms-1.jpg",
+        "alt": "50 MMSCFD Laksam MS, photo 1",
+        "sourceFile": "50 MMSCFD LAKSAM MS_1.jpeg"
+      },
+      {
+        "src": "/images/50-mmscfd-laksam-ms-2.jpg",
+        "alt": "50 MMSCFD Laksam MS, photo 2",
+        "sourceFile": "50 MMSCFD LAKSAM MS_2.jpeg"
+      },
+      {
+        "src": "/images/50-mmscfd-laksam-ms-3.jpg",
+        "alt": "50 MMSCFD Laksam MS, photo 3",
+        "sourceFile": "50 MMSCFD LAKSAM MS_3.jpeg"
+      },
+      {
+        "src": "/images/50-mmscfd-laksam-ms-5.jpg",
+        "alt": "50 MMSCFD Laksam MS, photo 4",
+        "sourceFile": "50 MMSCFD LAKSAM MS_5.jpeg"
+      }
+    ]
+  }
+}

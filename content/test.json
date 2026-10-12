@@ -1,0 +1,199 @@
+{
+  "site": {
+    "name": "ZICOM",
+    "logo": "assets/zicom-mark.svg",
+    "tagline": "Template design test",
+    "nav": [
+      { "label": "Solutions", "href": "#" },
+      { "label": "Products", "href": "#" },
+      { "label": "Services", "href": "#" },
+      { "label": "Projects", "href": "#" },
+      { "label": "Company", "href": "#" },
+      { "label": "Resources", "href": "#" }
+    ],
+    "cta": { "label": "Contact", "href": "#" }
+  },
+  "page": {
+    "id": "test",
+    "title": "ZICOM — Template Designs Test",
+    "description": "Every template design on one page for visual testing.",
+    "sections": [
+      {
+        "type": "cover-scroll",
+        "id": "cover-scroll",
+        "covers": [
+          { "title": "cover-scroll", "subtitle": "Design 1 — full-page covers slide in from the right on scroll.", "image": "assets/img/Home_Cover_Engineering.jpg" },
+          { "title": "Construction", "subtitle": "The covered slide stays put underneath.", "image": "assets/img/Home_Cover_Construction.jpg" },
+          { "title": "Commissioning", "subtitle": "Then the page returns to normal flow.", "image": "assets/img/Home_Cover_Commissioning.jpg" }
+        ]
+      },
+      {
+        "type": "left-image",
+        "id": "left-image",
+        "subtitle": "Design · left-image",
+        "title": "Split hero, image on the left",
+        "paragraphs": [
+          "Image column on the left, content on the right. The image column is a fading carousel when you provide more than one image.",
+          "Stacks with the image on top on small screens."
+        ],
+        "images": [ "assets/img/Home_Cover_Construction.jpg", "assets/img/50mmscfd-compressor-station-titas-locg-1.jpg" ],
+        "buttonText": "Explore",
+        "buttonLink": "#"
+      },
+      {
+        "type": "right-image",
+        "id": "right-image",
+        "subtitle": "Design · right-image",
+        "title": "Split hero, image on the right",
+        "paragraphs": [ "Same split, with the columns flipped on desktop. Content leads, image follows." ],
+        "images": [ "assets/img/Home_Cover_Procurement.jpg", "assets/img/75mmscfd-process-plant-loci-1.jpg" ],
+        "buttonText": "Explore",
+        "buttonLink": "#"
+      },
+      {
+        "type": "full-image",
+        "id": "full-image",
+        "subtitle": "Design · full-image",
+        "title": "Full-bleed image, content bottom-left",
+        "paragraphs": [ "A diagonal veil keeps the text readable — darkest at bottom-left, clear at top-right." ],
+        "images": [ "assets/img/Home_Cover_Commissioning.jpg" ],
+        "buttonText": "Explore",
+        "buttonLink": "#"
+      },
+      {
+        "type": "centered",
+        "id": "centered",
+        "subtitle": "Design · centered",
+        "title": "Centered editorial over imagery",
+        "paragraphs": [ "Serif title, champagne eyebrow flanked by hairlines, ghost button — symmetric and formal." ],
+        "images": [ "assets/img/Home_Cover_Engineering.jpg" ],
+        "buttonText": "Discover",
+        "buttonLink": "#"
+      },
+      {
+        "type": "framed",
+        "id": "framed",
+        "subtitle": "Design · framed",
+        "title": "Framed gallery",
+        "paragraphs": [ "A thin inset frame with bottom-centered content — a museum/luxury feel." ],
+        "images": [ "assets/img/45mmscfd-process-plant-haripur-6.jpg" ],
+        "buttonText": "View",
+        "buttonLink": "#"
+      },
+      {
+        "type": "overlap",
+        "id": "overlap",
+        "subtitle": "Design · overlap",
+        "title": "Overlap card",
+        "paragraphs": [ "Image on top, a cream content card pulled up over it — quiet-luxury magazine layout." ],
+        "images": [ "assets/img/200mmscfd-mirsharai-cgs-1.jpg" ],
+        "buttonText": "Learn more",
+        "buttonLink": "#"
+      },
+      {
+        "type": "intro",
+        "id": "intro",
+        "eyebrow": "Design · intro",
+        "title": "Two-column intro block",
+        "text": "A serif heading paired with a lead paragraph. Used to open a page after the hero — quiet, editorial, and responsive (stacks on mobile)."
+      },
+      {
+        "type": "cards",
+        "id": "cards",
+        "eyebrow": "Design · cards",
+        "title": "Three-up cards with accent detail",
+        "items": [
+          { "title": "Card one", "text": "White card, numbered, with a red edge that appears on hover and an arrow link.", "link": { "label": "Explore", "href": "#" } },
+          { "title": "Card two", "text": "Equal-height columns; collapses to a single column on small screens.", "link": { "label": "Explore", "href": "#" } },
+          { "title": "Card three", "text": "Good for solution or product pillars.", "link": { "label": "Explore", "href": "#" } }
+        ]
+      },
+      {
+        "type": "stats",
+        "id": "stats",
+        "eyebrow": "Design · stats",
+        "title": "Four-up statistics",
+        "items": [
+          { "value": "80+", "label": "Engineers and technicians" },
+          { "value": "250+", "label": "People in the operation" },
+          { "value": "10", "label": "Engineering disciplines" },
+          { "value": "50+", "label": "Stations delivered" }
+        ]
+      },
+      {
+        "type": "teasers",
+        "id": "teasers",
+        "eyebrow": "Design · teasers",
+        "title": "Section teasers with explore links",
+        "items": [
+          { "title": "Products", "text": "Short intro that links to a section overview.", "link": { "label": "View", "href": "#" } },
+          { "title": "Services", "text": "Bordered cards on a gray band.", "link": { "label": "View", "href": "#" } },
+          { "title": "Projects", "text": "Another explore-more teaser.", "link": { "label": "View", "href": "#" } }
+        ]
+      },
+      {
+        "type": "logos",
+        "id": "logos",
+        "eyebrow": "Design · logos",
+        "title": "Partner / client logo grid",
+        "items": [
+          { "name": "Supcon" }, { "name": "NexVal" }, { "name": "Keckonn" },
+          { "name": "Cimarron" }, { "name": "Softing" }, { "name": "Red Lion" }, { "name": "Tancy" }
+        ]
+      },
+      {
+        "type": "message",
+        "id": "message",
+        "eyebrow": "Design · message",
+        "messages": [ "message", "Bold lines reveal on scroll.", "Centred, dark background." ],
+        "cta": { "label": "Continue", "href": "#" }
+      },
+      {
+        "type": "message-framed",
+        "id": "message-framed",
+        "eyebrow": "Design · message-framed",
+        "messages": [ "message-framed", "Same reveal, plus a hairline frame." ],
+        "cta": { "label": "Continue", "href": "#" }
+      },
+      {
+        "type": "message-images",
+        "id": "message-images",
+        "eyebrow": "Design · message-images",
+        "messages": [ "message-images", "Background cross-fades with the lines." ],
+        "images": [ "assets/img/Home_Cover_Engineering.jpg", "assets/img/Home_Cover_Construction.jpg" ],
+        "cta": { "label": "Continue", "href": "#" }
+      },
+      {
+        "type": "message-images-framed",
+        "id": "message-images-framed",
+        "eyebrow": "Design · message-images-framed",
+        "messages": [ "message-images-framed", "Images + frame, centred." ],
+        "images": [ "assets/img/Home_Cover_Commissioning.jpg", "assets/img/45mmscfd-process-plant-haripur-6.jpg" ],
+        "cta": { "label": "Continue", "href": "#" }
+      },
+      {
+        "type": "message-left",
+        "id": "message-left",
+        "eyebrow": "Design · message-left",
+        "messages": [ "message-left", "Label, lines and CTA pinned bottom-left." ],
+        "cta": { "label": "Continue", "href": "#" }
+      },
+      {
+        "type": "message-images-left",
+        "id": "message-images-left",
+        "eyebrow": "Design · message-images-left",
+        "messages": [ "message-images-left", "Bottom-left over cross-fading images." ],
+        "images": [ "assets/img/Home_Cover_Procurement.jpg", "assets/img/Home_Cover_Engineering.jpg" ],
+        "cta": { "label": "Continue", "href": "#" }
+      },
+      {
+        "type": "cta",
+        "id": "cta",
+        "title": "cta — closing call to action",
+        "text": "Design · cta. A dark band with a headline, supporting line and two buttons.",
+        "primary": { "label": "Primary", "href": "#" },
+        "secondary": { "label": "Secondary", "href": "#" }
+      }
+    ]
+  }
+}

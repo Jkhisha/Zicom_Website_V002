@@ -1,0 +1,151 @@
+{
+  "id": "pig-launchers-receivers",
+  "slug": "/solutions/epc-oil-gas/pig-launchers-receivers",
+  "template": "detail-page",
+  "seo": {
+    "title": "PIG Launchers & Receivers",
+    "description": "Pipeline pigging facilities."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "EPC in Oil & Gas",
+    "PIG Launchers & Receivers"
+  ],
+  "parent": {
+    "label": "EPC in Oil & Gas",
+    "href": "/solutions/epc-oil-gas"
+  },
+  "hero": {
+    "eyebrow": "EPC in Oil & Gas",
+    "title": "PIG Launchers & Receivers",
+    "subtitle": "Pipeline pigging facilities.",
+    "image": {
+      "src": "/images/products/pig-launcher.jpg",
+      "alt": "PIG launcher"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Pig launchers and receivers let a pipeline be cleaned, batched and inspected without taking it out of service. We design and build launcher/receiver skids with the closures, trays, valves and instrumentation to run pigging operations safely."
+    },
+    {
+      "type": "spec-table",
+      "id": "pig-spec",
+      "title": "At a glance",
+      "rows": [
+        {
+          "label": "Application",
+          "value": "Pipeline cleaning, batching and in-line inspection (ILI)"
+        },
+        {
+          "label": "Scope",
+          "value": "Barrel, quick-opening closure, pig trays, kicker/isolation valves, vents and drains, instrumentation"
+        },
+        {
+          "label": "Design codes",
+          "value": "To project pipeline code and pressure class"
+        },
+        {
+          "label": "Delivery",
+          "value": "Skid-mounted, factory tested before shipment"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "pig-scope",
+      "title": "What we deliver",
+      "items": [
+        "Launcher and receiver barrels and closures",
+        "Kicker, isolation and bypass valves",
+        "Pig signallers and position indication",
+        "Vent, drain and pressure-relief arrangements",
+        "Integration with station controls and ESD",
+        "Installation and commissioning"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "pig-why",
+      "eyebrow": "Why it matters",
+      "title": "Maintain the line without shutting it down",
+      "text": "Regular pigging keeps a pipeline clean and inspectable — protecting throughput and integrity — and a well-designed trap makes the operation routine and safe.",
+      "link": {
+        "label": "Filtration & separation",
+        "href": "/solutions/epc-oil-gas/filtration-separation"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in EPC in Oil & Gas",
+      "items": [
+        {
+          "label": "Gas Process Plants",
+          "href": "/solutions/epc-oil-gas/gas-process-plants",
+          "current": false
+        },
+        {
+          "label": "Compressor Stations",
+          "href": "/solutions/epc-oil-gas/compressor-stations",
+          "current": false
+        },
+        {
+          "label": "City Gate & Metering Stations",
+          "href": "/solutions/epc-oil-gas/city-gate-metering-stations",
+          "current": false
+        },
+        {
+          "label": "Regulating and Metering Stations",
+          "href": "/solutions/epc-oil-gas/rms-skids",
+          "current": false
+        },
+        {
+          "label": "Flow Computers",
+          "href": "/solutions/epc-oil-gas/flow-computers",
+          "current": false
+        },
+        {
+          "label": "Water Bath Heaters",
+          "href": "/solutions/epc-oil-gas/water-bath-heaters",
+          "current": false
+        },
+        {
+          "label": "Filtration & Separation",
+          "href": "/solutions/epc-oil-gas/filtration-separation",
+          "current": false
+        },
+        {
+          "label": "PIG Launchers & Receivers",
+          "href": "/solutions/epc-oil-gas/pig-launchers-receivers",
+          "current": true
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft — client to supply photos and specifications"
+}

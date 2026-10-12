@@ -1,0 +1,163 @@
+{
+  "id": "news",
+  "slug": "/resources/news",
+  "template": "posts-listing",
+  "seo": {
+    "title": "News & Moments",
+    "description": "Project milestones and moments from the field."
+  },
+  "breadcrumb": [
+    "Home",
+    "Resources",
+    "News & Moments"
+  ],
+  "hero": {
+    "eyebrow": "Resources",
+    "title": "News & Moments",
+    "subtitle": "Project milestones and moments from the field."
+  },
+  "sections": [
+    {
+      "type": "posts",
+      "id": "posts",
+      "source": "posts",
+      "filter": {
+        "type": "news"
+      },
+      "emptyText": "Nothing here yet."
+    },
+    {
+      "type": "gallery",
+      "id": "moments",
+      "title": "Moments",
+      "items": [
+        {
+          "year": 2025,
+          "title": "DCS at compressor stations, Titas LOC-E & G",
+          "client": "BGFCL",
+          "image": {
+            "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+            "alt": "Control room with DCS and SCADA screens at the Titas LOC-E compressor station"
+          }
+        },
+        {
+          "year": 2024,
+          "title": "Natural gas silica gel dehydration plant, 45 MMSCFD",
+          "client": "SGFL",
+          "image": {
+            "src": "/images/45mmscfd-process-plant-haripur-3.jpg",
+            "alt": "45 MMSCFD Process Plant, Haripur, photo 1"
+          }
+        },
+        {
+          "year": 2024,
+          "title": "Mobile gas leak detection and repair service",
+          "client": "TGTDCL",
+          "image": {
+            "src": "/images/moments/tgtdcl-leak-detection.jpg",
+            "alt": "Leak detection team"
+          }
+        },
+        {
+          "year": 2022,
+          "title": "Mobile gas leak detection service",
+          "client": "JGTDSL",
+          "image": {
+            "src": "/images/moments/jgtdsl-leak-detection.jpg",
+            "alt": "Leak detection survey"
+          }
+        },
+        {
+          "year": 2021,
+          "title": "Mobile gas leak detection service",
+          "client": "KGDCL",
+          "image": {
+            "src": "/images/moments/kgdcl-leak-detection.jpg",
+            "alt": "Leak detection survey"
+          }
+        },
+        {
+          "year": 2021,
+          "title": "30 MMSCFD gas compression facilities, Narsingdi",
+          "client": "BGFCL",
+          "image": {
+            "src": "/images/30mmscfd-compressor-station-narsingdi-2.jpg",
+            "alt": "30 MMSCFD Compressor Station, Narsingdi, photo 1"
+          }
+        },
+        {
+          "year": 2021,
+          "title": "DCS at compressor station, Titas LOC-C",
+          "client": "BGFCL",
+          "image": {
+            "src": "/images/180mmscfd-compressor-station-titas-locc-1.jpg",
+            "alt": "180 MMSCFD Compressor Station, Titas LOC-C, photo 1"
+          }
+        },
+        {
+          "year": 2016,
+          "title": "TEG dehydration plant, Location I, 75 MMSCFD",
+          "client": "BGFCL",
+          "image": {
+            "src": "/images/75mmscfd-process-plant-loci-1.jpg",
+            "alt": "75 MMSCFD Process Plant, LOC-I, photo 1"
+          }
+        },
+        {
+          "year": 2016,
+          "title": "Silica gel dehydration plant, 60 MMSCFD",
+          "client": "BAPEX",
+          "image": {
+            "src": "/images/60mmscfd-process-plant-1.jpg",
+            "alt": "60 MMSCFD Process Plant, photo 1"
+          }
+        },
+        {
+          "year": "[TBC]",
+          "title": "Calibration in our lab",
+          "client": "",
+          "image": {
+            "src": "/images/moments/calibration-lab.jpg",
+            "alt": "Calibration lab"
+          }
+        },
+        {
+          "year": "[TBC]",
+          "title": "On-site training",
+          "client": "",
+          "image": {
+            "src": "/images/moments/training.jpg",
+            "alt": "On-site training"
+          }
+        }
+      ]
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Resources",
+      "items": [
+        {
+          "label": "All resources",
+          "href": "/resources",
+          "current": false
+        },
+        {
+          "label": "Blog",
+          "href": "/resources/blog",
+          "current": false
+        },
+        {
+          "label": "News & Moments",
+          "href": "/resources/news",
+          "current": true
+        },
+        {
+          "label": "Specification Guides",
+          "href": "/resources/specification-guides",
+          "current": false
+        }
+      ]
+    }
+  ]
+}

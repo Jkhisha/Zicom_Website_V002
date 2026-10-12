@@ -1,0 +1,166 @@
+{
+  "id": "plc",
+  "slug": "/solutions/process-automation/plc",
+  "template": "detail-page",
+  "seo": {
+    "title": "Programmable Logic Controllers",
+    "description": "Fast discrete logic for machine sequences, skids, compressors and standalone packages."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "Process Automation",
+    "Programmable Logic Controllers"
+  ],
+  "parent": {
+    "label": "Process Automation",
+    "href": "/solutions/process-automation"
+  },
+  "hero": {
+    "eyebrow": "Process Automation",
+    "title": "Programmable Logic Controllers",
+    "subtitle": "Fast discrete logic for machine sequences, skids, compressors and standalone packages.",
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-1.jpg",
+      "alt": "Gas compressor package with cooler at Titas LOC-E"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "plc-overview",
+      "title": "Fast, deterministic control",
+      "text": "PLCs are the right tool for discrete logic, machine sequences and packaged units — compressors, skids and standalone equipment. We program, panel-build and commission them, and tie them into the wider DCS/SCADA when the plant needs it."
+    },
+    {
+      "type": "spec-table",
+      "id": "at-a-glance",
+      "title": "At a glance",
+      "rows": [
+        {
+          "label": "Scale",
+          "value": "Tens to a few thousand I/O"
+        },
+        {
+          "label": "Engineering",
+          "value": "Per controller; integration is part of the design"
+        },
+        {
+          "label": "Choose it when",
+          "value": "Skids, compressors, packaged units"
+        },
+        {
+          "label": "Delivered",
+          "value": "Allen-Bradley ControlLogix compressor control, Titas"
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "id": "rule",
+      "text": "Buying a DCS for one skid wastes money. Bolting twelve PLCs together to run a plant costs more than the DCS you avoided."
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "filter": {
+        "category": [
+          "compressor-stations"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "id": "plc-apps",
+      "title": "Where we apply it",
+      "items": [
+        "Compressor and pump unit control",
+        "Packaged equipment and skids",
+        "Metering and regulating station logic",
+        "Burner management and heater control",
+        "ESD and interlock logic",
+        "Integration with plant DCS/SCADA"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "plc-why",
+      "eyebrow": "Why it matters",
+      "title": "Right-size the controller",
+      "text": "Bolting a PLC onto every problem, or buying a DCS for one skid, both cost money. We match the controller to the job.",
+      "link": {
+        "label": "Compare with DCS",
+        "href": "/solutions/process-automation/dcs"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Process Automation",
+      "items": [
+        {
+          "label": "Overview",
+          "href": "/solutions/process-automation",
+          "current": false
+        },
+        {
+          "label": "DCS",
+          "href": "/solutions/process-automation/dcs",
+          "current": false
+        },
+        {
+          "label": "PLC",
+          "href": "/solutions/process-automation/plc",
+          "current": true
+        },
+        {
+          "label": "SCADA & HMI",
+          "href": "/solutions/process-automation/scada-hmi",
+          "current": false
+        },
+        {
+          "label": "Safety Instrumented Systems",
+          "href": "/solutions/process-automation/sis",
+          "current": false
+        },
+        {
+          "label": "Brownfield Upgrades",
+          "href": "/solutions/process-automation/brownfield-upgrades",
+          "current": false
+        },
+        {
+          "label": "Remote Monitoring",
+          "href": "/solutions/process-automation/remote-monitoring",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

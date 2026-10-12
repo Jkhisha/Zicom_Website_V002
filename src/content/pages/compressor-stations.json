@@ -1,0 +1,166 @@
+{
+  "id": "compressor-stations",
+  "slug": "/solutions/epc-oil-gas/compressor-stations",
+  "template": "detail-page",
+  "seo": {
+    "title": "Compressor Stations",
+    "description": "Gas compression with station and compressor control on a central DCS."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "EPC in Oil & Gas",
+    "Compressor Stations"
+  ],
+  "parent": {
+    "label": "EPC in Oil & Gas",
+    "href": "/solutions/epc-oil-gas"
+  },
+  "hero": {
+    "eyebrow": "EPC in Oil & Gas",
+    "title": "Compressor Stations",
+    "subtitle": "Gas compression with station and compressor control on a central DCS.",
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-1.jpg",
+      "alt": "Gas compressor package with cooler at Titas LOC-E"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "list",
+      "id": "scope",
+      "title": "What we deliver",
+      "items": [
+        "Compressor packages",
+        "Suction scrubbers and discharge bottles",
+        "Coolers and station piping",
+        "Station and compressor control on a central DCS",
+        "Fire & gas and ESD integration"
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Compressor stations raise pipeline pressure to keep gas moving across the network. We deliver the station complete — compression package, process piping, utilities and the control and safety system — engineered, built and commissioned as one scope."
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "filter": {
+        "category": [
+          "compressor-stations"
+        ]
+      }
+    },
+    {
+      "type": "spec-table",
+      "id": "cs-spec",
+      "title": "At a glance",
+      "rows": [
+        {
+          "label": "Application",
+          "value": "Pipeline pressure boosting on transmission and distribution networks"
+        },
+        {
+          "label": "Scope",
+          "value": "Compression package, process & utility piping, E&I and controls, civil works"
+        },
+        {
+          "label": "Controls",
+          "value": "Unit control panel integrated with station DCS/PLC and ESD"
+        },
+        {
+          "label": "Delivery",
+          "value": "Turnkey — engineered, constructed and commissioned by one team"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "cs-why",
+      "eyebrow": "Why it matters",
+      "title": "Availability is the whole point",
+      "text": "A compressor station earns its keep only when it runs. We design for reliable control, safe shutdown and maintainability, and we stay to support it.",
+      "link": {
+        "label": "After-sales service",
+        "href": "/services/after-sales-service"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in EPC in Oil & Gas",
+      "items": [
+        {
+          "label": "Gas Process Plants",
+          "href": "/solutions/epc-oil-gas/gas-process-plants",
+          "current": false
+        },
+        {
+          "label": "Compressor Stations",
+          "href": "/solutions/epc-oil-gas/compressor-stations",
+          "current": true
+        },
+        {
+          "label": "City Gate & Metering Stations",
+          "href": "/solutions/epc-oil-gas/city-gate-metering-stations",
+          "current": false
+        },
+        {
+          "label": "Regulating and Metering Stations",
+          "href": "/solutions/epc-oil-gas/rms-skids",
+          "current": false
+        },
+        {
+          "label": "Flow Computers",
+          "href": "/solutions/epc-oil-gas/flow-computers",
+          "current": false
+        },
+        {
+          "label": "Water Bath Heaters",
+          "href": "/solutions/epc-oil-gas/water-bath-heaters",
+          "current": false
+        },
+        {
+          "label": "Filtration & Separation",
+          "href": "/solutions/epc-oil-gas/filtration-separation",
+          "current": false
+        },
+        {
+          "label": "PIG Launchers & Receivers",
+          "href": "/solutions/epc-oil-gas/pig-launchers-receivers",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft — client to supply photos and specifications"
+}

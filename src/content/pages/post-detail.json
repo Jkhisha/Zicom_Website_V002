@@ -1,0 +1,29 @@
+{
+  "id": "post-detail",
+  "slug": "/resources/{type}/{slug}",
+  "template": "post-detail",
+  "note": "Template for every item in posts. Not counted as fixed pages.",
+  "labels": {
+    "published": "Published",
+    "author": "Author",
+    "share": "Share",
+    "related": "Related reading",
+    "back": "Back to resources"
+  },
+  "sections": [
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

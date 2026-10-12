@@ -1,0 +1,29 @@
+{
+  "id": "process-plant-30-mmscfd",
+  "slug": "process-plant-30-mmscfd",
+  "href": "/projects#process-plant-30-mmscfd",
+  "title": "30 MMSCFD Process Plant",
+  "capacity": "30 MMSCFD",
+  "category": "process-plants",
+  "location": "[TBC]",
+  "client": "[TBC]",
+  "year": "[TBC]",
+  "scope": "[TBC]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/30mmscfd-process-plant.jpg",
+    "alt": "30 MMSCFD Process Plant, photo 1",
+    "sourceFile": "30MMSCFD PROCESS PLANT.jpg"
+  },
+  "gallery": {
+    "count": 1,
+    "images": [
+      {
+        "src": "/images/30mmscfd-process-plant.jpg",
+        "alt": "30 MMSCFD Process Plant, photo 1",
+        "sourceFile": "30MMSCFD PROCESS PLANT.jpg"
+      }
+    ]
+  }
+}

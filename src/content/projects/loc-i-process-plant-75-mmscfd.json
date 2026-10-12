@@ -1,0 +1,34 @@
+{
+  "id": "loc-i-process-plant-75-mmscfd",
+  "slug": "loc-i-process-plant-75-mmscfd",
+  "href": "/projects#loc-i-process-plant-75-mmscfd",
+  "title": "75 MMSCFD Process Plant, LOC-I",
+  "capacity": "75 MMSCFD",
+  "category": "process-plants",
+  "location": "Titas Gas Field, Location I",
+  "client": "Bangladesh Gas Fields Company Limited (BGFCL)",
+  "year": 2016,
+  "scope": "Natural gas TEG-type dehydration plant",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/75mmscfd-process-plant-loci-1.jpg",
+    "alt": "75 MMSCFD Process Plant, LOC-I, photo 1",
+    "sourceFile": "75MMSCFD PROCESS PLANT LOCI_1.jpg"
+  },
+  "gallery": {
+    "count": 2,
+    "images": [
+      {
+        "src": "/images/75mmscfd-process-plant-loci-1.jpg",
+        "alt": "75 MMSCFD Process Plant, LOC-I, photo 1",
+        "sourceFile": "75MMSCFD PROCESS PLANT LOCI_1.jpg"
+      },
+      {
+        "src": "/images/75mmscfd-process-plant-loci-3.jpg",
+        "alt": "75 MMSCFD Process Plant, LOC-I, photo 2",
+        "sourceFile": "75MMSCFD PROCESS PLANT LOCI_3.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "not-found",
+  "slug": "/404",
+  "template": "utility",
+  "seo": {
+    "title": "Page not found",
+    "description": ""
+  },
+  "hero": {
+    "title": "Page not found",
+    "subtitle": "The page you're looking for has moved or no longer exists."
+  },
+  "sections": [
+    {
+      "type": "cta",
+      "id": "back",
+      "primary": {
+        "label": "Back to home",
+        "href": "/"
+      },
+      "secondary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      }
+    }
+  ]
+}

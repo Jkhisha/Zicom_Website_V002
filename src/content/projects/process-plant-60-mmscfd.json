@@ -1,0 +1,39 @@
+{
+  "id": "process-plant-60-mmscfd",
+  "slug": "process-plant-60-mmscfd",
+  "href": "/projects#process-plant-60-mmscfd",
+  "title": "60 MMSCFD Process Plant",
+  "capacity": "60 MMSCFD",
+  "category": "process-plants",
+  "location": "[TBC]",
+  "client": "Bangladesh Petroleum Exploration and Production Company (BAPEX)",
+  "year": 2016,
+  "scope": "Natural gas silica gel dehydration process plant",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/60mmscfd-process-plant-1.jpg",
+    "alt": "60 MMSCFD Process Plant, photo 1",
+    "sourceFile": "60MMSCFD PROCESS PLANT_1.jpg"
+  },
+  "gallery": {
+    "count": 3,
+    "images": [
+      {
+        "src": "/images/60mmscfd-process-plant-1.jpg",
+        "alt": "60 MMSCFD Process Plant, photo 1",
+        "sourceFile": "60MMSCFD PROCESS PLANT_1.jpg"
+      },
+      {
+        "src": "/images/60mmscfd-process-plant-2.jpg",
+        "alt": "60 MMSCFD Process Plant, photo 2",
+        "sourceFile": "60MMSCFD PROCESS PLANT_2.jpg"
+      },
+      {
+        "src": "/images/60mmscfd-process-plant-4.jpg",
+        "alt": "60 MMSCFD Process Plant, photo 3",
+        "sourceFile": "60MMSCFD PROCESS PLANT_4.jpg"
+      }
+    ]
+  }
+}

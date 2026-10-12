@@ -1,0 +1,145 @@
+{
+  "id": "softing",
+  "slug": "/products/softing",
+  "template": "brand-page",
+  "seo": {
+    "title": "Softing",
+    "description": "Industrial connectivity and diagnostics."
+  },
+  "breadcrumb": [
+    "Home",
+    "Products",
+    "Softing"
+  ],
+  "parent": {
+    "label": "Products",
+    "href": "/products"
+  },
+  "hero": {
+    "eyebrow": "Partner brand",
+    "title": "Softing",
+    "subtitle": "Industrial connectivity and diagnostics.",
+    "logo": {
+      "src": "/images/partners/softing.svg",
+      "alt": "Softing logo"
+    },
+    "image": {
+      "src": "/images/50-mmscfd-laksam-ms-1.jpg",
+      "alt": "Industrial connectivity and fieldbus diagnostics on a process skid"
+    },
+    "ctas": [
+      {
+        "label": "Request a quote",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Softing specialises in industrial connectivity and fieldbus diagnostics — the tools and interfaces that keep communication networks between field instruments and control systems healthy and visible. We apply them during commissioning and for ongoing diagnostics."
+    },
+    {
+      "type": "cards",
+      "id": "softing-families",
+      "title": "What we supply",
+      "items": [
+        {
+          "title": "Fieldbus diagnostics",
+          "text": "Monitoring and diagnostics for PROFIBUS, Foundation Fieldbus and HART networks — find faults before they become trips."
+        },
+        {
+          "title": "Connectivity & gateways",
+          "text": "Interfaces and gateways that bridge industrial protocols to control systems and higher-level software."
+        },
+        {
+          "title": "Commissioning tools",
+          "text": "Test and diagnostic tools that speed up network commissioning and troubleshooting."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "softing-apps",
+      "title": "Where we apply it",
+      "items": [
+        "Fieldbus commissioning and acceptance",
+        "Ongoing network health monitoring",
+        "Fault-finding on communication networks",
+        "Protocol bridging to control and asset systems",
+        "Diagnostics during brownfield upgrades",
+        "Integration with plant automation"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "softing-why",
+      "eyebrow": "Why it matters",
+      "title": "A quiet network is a working plant",
+      "text": "Communication faults are some of the hardest problems to chase on a live plant. Continuous diagnostics turn an intermittent mystery into a located, fixable fault.",
+      "link": {
+        "label": "Brownfield upgrades",
+        "href": "/solutions/process-automation/brownfield-upgrades"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Products",
+      "items": [
+        {
+          "label": "Supcon",
+          "href": "/products/supcon",
+          "current": false
+        },
+        {
+          "label": "NexVal",
+          "href": "/products/nexval",
+          "current": false
+        },
+        {
+          "label": "Keckonn",
+          "href": "/products/keckonn",
+          "current": false
+        },
+        {
+          "label": "Cimarron",
+          "href": "/products/cimarron",
+          "current": false
+        },
+        {
+          "label": "Softing",
+          "href": "/products/softing",
+          "current": true
+        },
+        {
+          "label": "Red Lion",
+          "href": "/products/red-lion",
+          "current": false
+        },
+        {
+          "label": "Tancy",
+          "href": "/products/tancy",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "titas-loc-e-compressor-station-80-mmscfd",
+  "slug": "titas-loc-e-compressor-station-80-mmscfd",
+  "href": "/projects#titas-loc-e-compressor-station-80-mmscfd",
+  "title": "80 MMSCFD Compressor Station, Titas LOC-E",
+  "capacity": "80 MMSCFD",
+  "category": "compressor-stations",
+  "location": "Titas Gas Field, Location E",
+  "client": "Bangladesh Gas Fields Company Limited (BGFCL)",
+  "year": 2025,
+  "scope": "Compression, lump-sum turnkey, with central DCS on Rockwell PlantPAx and ControlLogix compressor control",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": true,
+  "coverImage": {
+    "src": "/images/80-mmscfd-compressor-station-titas-loce-1.jpg",
+    "alt": "80 MMSCFD Compressor Station, Titas LOC-E, photo 1",
+    "sourceFile": "80 MMSCFD COMPRESSOR STATION TITAS LOCE_1.jpeg"
+  },
+  "gallery": {
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/80-mmscfd-compressor-station-titas-loce-1.jpg",
+        "alt": "80 MMSCFD Compressor Station, Titas LOC-E, photo 1",
+        "sourceFile": "80 MMSCFD COMPRESSOR STATION TITAS LOCE_1.jpeg"
+      },
+      {
+        "src": "/images/80-mmscfd-compressor-station-titas-loce-2.jpg",
+        "alt": "80 MMSCFD Compressor Station, Titas LOC-E, photo 2",
+        "sourceFile": "80 MMSCFD COMPRESSOR STATION TITAS LOCE_2.jpeg"
+      },
+      {
+        "src": "/images/80-mmscfd-compressor-station-titas-loce-3.jpg",
+        "alt": "80 MMSCFD Compressor Station, Titas LOC-E, photo 3",
+        "sourceFile": "80 MMSCFD COMPRESSOR STATION TITAS LOCE_3.jpeg"
+      },
+      {
+        "src": "/images/projects/titas-loc-e-compressor-station-80-mmscfd/titas-loc-e-compressor-station-80-mmscfd-04.jpg",
+        "alt": "80 MMSCFD Compressor Station, Titas LOC-E, photo 4",
+        "sourceFile": "80 MMSCFD COMPRESSOR STATION TITAS LOCE_4.jpeg"
+      },
+      {
+        "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+        "alt": "80 MMSCFD Compressor Station, Titas LOC-E, photo 5",
+        "sourceFile": "80 MMSCFD COMPRESSOR STATION TITAS LOCE_5.jpeg"
+      }
+    ]
+  }
+}

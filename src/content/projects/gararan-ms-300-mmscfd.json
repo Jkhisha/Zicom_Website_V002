@@ -1,0 +1,34 @@
+{
+  "id": "gararan-ms-300-mmscfd",
+  "slug": "gararan-ms-300-mmscfd",
+  "href": "/projects#gararan-ms-300-mmscfd",
+  "title": "300 MMSCFD Gararan MS",
+  "capacity": "300 MMSCFD",
+  "category": "metering-stations",
+  "location": "Gararan",
+  "client": "[TBC]",
+  "year": "[TBC]",
+  "scope": "[TBC]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/300mmscfd-gararan-ms-1.jpg",
+    "alt": "300 MMSCFD Gararan MS, photo 1",
+    "sourceFile": "300MMSCFD GARARAN MS_1.jpg"
+  },
+  "gallery": {
+    "count": 2,
+    "images": [
+      {
+        "src": "/images/300mmscfd-gararan-ms-1.jpg",
+        "alt": "300 MMSCFD Gararan MS, photo 1",
+        "sourceFile": "300MMSCFD GARARAN MS_1.jpg"
+      },
+      {
+        "src": "/images/300mmscfd-gararan-ms-2.jpg",
+        "alt": "300 MMSCFD Gararan MS, photo 2",
+        "sourceFile": "300MMSCFD GARARAN MS_2.jpg"
+      }
+    ]
+  }
+}

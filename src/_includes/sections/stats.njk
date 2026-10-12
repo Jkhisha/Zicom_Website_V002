@@ -1,0 +1,9 @@
+{% from "sections/_macros.njk" import shead %}
+<section class="section" id="{{ s.id }}" data-label="{{ s.eyebrow or s.title or s.id }}"><div class="container">
+  {{ shead(s) }}
+  <div class="stats">
+    {%- for st in s.items %}
+    <div class="stat"><div class="stat__value">{{ st.value }}</div><div class="stat__label">{{ st.label }}</div></div>
+    {%- endfor %}
+  </div>
+</div></section>

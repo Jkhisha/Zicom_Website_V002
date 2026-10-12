@@ -1,0 +1,11 @@
+MISSING IMAGES
+==============
+Referenced by zicom-site-content.json (home page) but NOT present in assets/img/.
+Export as JPG, ~1600px wide, and drop into assets/img/ using these exact file names:
+
+products-partner-brands.jpg   Products intro — partner-brand control/instrumentation/valves (montage or representative hero)
+company-team.jpg              Company intro — the Zicom Bangladesh engineering team / office / facility
+resources-insights.jpg        Resources intro — specification guides / documents / knowledge-sharing visual
+
+Until supplied, these three home-page sections will show a broken image.
+Everything else on the home page uses photos that already exist in assets/img/.

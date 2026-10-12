@@ -1,0 +1,10 @@
+{% from "sections/_macros.njk" import shead %}
+{#- Two-column label/value specification table. -#}
+<section class="section" id="{{ s.id }}" data-label="{{ s.title or s.id }}"><div class="container container--narrow">
+  {{ shead(s) }}
+  <dl class="spec-table">
+    {%- for r in s.rows %}
+    <div class="spec-row"><dt>{{ r.label }}</dt><dd>{{ r.value }}</dd></div>
+    {%- endfor %}
+  </dl>
+</div></section>

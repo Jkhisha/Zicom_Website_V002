@@ -1,0 +1,195 @@
+{
+  "id": "epc-oil-gas",
+  "slug": "/solutions/epc-oil-gas",
+  "template": "section-overview",
+  "seo": {
+    "title": "EPC in Oil & Gas",
+    "description": "Engineered, procured and delivered as complete, field-ready systems."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "EPC in Oil & Gas"
+  ],
+  "hero": {
+    "eyebrow": "Solutions",
+    "title": "EPC Solutions for Oil & Gas",
+    "subtitle": "Engineered, procured and delivered as complete, field-ready systems.",
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-3.jpg",
+      "alt": "Process skids and flare stack at Titas LOC-E"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      },
+      {
+        "label": "See projects",
+        "href": "/projects"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "id": "facilities",
+      "eyebrow": "Facilities",
+      "title": "Complete facilities, lump-sum turnkey",
+      "items": [
+        {
+          "title": "Gas Process Plants",
+          "text": "Dehydration, separation and fractionation plants, delivered turnkey.",
+          "image": {
+            "src": "/images/45mmscfd-process-plant-haripur-3.jpg",
+            "alt": "45 MMSCFD Process Plant, Haripur, photo 1"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/epc-oil-gas/gas-process-plants"
+          }
+        },
+        {
+          "title": "Compressor Stations",
+          "text": "Gas compression with station control built in.",
+          "image": {
+            "src": "/images/80-mmscfd-compressor-station-titas-loce-1.jpg",
+            "alt": "Gas compressor package with cooler at Titas LOC-E"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/epc-oil-gas/compressor-stations"
+          }
+        },
+        {
+          "title": "City Gate & Metering Stations",
+          "text": "Custody transfer accuracy, over 50 stations delivered.",
+          "image": {
+            "src": "/images/250-mmscfd-bakhrabad-ms-4.jpg",
+            "alt": "Bakhrabad metering station at night"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/epc-oil-gas/city-gate-metering-stations"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "systems",
+      "eyebrow": "Key systems",
+      "title": "Systems we design and build",
+      "items": [
+        {
+          "title": "Regulating and Metering Stations",
+          "text": "Compact, pre-tested regulating and metering stations.",
+          "image": {
+            "src": "/images/50-mmscfd-laksam-ms-1.jpg",
+            "alt": "Metering runs under a canopy at Laksam"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/epc-oil-gas/rms-skids"
+          }
+        },
+        {
+          "title": "Flow Computers",
+          "text": "Accurate custody transfer and flow measurement.",
+          "image": {
+            "src": "/images/products/flow-computer.jpg",
+            "alt": "Flow computer"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/epc-oil-gas/flow-computers"
+          }
+        },
+        {
+          "title": "Water Bath Heaters",
+          "text": "Safe, efficient gas heating for pressure reduction.",
+          "image": {
+            "src": "/images/50-mmscfd-laksam-ms-3.jpg",
+            "alt": "Water bath heaters and valves at Laksam metering station"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/epc-oil-gas/water-bath-heaters"
+          }
+        },
+        {
+          "title": "Filtration & Separation",
+          "text": "Filter separators, knock-out drums and liquid separators.",
+          "image": {
+            "src": "/images/50-mmscfd-laksam-ms-2.jpg",
+            "alt": "Filter separators at Laksam metering station"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/epc-oil-gas/filtration-separation"
+          }
+        },
+        {
+          "title": "PIG Launchers & Receivers",
+          "text": "Pipeline pigging facilities.",
+          "image": {
+            "src": "/images/products/pig-launcher.jpg",
+            "alt": "PIG launcher"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/epc-oil-gas/pig-launchers-receivers"
+          }
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "record",
+      "items": [
+        {
+          "value": "50+",
+          "label": "Regulating and metering stations"
+        },
+        {
+          "value": "6",
+          "label": "Natural gas process plants, 2008–2025"
+        },
+        {
+          "value": "1",
+          "label": "Condensate fractionation plant"
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Recent EPC projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "ids": [
+        "titas-loc-e-compressor-station-80-mmscfd",
+        "haripur-process-plant-45-mmscfd",
+        "bakhrabad-ms-250-mmscfd"
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

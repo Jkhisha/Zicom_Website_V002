@@ -1,0 +1,147 @@
+{
+  "id": "field-calibration",
+  "slug": "/services/field-calibration",
+  "template": "detail-page",
+  "seo": {
+    "title": "Field Calibration",
+    "description": "On-site accuracy with minimal downtime."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services",
+    "Field Calibration"
+  ],
+  "parent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Field Calibration",
+    "subtitle": "On-site accuracy with minimal downtime.",
+    "image": {
+      "src": "/images/50-mmscfd-laksam-ms-2.jpg",
+      "alt": "Filter separators at Laksam metering station"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Traceable calibration on site, with a certified Functional Safety Officer on contract."
+    },
+    {
+      "type": "list",
+      "id": "includes",
+      "title": "What's included",
+      "items": [
+        "Pressure, temperature, flow and level instruments",
+        "Flow computer and meter verification",
+        "Calibration certificates and records"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "fieldcal-process",
+      "title": "How we calibrate on site",
+      "items": [
+        {
+          "title": "Plan",
+          "text": "Scope the loops and instruments and agree acceptance tolerances."
+        },
+        {
+          "title": "Calibrate",
+          "text": "Traceable field calibration of pressure, temperature, flow and level devices."
+        },
+        {
+          "title": "Certify",
+          "text": "As-found / as-left records and calibration certificates issued."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "fieldcal-why",
+      "eyebrow": "Why it matters",
+      "title": "Measurement you can defend",
+      "text": "Custody transfer and safety functions depend on instruments reading true. Traceable calibration keeps your numbers — and your certificates — defensible.",
+      "link": {
+        "label": "Bench calibration",
+        "href": "/services/bench-calibration"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Services",
+      "items": [
+        {
+          "label": "FEED Engineering",
+          "href": "/services/feed-engineering",
+          "current": false
+        },
+        {
+          "label": "Process Automation Consulting",
+          "href": "/services/process-automation-consulting",
+          "current": false
+        },
+        {
+          "label": "Installation & Commissioning",
+          "href": "/services/installation-commissioning",
+          "current": false
+        },
+        {
+          "label": "After-Sales Service",
+          "href": "/services/after-sales-service",
+          "current": false
+        },
+        {
+          "label": "Field Calibration",
+          "href": "/services/field-calibration",
+          "current": true
+        },
+        {
+          "label": "Bench Calibration",
+          "href": "/services/bench-calibration",
+          "current": false
+        },
+        {
+          "label": "Leak Detection Systems (LDS)",
+          "href": "/services/leak-detection-systems",
+          "current": false
+        },
+        {
+          "label": "Mobile Gas Leak Detection",
+          "href": "/services/mobile-gas-leak-detection",
+          "current": false
+        },
+        {
+          "label": "Training",
+          "href": "/services/training",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

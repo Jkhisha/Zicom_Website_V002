@@ -1,0 +1,140 @@
+{
+  "id": "mobile-gas-leak-detection",
+  "slug": "/services/mobile-gas-leak-detection",
+  "template": "detail-page",
+  "seo": {
+    "title": "Mobile Gas Leak Detection",
+    "description": "Vehicle-mounted and handheld leak surveys."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services",
+    "Mobile Gas Leak Detection"
+  ],
+  "parent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Mobile Gas Leak Detection",
+    "subtitle": "Vehicle-mounted and handheld leak surveys.",
+    "image": {
+      "src": "/images/services/mobile-leak-detection.jpg",
+      "alt": "Mobile gas leak detection vehicle"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Vehicle-mounted and handheld survey. The only Off-Axis ICOS service in South Asia."
+    },
+    {
+      "type": "list",
+      "id": "includes",
+      "title": "What's included",
+      "items": [
+        "Vehicle-mounted survey",
+        "Handheld survey",
+        "Leak repair support"
+      ]
+    },
+    {
+      "type": "table",
+      "id": "delivered",
+      "title": "Delivered for",
+      "columns": [
+        "Client",
+        "Year"
+      ],
+      "rows": [
+        [
+          "Titas Gas (TGTDCL) — detection and repair",
+          "2024"
+        ],
+        [
+          "Jalalabad Gas (JGTDSL)",
+          "2022"
+        ],
+        [
+          "Karnaphuli Gas (KGDCL)",
+          "2021"
+        ]
+      ]
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Services",
+      "items": [
+        {
+          "label": "FEED Engineering",
+          "href": "/services/feed-engineering",
+          "current": false
+        },
+        {
+          "label": "Process Automation Consulting",
+          "href": "/services/process-automation-consulting",
+          "current": false
+        },
+        {
+          "label": "Installation & Commissioning",
+          "href": "/services/installation-commissioning",
+          "current": false
+        },
+        {
+          "label": "After-Sales Service",
+          "href": "/services/after-sales-service",
+          "current": false
+        },
+        {
+          "label": "Field Calibration",
+          "href": "/services/field-calibration",
+          "current": false
+        },
+        {
+          "label": "Bench Calibration",
+          "href": "/services/bench-calibration",
+          "current": false
+        },
+        {
+          "label": "Leak Detection Systems (LDS)",
+          "href": "/services/leak-detection-systems",
+          "current": false
+        },
+        {
+          "label": "Mobile Gas Leak Detection",
+          "href": "/services/mobile-gas-leak-detection",
+          "current": true
+        },
+        {
+          "label": "Training",
+          "href": "/services/training",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

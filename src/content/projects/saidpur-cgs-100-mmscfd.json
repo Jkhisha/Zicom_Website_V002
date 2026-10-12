@@ -1,0 +1,39 @@
+{
+  "id": "saidpur-cgs-100-mmscfd",
+  "slug": "saidpur-cgs-100-mmscfd",
+  "href": "/projects#saidpur-cgs-100-mmscfd",
+  "title": "100 MMSCFD Saidpur CGS",
+  "capacity": "100 MMSCFD",
+  "category": "city-gate-stations",
+  "location": "Saidpur",
+  "client": "[TBC]",
+  "year": "[TBC]",
+  "scope": "[TBC]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/100-mmscfd-saidpur-cgs-1.jpg",
+    "alt": "100 MMSCFD Saidpur CGS, photo 1",
+    "sourceFile": "100 MMSCFD SAIDPUR CGS_1.jpg"
+  },
+  "gallery": {
+    "count": 3,
+    "images": [
+      {
+        "src": "/images/100-mmscfd-saidpur-cgs-1.jpg",
+        "alt": "100 MMSCFD Saidpur CGS, photo 1",
+        "sourceFile": "100 MMSCFD SAIDPUR CGS_1.jpg"
+      },
+      {
+        "src": "/images/100-mmscfd-saidpur-cgs-3.jpg",
+        "alt": "100 MMSCFD Saidpur CGS, photo 2",
+        "sourceFile": "100 MMSCFD SAIDPUR CGS_3.jpg"
+      },
+      {
+        "src": "/images/100-mmscfd-saidpur-cgs-6.jpg",
+        "alt": "100 MMSCFD Saidpur CGS, photo 3",
+        "sourceFile": "100 MMSCFD SAIDPUR CGS_6.jpg"
+      }
+    ]
+  }
+}

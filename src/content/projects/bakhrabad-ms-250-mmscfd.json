@@ -1,0 +1,34 @@
+{
+  "id": "bakhrabad-ms-250-mmscfd",
+  "slug": "bakhrabad-ms-250-mmscfd",
+  "href": "/projects#bakhrabad-ms-250-mmscfd",
+  "title": "250 MMSCFD Bakhrabad MS",
+  "capacity": "250 MMSCFD",
+  "category": "metering-stations",
+  "location": "Bakhrabad",
+  "client": "Gas Transmission Company Limited (GTCL)",
+  "year": 2025,
+  "scope": "Metering station, lump-sum turnkey, custody transfer metering",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": true,
+  "coverImage": {
+    "src": "/images/250-mmscfd-bakhrabad-ms-3.jpg",
+    "alt": "250 MMSCFD Bakhrabad MS, photo 1",
+    "sourceFile": "250 MMSCFD BAKHRABAD MS_3.jpeg"
+  },
+  "gallery": {
+    "count": 2,
+    "images": [
+      {
+        "src": "/images/250-mmscfd-bakhrabad-ms-3.jpg",
+        "alt": "250 MMSCFD Bakhrabad MS, photo 1",
+        "sourceFile": "250 MMSCFD BAKHRABAD MS_3.jpeg"
+      },
+      {
+        "src": "/images/250-mmscfd-bakhrabad-ms-4.jpg",
+        "alt": "250 MMSCFD Bakhrabad MS, photo 2",
+        "sourceFile": "250 MMSCFD BAKHRABAD MS_4.jpg"
+      }
+    ]
+  }
+}

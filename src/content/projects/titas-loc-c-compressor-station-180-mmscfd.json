@@ -1,0 +1,34 @@
+{
+  "id": "titas-loc-c-compressor-station-180-mmscfd",
+  "slug": "titas-loc-c-compressor-station-180-mmscfd",
+  "href": "/projects#titas-loc-c-compressor-station-180-mmscfd",
+  "title": "180 MMSCFD Compressor Station, Titas LOC-C",
+  "capacity": "180 MMSCFD",
+  "category": "compressor-stations",
+  "location": "Titas Gas Field, Location C",
+  "client": "Bangladesh Gas Fields Company Limited (BGFCL)",
+  "year": 2021,
+  "scope": "Compressor station with central DCS on ABB 800xA and SIL 3 safety system",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": true,
+  "coverImage": {
+    "src": "/images/180mmscfd-compressor-station-titas-locc-1.jpg",
+    "alt": "180 MMSCFD Compressor Station, Titas LOC-C, photo 1",
+    "sourceFile": "180MMSCFD COMPRESSOR STATION TITAS LOCC_1.jpg"
+  },
+  "gallery": {
+    "count": 2,
+    "images": [
+      {
+        "src": "/images/180mmscfd-compressor-station-titas-locc-1.jpg",
+        "alt": "180 MMSCFD Compressor Station, Titas LOC-C, photo 1",
+        "sourceFile": "180MMSCFD COMPRESSOR STATION TITAS LOCC_1.jpg"
+      },
+      {
+        "src": "/images/180mmscfd-compressor-station-titas-locc-5.jpg",
+        "alt": "180 MMSCFD Compressor Station, Titas LOC-C, photo 2",
+        "sourceFile": "180MMSCFD COMPRESSOR STATION TITAS LOCC_5.jpg"
+      }
+    ]
+  }
+}

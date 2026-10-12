@@ -1,0 +1,259 @@
+{
+  "id": "terminal-automation",
+  "slug": "/solutions/terminal-automation",
+  "template": "section-page",
+  "status": "draft — client to supply screenshots and final descriptions",
+  "seo": {
+    "title": "Terminal Automation",
+    "description": "One screen to run a fuel terminal: loading, tanks, safety, SAP integration and reporting."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "Terminal Automation"
+  ],
+  "hero": {
+    "eyebrow": "Solutions",
+    "title": "Terminal Automation",
+    "subtitle": "Twelve bays. Forty tanks. Hundreds of trucks. All of it, on one screen.",
+    "image": {
+      "src": "/images/terminal/console.jpg",
+      "alt": "Terminal automation operator console"
+    },
+    "ctas": [
+      {
+        "label": "Let's run your terminal from one screen",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sectionRail": [
+    {
+      "label": "Overview",
+      "anchor": "overview"
+    },
+    {
+      "label": "Platform",
+      "anchor": "platform"
+    },
+    {
+      "label": "Loading",
+      "anchor": "loading"
+    },
+    {
+      "label": "Storage",
+      "anchor": "storage"
+    },
+    {
+      "label": "Safety",
+      "anchor": "safety"
+    },
+    {
+      "label": "Monitoring",
+      "anchor": "monitoring"
+    },
+    {
+      "label": "Integration",
+      "anchor": "integration"
+    },
+    {
+      "label": "Reporting",
+      "anchor": "reporting"
+    }
+  ],
+  "sections": [
+    {
+      "type": "cards",
+      "id": "overview",
+      "title": "Software that watches, decides and records, everywhere at once",
+      "text": "A fuel terminal stores and moves petroleum products around the clock. Terminal automation replaces manual gauging, paper dockets and radio calls with one system that monitors every tank, meter and valve in real time, and keeps the record automatically.",
+      "items": [
+        {
+          "title": "Safety",
+          "text": "Fire and gas detection and emergency shutdown, wired into the same system that runs the loading."
+        },
+        {
+          "title": "Accuracy",
+          "text": "Every litre metered, reconciled and posted. The quantity that loaded is the quantity that billed."
+        },
+        {
+          "title": "Uptime",
+          "text": "Predictive diagnostics flag a failing pump or valve before it stops a bay."
+        },
+        {
+          "title": "Compliance",
+          "text": "Every action, alarm and shipment logged automatically. The audit trail writes itself."
+        }
+      ]
+    },
+    {
+      "type": "text-image",
+      "id": "platform",
+      "eyebrow": "The platform",
+      "title": "One system, not several",
+      "text": "Gauges, PLCs, safety system, barrier gates, fire panels, pumps and the SAP link all sit on a redundant dual-LAN backbone. The safety PLC runs separately from process control and reports its own health on a live diagnostic screen. The home screen is a launchpad: every part of the terminal is one click away.",
+      "image": {
+        "src": "/images/terminal/network.png",
+        "alt": "Terminal network overview screen"
+      }
+    },
+    {
+      "type": "cards",
+      "id": "loading",
+      "eyebrow": "Flow control",
+      "title": "From gate to gantry, the queue runs itself",
+      "items": [
+        {
+          "title": "Barrier Gates",
+          "text": "Entry and exit gates tied to the shipment, not opened by hand.",
+          "image": {
+            "src": "/images/terminal/barrier-gates.png",
+            "alt": "Barrier gates screen"
+          }
+        },
+        {
+          "title": "Bay Overview",
+          "text": "Every bay's status at a glance across the whole gantry.",
+          "image": {
+            "src": "/images/terminal/bay-overview.png",
+            "alt": "Bay overview screen"
+          }
+        },
+        {
+          "title": "Bay Activation",
+          "text": "Arming a bay for a specific shipment before loading starts.",
+          "image": {
+            "src": "/images/terminal/bay-activation.png",
+            "alt": "Bay activation screen"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "storage",
+      "eyebrow": "Storage",
+      "title": "Every tank, read continuously, never on a rounds sheet",
+      "items": [
+        {
+          "title": "Tanks Overview",
+          "text": "Level, temperature and status for every tank on one screen.",
+          "image": {
+            "src": "/images/terminal/tanks.png",
+            "alt": "Tanks overview screen"
+          }
+        },
+        {
+          "title": "MS & HSD Tanks",
+          "text": "Motor spirit and high-speed diesel storage and movements, gauged continuously.",
+          "image": {
+            "src": "/images/terminal/ms-hsd-tanks.png",
+            "alt": "MS and HSD tanks screen"
+          }
+        },
+        {
+          "title": "Pump Overview",
+          "text": "Every transfer pump, its state and its duty.",
+          "image": {
+            "src": "/images/terminal/pumps.png",
+            "alt": "Pump overview screen"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "safety",
+      "eyebrow": "Safety",
+      "title": "Safe state is one action away",
+      "text": "The ESD overview shows plant shutdown status, power outputs, barrier gates and the SCADA shutdown command as a single board.",
+      "items": [
+        {
+          "title": "Hydrocarbon Detectors",
+          "text": "Gas detection across the terminal, mapped live."
+        },
+        {
+          "title": "Overspill Detectors",
+          "text": "Catching an overfill before it becomes a spill."
+        },
+        {
+          "title": "Water Draw-Off & Dyke Valves",
+          "text": "Controlled draining without breaking containment."
+        },
+        {
+          "title": "UPS & Diesel Generator",
+          "text": "Backup power health and auto-start readiness, monitored continuously."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "monitoring",
+      "eyebrow": "Monitoring",
+      "title": "Nothing is dismissed silently",
+      "items": [
+        {
+          "title": "Alarms",
+          "text": "Active, acknowledged and cleared alarms, colour-coded with time raised and who acknowledged."
+        },
+        {
+          "title": "Events & Operator Actions",
+          "text": "Every system event and every operator action, logged in sequence."
+        },
+        {
+          "title": "Shipment Tracking",
+          "text": "Each shipment followed from setup to completion as one tracked record."
+        }
+      ]
+    },
+    {
+      "type": "text-image",
+      "id": "integration",
+      "eyebrow": "Integration",
+      "title": "The terminal talks to SAP directly",
+      "text": "Shipments, loading confirmations and material movements pass between the terminal system and SAP automatically. Users, roles, products, vehicles, bay assignments and tolerances are configured once and applied everywhere.",
+      "image": {
+        "src": "/images/terminal/sap.png",
+        "alt": "SAP integration screen"
+      }
+    },
+    {
+      "type": "cards",
+      "id": "reporting",
+      "eyebrow": "Reporting",
+      "title": "Auditable precision from batch loading to custody transfer",
+      "items": [
+        {
+          "title": "Operational Logs",
+          "text": "Driver, truck and bay activity logs; automated bill of lading."
+        },
+        {
+          "title": "Metering Telemetry",
+          "text": "ASTM D1250 temperature and density correction; meter proving audit."
+        },
+        {
+          "title": "Mass Balance",
+          "text": "Real-time dip versus dispatch; shift-handover reconciliation."
+        },
+        {
+          "title": "Regulatory Audit",
+          "text": "CSV, PDF and API exports; automated ERP sync."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

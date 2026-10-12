@@ -1,0 +1,16 @@
+{% from "sections/_macros.njk" import arrow %}
+{#- Split hero band: image column + content column (design = test.html .section--split).
+    imageSide: left|right flips the columns on desktop. -#}
+{%- set side = s.imageSide or "right" -%}
+<section class="section--split section--{{ side }}-image" id="{{ s.id }}" data-label="{{ s.eyebrow or s.title }}">
+  <div class="split__media"><div class="carousel"><div class="carousel__slide is-active"><img src="{{ s.image.src }}" alt="{{ s.image.alt }}" loading="lazy"></div><div class="carousel__dots"></div></div></div>
+  <div class="split__content"><div class="content-inner">
+    {%- if s.eyebrow %}<p class="eyebrow">{{ s.eyebrow }}</p>{% endif %}
+    {%- if s.title %}<h2 class="title">{{ s.title }}</h2>{% endif %}
+    <div class="paragraphs">
+      {%- if s.subtitle %}<p>{{ s.subtitle }}</p>{% endif %}
+      {%- for p in s.paragraphs %}<p>{{ p }}</p>{% endfor %}
+    </div>
+    {%- if s.link %}<a class="btn" href="{{ s.link.href }}"><span>{{ s.link.label }}</span> {{ arrow() }}</a>{% endif %}
+  </div></div>
+</section>

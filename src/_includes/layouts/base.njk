@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or site.name }}{% if titleSuffix %} | {{ site.name }} Equipment{% endif %}</title>
+  <meta name="description" content="{{ description or site.defaultSeo.description }}">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/templates.css">
+  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="stylesheet" href="/assets/site-sections.css">
+</head>
+<body>
+  <!-- Navbar (bar + hover mega-menu + mobile drawer) is rendered by navbar.js
+       from the #nav-data JSON near the end of this file. Nothing hardcoded. -->
+  <header class="nav" id="siteNav" aria-label="Primary"></header>
+  {% if heroLogo or heroDocked %}{% include "hero-logo.njk" %}{% endif %}
+  <main>
+{{ content | safe }}
+  </main>
+  <footer class="site-footer"><div class="container site-footer__inner">
+    <a class="site-footer__logo" href="/"><img src="/assets/zicom-mark.svg" alt=""><span>{{ site.name }}</span></a>
+    <small>&copy; {{ meta.updated | default("2026") | truncate(4, true, "") }} {{ site.name }}. {{ site.tagline }}.</small>
+  </div></footer>
+  <script src="/assets/templates.js"></script>
+
+  <!-- ===== Navbar data: derived from navigation.json (see src/_data/navData.js) ===== -->
+  <script type="application/json" id="nav-data">
+  {{ navData | json | safe }}
+  </script>
+  <script src="/assets/navbar.js"></script>
+  <script src="/assets/hero-logo.js"></script>
+  <script src="/assets/app.js"></script>
+</body>
+</html>

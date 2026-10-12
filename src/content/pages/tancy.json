@@ -1,0 +1,187 @@
+{
+  "id": "tancy",
+  "slug": "/products/tancy",
+  "template": "brand-page",
+  "seo": {
+    "title": "Tancy",
+    "description": "TUS ultrasonic gas flow meters: measured to half a percent, and you can prove it."
+  },
+  "breadcrumb": [
+    "Home",
+    "Products",
+    "Tancy"
+  ],
+  "parent": {
+    "label": "Products",
+    "href": "/products"
+  },
+  "hero": {
+    "eyebrow": "Partner brand",
+    "title": "Tancy",
+    "subtitle": "TUS ultrasonic gas flow meters: measured to half a percent, and you can prove it.",
+    "logo": {
+      "src": "/images/partners/tancy.svg",
+      "alt": "Tancy logo"
+    },
+    "image": {
+      "src": "/images/partners/tancy-hero.jpg",
+      "alt": "Tancy product"
+    },
+    "ctas": [
+      {
+        "label": "Request a quote",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "stats",
+      "id": "figures",
+      "items": [
+        {
+          "value": "0.5",
+          "label": "OIML R137 accuracy class"
+        },
+        {
+          "value": "160:1",
+          "label": "Flow turndown"
+        },
+        {
+          "value": "6–8",
+          "label": "Measurement paths"
+        },
+        {
+          "value": "Class 2500",
+          "label": "Pressure rating, up to"
+        }
+      ]
+    },
+    {
+      "type": "spec-table",
+      "id": "certifications",
+      "title": "Certifications",
+      "rows": [
+        {
+          "label": "OIML R137 · 0.5",
+          "value": "International metrology recommendation for gas meters; caps error at half a percent across range"
+        },
+        {
+          "label": "ATEX / IECEx",
+          "value": "Hazardous-area approval"
+        },
+        {
+          "label": "PED",
+          "value": "European Pressure Equipment Directive"
+        },
+        {
+          "label": "NEPSI / CPA",
+          "value": "Chinese explosion-protection and pattern approval"
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "id": "technologies",
+      "title": "Three technologies, one decision",
+      "columns": [
+        {
+          "title": "Ultrasonic (Tancy TUS)",
+          "rows": [
+            {
+              "label": "Accuracy",
+              "value": "OIML R137 class 0.5"
+            },
+            {
+              "label": "Pressure drop",
+              "value": "None, no obstruction"
+            },
+            {
+              "label": "Best for",
+              "value": "Custody transfer, wide turndown"
+            }
+          ]
+        },
+        {
+          "title": "Turbine · Orifice",
+          "rows": [
+            {
+              "label": "Accuracy",
+              "value": "Turbine ~1.0; orifice ~1.5 to 2.0"
+            },
+            {
+              "label": "Pressure drop",
+              "value": "Significant, a permanent energy cost"
+            },
+            {
+              "label": "Best for",
+              "value": "Lower-value streams, existing installations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "iot",
+      "title": "IoT module",
+      "text": "Real-time wireless transmission over 4G, for remote reading and diagnostics."
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Products",
+      "items": [
+        {
+          "label": "Supcon",
+          "href": "/products/supcon",
+          "current": false
+        },
+        {
+          "label": "NexVal",
+          "href": "/products/nexval",
+          "current": false
+        },
+        {
+          "label": "Keckonn",
+          "href": "/products/keckonn",
+          "current": false
+        },
+        {
+          "label": "Cimarron",
+          "href": "/products/cimarron",
+          "current": false
+        },
+        {
+          "label": "Softing",
+          "href": "/products/softing",
+          "current": false
+        },
+        {
+          "label": "Red Lion",
+          "href": "/products/red-lion",
+          "current": false
+        },
+        {
+          "label": "Tancy",
+          "href": "/products/tancy",
+          "current": true
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

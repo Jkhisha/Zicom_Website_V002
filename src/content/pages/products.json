@@ -1,0 +1,126 @@
+{
+  "id": "products",
+  "slug": "/products",
+  "template": "section-overview",
+  "seo": {
+    "title": "Products & Partner Brands",
+    "description": "Authorized distribution of control platforms, valves, flare packages and instrumentation."
+  },
+  "breadcrumb": [
+    "Home",
+    "Products"
+  ],
+  "hero": {
+    "eyebrow": "Products",
+    "title": "Our Partner Brands",
+    "subtitle": "Authorized distribution of world-class instrumentation and equipment, supported locally.",
+    "image": {
+      "src": "/images/250-mmscfd-bizra-ms-2.jpg",
+      "alt": "Pipeline valves and filter at Bizra metering station"
+    }
+  },
+  "sections": [
+    {
+      "type": "feature",
+      "id": "supcon",
+      "eyebrow": "Authorized Channel Partner",
+      "title": "Supcon",
+      "text": "ECS-700 DCS · TCS-900 SIS (SIL 3) · Nyx UCS",
+      "image": {
+        "src": "/images/partners/supcon-feature.jpg",
+        "alt": "Supcon control system"
+      },
+      "link": {
+        "label": "About the partnership",
+        "href": "/products/supcon"
+      }
+    },
+    {
+      "type": "logos",
+      "id": "brands",
+      "title": "Brands we represent",
+      "source": "partners",
+      "showTagline": true
+    },
+    {
+      "type": "feature",
+      "id": "downloads",
+      "title": "Catalogues & datasheets",
+      "text": "Product catalogues and datasheets from our partner brands.",
+      "link": {
+        "label": "Go to downloads",
+        "href": "/products/downloads"
+      }
+    },
+    {
+      "type": "richtext",
+      "id": "products-intro",
+      "title": "Partner brands, supported locally",
+      "text": "We represent a focused set of control, instrumentation and valve manufacturers and back them with in-country engineering and spares. You get proven global equipment with a local team that specifies it, commissions it and supports it after handover."
+    },
+    {
+      "type": "cards",
+      "id": "products-categories",
+      "title": "What we supply",
+      "items": [
+        {
+          "title": "Control & instrumentation",
+          "text": "DCS, SIS and SCADA platforms, industrial connectivity and networking, and gas flow metering.",
+          "link": {
+            "label": "Supcon",
+            "href": "/products/supcon"
+          }
+        },
+        {
+          "title": "Valves & process equipment",
+          "text": "Control valves, manual valves and actuators, and flare and emissions packages.",
+          "link": {
+            "label": "Keckonn valves",
+            "href": "/products/keckonn"
+          }
+        },
+        {
+          "title": "Flow & measurement",
+          "text": "Ultrasonic gas flow meters and flow computers for custody-grade measurement.",
+          "link": {
+            "label": "NexVal",
+            "href": "/products/nexval"
+          }
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "products-stats",
+      "title": "Represented in Bangladesh",
+      "items": [
+        {
+          "value": "7",
+          "label": "Partner brands represented"
+        },
+        {
+          "value": "Local",
+          "label": "Spares held in country"
+        },
+        {
+          "value": "FAT→SAT",
+          "label": "Engineered and commissioned by us"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

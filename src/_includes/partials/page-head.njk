@@ -1,0 +1,25 @@
+{% from "sections/_macros.njk" import arrow %}
+{#- Inner-page header: breadcrumb + hero (eyebrow/title/subtitle, optional brand
+    logo, optional background image, optional CTAs). Rendered as the first
+    main > section so the scroll-spy and navbar states treat it as section 0. -#}
+{%- set h = doc.hero or {} -%}
+{%- set hasImg = h.image and h.image.src -%}
+<section class="page-hero{{ ' page-hero--image' if hasImg else ' page-hero--plain' }}" id="hero" data-label="{{ h.eyebrow or doc.title }}" data-nav="solid"{% if hasImg %} data-dark{% endif %}>
+  {%- if hasImg %}<div class="page-hero__bg" style="background-image:url('{{ h.image.src }}')"></div><div class="page-hero__veil"></div>{% endif %}
+  <div class="container page-hero__inner">
+    {%- if doc.breadcrumb and doc.breadcrumb | length %}
+    <nav class="crumbs" aria-label="Breadcrumb">
+      {%- for c in doc.breadcrumb %}{% if not loop.last %}<span class="crumbs__item">{{ c }}</span><span class="crumbs__sep">/</span>{% else %}<span class="crumbs__item crumbs__item--current" aria-current="page">{{ c }}</span>{% endif %}{% endfor %}
+    </nav>
+    {%- endif %}
+    {%- if h.logo and h.logo.src %}<img class="page-hero__logo" src="{{ h.logo.src }}" alt="{{ h.logo.alt }}" onerror="this.remove()">{% endif %}
+    {%- if h.eyebrow %}<p class="eyebrow">{{ h.eyebrow }}</p>{% endif %}
+    {%- if h.title %}<h1 class="page-hero__title">{{ h.title }}</h1>{% endif %}
+    {%- if h.subtitle %}<p class="page-hero__sub">{{ h.subtitle }}</p>{% endif %}
+    {%- if h.ctas and h.ctas | length %}
+    <div class="page-hero__actions">
+      {%- for c in h.ctas %}<a class="btn{{ ' btn--light' if hasImg and loop.first else (' btn--ghost' if not loop.first) }}" href="{{ c.href }}">{{ c.label }} {{ arrow() }}</a>{% endfor %}
+    </div>
+    {%- endif %}
+  </div>
+</section>

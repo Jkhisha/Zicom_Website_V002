@@ -1,0 +1,205 @@
+{
+  "id": "dcs",
+  "slug": "/solutions/process-automation/dcs",
+  "template": "detail-page",
+  "seo": {
+    "title": "Distributed Control Systems",
+    "description": "Built for continuous process control across a whole plant: one engineering database, one tag namespace, one alarm philosophy."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "Process Automation",
+    "Distributed Control Systems"
+  ],
+  "parent": {
+    "label": "Process Automation",
+    "href": "/solutions/process-automation"
+  },
+  "hero": {
+    "eyebrow": "Process Automation",
+    "title": "Distributed Control Systems",
+    "subtitle": "Built for continuous process control across a whole plant: one engineering database, one tag namespace, one alarm philosophy.",
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+      "alt": "Control room with DCS and SCADA screens at the Titas LOC-E compressor station"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "spec-table",
+      "id": "at-a-glance",
+      "title": "At a glance",
+      "rows": [
+        {
+          "label": "Scale",
+          "value": "Thousands to tens of thousands of I/O"
+        },
+        {
+          "label": "Engineering",
+          "value": "One database, one namespace, plant-wide"
+        },
+        {
+          "label": "Choose it when",
+          "value": "The process is continuous and interlinked"
+        },
+        {
+          "label": "Platforms",
+          "value": "Supcon ECS-700 · ABB 800xA · Rockwell PlantPAx · Honeywell Experion"
+        }
+      ]
+    },
+    {
+      "type": "comparison",
+      "id": "dcs-vs-plc",
+      "title": "PLC or DCS: the first real decision",
+      "columns": [
+        {
+          "title": "DCS",
+          "rows": [
+            {
+              "label": "Best at",
+              "value": "Continuous process control across a whole plant"
+            },
+            {
+              "label": "Scale",
+              "value": "Thousands to tens of thousands of I/O"
+            },
+            {
+              "label": "Buy it when",
+              "value": "The process is continuous and interlinked"
+            }
+          ]
+        },
+        {
+          "title": "PLC",
+          "rows": [
+            {
+              "label": "Best at",
+              "value": "Fast discrete logic, machine sequences, packaged units"
+            },
+            {
+              "label": "Scale",
+              "value": "Tens to a few thousand I/O"
+            },
+            {
+              "label": "Buy it when",
+              "value": "Skids, compressors, standalone packages"
+            }
+          ]
+        }
+      ],
+      "note": "Buying a DCS for one skid wastes money. Bolting twelve PLCs together to run a plant costs more than the DCS you avoided."
+    },
+    {
+      "type": "table",
+      "id": "delivered",
+      "title": "Delivered",
+      "columns": [
+        "Client",
+        "System",
+        "Year"
+      ],
+      "rows": [
+        [
+          "BGFCL · Titas E and G",
+          "Rockwell PlantPAx",
+          "2025"
+        ],
+        [
+          "BGFCL · Titas LOC-C",
+          "ABB 800xA with SIL 3 safety system",
+          "2021"
+        ],
+        [
+          "BAPEX · Srikail",
+          "ABB Freelance with SIL 3 safety system",
+          "2016"
+        ],
+        [
+          "Pidilite · Bhaluka",
+          "Honeywell DCS engineering and integration",
+          "2019"
+        ]
+      ]
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "ids": [
+        "titas-loc-e-compressor-station-80-mmscfd",
+        "titas-loc-c-compressor-station-180-mmscfd",
+        "titas-loc-g-compressor-station-50-mmscfd"
+      ]
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Process Automation",
+      "items": [
+        {
+          "label": "Overview",
+          "href": "/solutions/process-automation",
+          "current": false
+        },
+        {
+          "label": "DCS",
+          "href": "/solutions/process-automation/dcs",
+          "current": true
+        },
+        {
+          "label": "PLC",
+          "href": "/solutions/process-automation/plc",
+          "current": false
+        },
+        {
+          "label": "SCADA & HMI",
+          "href": "/solutions/process-automation/scada-hmi",
+          "current": false
+        },
+        {
+          "label": "Safety Instrumented Systems",
+          "href": "/solutions/process-automation/sis",
+          "current": false
+        },
+        {
+          "label": "Brownfield Upgrades",
+          "href": "/solutions/process-automation/brownfield-upgrades",
+          "current": false
+        },
+        {
+          "label": "Remote Monitoring",
+          "href": "/solutions/process-automation/remote-monitoring",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

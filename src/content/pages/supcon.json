@@ -1,0 +1,196 @@
+{
+  "id": "supcon",
+  "slug": "/products/supcon",
+  "template": "brand-page",
+  "seo": {
+    "title": "Supcon",
+    "description": "Bringing Supcon's proven control technology, and our engineering, to your operations."
+  },
+  "breadcrumb": [
+    "Home",
+    "Products",
+    "Supcon"
+  ],
+  "parent": {
+    "label": "Products",
+    "href": "/products"
+  },
+  "hero": {
+    "eyebrow": "Authorized Channel Partner",
+    "title": "Authorized Channel Partner of Supcon",
+    "subtitle": "Bringing Supcon's proven control technology, and our engineering, to your operations.",
+    "logo": {
+      "src": "/images/partners/supcon.svg",
+      "alt": "Supcon logo"
+    },
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+      "alt": "DCS and SCADA screens in a Zicom-commissioned control room"
+    },
+    "ctas": [
+      {
+        "label": "Request a quote",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "about",
+      "title": "About Supcon",
+      "text": "Founded in 1993 in Hangzhou out of Zhejiang University, Supcon is listed on Shanghai's STAR Market and the SIX Swiss Exchange. In 2024 it held 40.4% of the Chinese DCS market and ranked first in domestic SIS for three years running."
+    },
+    {
+      "type": "table",
+      "id": "platforms",
+      "title": "Platforms we deploy",
+      "columns": [
+        "Product",
+        "What it gives you"
+      ],
+      "rows": [
+        [
+          "ECS-700 DCS",
+          "65,000 I/O per control domain, up to 60 domains. OPC, Modbus, HART, FF, Profibus"
+        ],
+        [
+          "TCS-900 SIS",
+          "IEC 61508, TÜV Rheinland SIL 3, triple modular redundancy"
+        ],
+        [
+          "HD5500 barriers",
+          "IECEx and Baseefa ATEX certified"
+        ],
+        [
+          "Nyx UCS",
+          "Software-defined control architecture, launched Singapore 2024"
+        ]
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "partnership",
+      "title": "What the partnership covers",
+      "text": "As an authorized channel partner we size, supply, engineer, commission and support Supcon platforms in Bangladesh — not just resell them. That means local application engineering, configuration and graphics, FAT and SAT, on-site commissioning and a first line of technical support from engineers who have deployed these systems in the field."
+    },
+    {
+      "type": "richtext",
+      "id": "beyond",
+      "title": "The platform is a partnership. The expertise is ours.",
+      "text": "Supcon is who we partner with today. It is not the limit of what we can do: we have also delivered on ABB, Rockwell, Allen-Bradley and Honeywell platforms.",
+      "link": {
+        "label": "Brownfield upgrades",
+        "href": "/solutions/process-automation/brownfield-upgrades"
+      }
+    },
+    {
+      "type": "cards",
+      "id": "supcon-families",
+      "title": "Platforms we deploy",
+      "items": [
+        {
+          "title": "ECS-700 DCS",
+          "text": "Distributed control for continuous process plants — redundant controllers, deterministic I/O and integrated historian for gas processing and compression."
+        },
+        {
+          "title": "TCS-900 SIS",
+          "text": "Safety instrumented system to IEC 61508 / 61511, built for SIL-rated emergency shutdown, fire & gas and burner management duties."
+        },
+        {
+          "title": "Nyx UCS",
+          "text": "Universal control system that converges DCS, PLC and SIS functions on one engineering environment for smaller or hybrid plants."
+        }
+      ]
+    },
+    {
+      "type": "text-image",
+      "id": "supcon-field",
+      "imageSide": "right",
+      "eyebrow": "In the field",
+      "title": "Engineered and commissioned locally",
+      "subtitle": "Supcon is the platform; the configuration, graphics and start-up are ours.",
+      "paragraphs": [
+        "Our engineers build the control narrative, I/O database and operator graphics, run factory and site acceptance tests, and lead commissioning and operator training — so the plant is handed over running, with a team in-country that knows the system."
+      ],
+      "image": {
+        "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+        "alt": "DCS and SCADA operator screens in a control room"
+      },
+      "link": {
+        "label": "Our commissioning service",
+        "href": "/services/installation-commissioning"
+      }
+    },
+    {
+      "type": "list",
+      "id": "supcon-apps",
+      "title": "Where we apply it",
+      "items": [
+        "Gas process plants and dehydration units",
+        "Compressor station control",
+        "City gate and metering station automation",
+        "Emergency shutdown and fire & gas systems",
+        "Brownfield DCS migrations and upgrades",
+        "Plant-wide historian and reporting"
+      ]
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Products",
+      "items": [
+        {
+          "label": "Supcon",
+          "href": "/products/supcon",
+          "current": true
+        },
+        {
+          "label": "NexVal",
+          "href": "/products/nexval",
+          "current": false
+        },
+        {
+          "label": "Keckonn",
+          "href": "/products/keckonn",
+          "current": false
+        },
+        {
+          "label": "Cimarron",
+          "href": "/products/cimarron",
+          "current": false
+        },
+        {
+          "label": "Softing",
+          "href": "/products/softing",
+          "current": false
+        },
+        {
+          "label": "Red Lion",
+          "href": "/products/red-lion",
+          "current": false
+        },
+        {
+          "label": "Tancy",
+          "href": "/products/tancy",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft — client to review and replace copy"
+}

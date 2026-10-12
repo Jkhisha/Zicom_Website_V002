@@ -1,0 +1,34 @@
+{
+  "id": "nizkunjara-rms-50-mmscfd",
+  "slug": "nizkunjara-rms-50-mmscfd",
+  "href": "/projects#nizkunjara-rms-50-mmscfd",
+  "title": "50 MMSCFD Nizkunjara RMS",
+  "capacity": "50 MMSCFD",
+  "category": "tbs-rms",
+  "location": "Nizkunjara",
+  "client": "[TBC]",
+  "year": "[TBC]",
+  "scope": "[TBC]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/50-mmscfd-nizkunjara-rms-1.jpg",
+    "alt": "50 MMSCFD Nizkunjara RMS, photo 1",
+    "sourceFile": "50 MMSCFD NIZKUNJARA RMS_1.jpg"
+  },
+  "gallery": {
+    "count": 2,
+    "images": [
+      {
+        "src": "/images/50-mmscfd-nizkunjara-rms-1.jpg",
+        "alt": "50 MMSCFD Nizkunjara RMS, photo 1",
+        "sourceFile": "50 MMSCFD NIZKUNJARA RMS_1.jpg"
+      },
+      {
+        "src": "/images/50-mmscfd-nizkunjara-rms-2.jpg",
+        "alt": "50 MMSCFD Nizkunjara RMS, photo 2",
+        "sourceFile": "50 MMSCFD NIZKUNJARA RMS_2.jpg"
+      }
+    ]
+  }
+}

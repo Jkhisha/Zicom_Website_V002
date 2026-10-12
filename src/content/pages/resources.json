@@ -1,0 +1,96 @@
+{
+  "id": "resources",
+  "slug": "/resources",
+  "template": "section-overview",
+  "seo": {
+    "title": "Resources",
+    "description": "Blog, news, specification guides and product downloads."
+  },
+  "breadcrumb": [
+    "Home",
+    "Resources"
+  ],
+  "hero": {
+    "eyebrow": "Resources",
+    "title": "What we know, shared",
+    "subtitle": "Project news, field notes and plain-language guides to specifying control systems and valves."
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "id": "sections",
+      "items": [
+        {
+          "title": "Blog",
+          "text": "Field notes and engineering perspectives.",
+          "link": {
+            "label": "Read the blog",
+            "href": "/resources/blog"
+          }
+        },
+        {
+          "title": "News & Moments",
+          "text": "Project milestones and moments from the field.",
+          "link": {
+            "label": "See the news",
+            "href": "/resources/news"
+          }
+        },
+        {
+          "title": "Specification Guides",
+          "text": "Clauses you can lift straight into a tender.",
+          "link": {
+            "label": "Read the guides",
+            "href": "/resources/specification-guides"
+          }
+        },
+        {
+          "title": "Catalogues & Datasheets",
+          "text": "Downloads from our partner brands.",
+          "link": {
+            "label": "Go to downloads",
+            "href": "/products/downloads"
+          }
+        }
+      ]
+    },
+    {
+      "type": "posts",
+      "id": "latest",
+      "title": "Latest",
+      "source": "posts",
+      "limit": 6
+    },
+    {
+      "type": "richtext",
+      "id": "resources-intro",
+      "title": "What we know, shared",
+      "text": "Project news, field notes and plain-language guides to specifying control systems, valves and metering. Written by the engineers who build and commission these systems — meant to be lifted straight into a tender or a design basis."
+    },
+    {
+      "type": "feature",
+      "id": "resources-guides",
+      "eyebrow": "Specification guides",
+      "title": "Clauses you can put in a tender",
+      "text": "Short, practical guides on what a good control-system or valve specification actually contains — so your enquiry gets a real price, not a guess.",
+      "link": {
+        "label": "Read the guides",
+        "href": "/resources/specification-guides"
+      }
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

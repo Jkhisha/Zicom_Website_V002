@@ -1,0 +1,152 @@
+{
+  "id": "installation-commissioning",
+  "slug": "/services/installation-commissioning",
+  "template": "detail-page",
+  "seo": {
+    "title": "Installation & Commissioning",
+    "description": "Safe, on-schedule start-up."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services",
+    "Installation & Commissioning"
+  ],
+  "parent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Installation & Commissioning",
+    "subtitle": "Safe, on-schedule start-up.",
+    "image": {
+      "src": "/images/50mmscfd-compressor-station-titas-locg-1.jpg",
+      "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 2"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Testing, start-up, handover and documentation, with civil, mechanical, electrical and instrumentation disciplines held in country."
+    },
+    {
+      "type": "list",
+      "id": "includes",
+      "title": "What's included",
+      "items": [
+        "Civil, mechanical, electrical and instrumentation works",
+        "Loop checks and FAT / SAT",
+        "Start-up and performance testing",
+        "Handover documentation and training"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "ic-process",
+      "title": "From delivery to handover",
+      "items": [
+        {
+          "title": "Installation",
+          "text": "Mechanical, electrical and instrumentation installation by our crews."
+        },
+        {
+          "title": "Pre-commissioning",
+          "text": "Loop checks, continuity, calibration and point-to-point testing."
+        },
+        {
+          "title": "Commissioning",
+          "text": "Energization, functional tests and control-system validation."
+        },
+        {
+          "title": "Start-up & handover",
+          "text": "Safe start-up, performance test, documentation and operator training."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "ic-why",
+      "eyebrow": "Why it matters",
+      "title": "Handover is where projects are judged",
+      "text": "A clean commissioning — loops proven, interlocks tested, operators trained — is the difference between a plant that starts on schedule and one that limps.",
+      "link": {
+        "label": "After-sales service",
+        "href": "/services/after-sales-service"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Services",
+      "items": [
+        {
+          "label": "FEED Engineering",
+          "href": "/services/feed-engineering",
+          "current": false
+        },
+        {
+          "label": "Process Automation Consulting",
+          "href": "/services/process-automation-consulting",
+          "current": false
+        },
+        {
+          "label": "Installation & Commissioning",
+          "href": "/services/installation-commissioning",
+          "current": true
+        },
+        {
+          "label": "After-Sales Service",
+          "href": "/services/after-sales-service",
+          "current": false
+        },
+        {
+          "label": "Field Calibration",
+          "href": "/services/field-calibration",
+          "current": false
+        },
+        {
+          "label": "Bench Calibration",
+          "href": "/services/bench-calibration",
+          "current": false
+        },
+        {
+          "label": "Leak Detection Systems (LDS)",
+          "href": "/services/leak-detection-systems",
+          "current": false
+        },
+        {
+          "label": "Mobile Gas Leak Detection",
+          "href": "/services/mobile-gas-leak-detection",
+          "current": false
+        },
+        {
+          "label": "Training",
+          "href": "/services/training",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

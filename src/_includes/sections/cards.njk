@@ -1,0 +1,16 @@
+{% from "sections/_macros.njk" import arrow, shead %}
+<section class="section section--cream" id="{{ s.id }}" data-label="{{ s.eyebrow or s.title or s.id }}"><div class="container">
+  {{ shead(s) }}
+  <div class="cards">
+    {%- for c in s.items %}
+    <article class="card{{ ' card--photo' if c.image and c.image.src }}">
+      {%- if c.image and c.image.src %}<div class="card__media"><img src="{{ c.image.src }}" alt="{{ c.image.alt }}" loading="lazy" onerror="this.closest('.card__media').remove()"></div>{% endif %}
+      <div class="card__body">
+        <h3 class="card__title">{{ c.title }}</h3>
+        {%- if c.text %}<p class="card__text">{{ c.text }}</p>{% endif %}
+        {%- if c.link %}<a class="link-more" href="{{ c.link.href }}">{{ c.link.label }} {{ arrow() }}</a>{% endif %}
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</div></section>

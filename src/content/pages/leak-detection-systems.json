@@ -1,0 +1,132 @@
+{
+  "id": "leak-detection-systems",
+  "slug": "/services/leak-detection-systems",
+  "template": "detail-page",
+  "seo": {
+    "title": "Leak Detection Systems (LDS)",
+    "description": "Early detection to protect people, assets and the environment."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services",
+    "Leak Detection Systems (LDS)"
+  ],
+  "parent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Leak Detection Systems (LDS)",
+    "subtitle": "Early detection to protect people, assets and the environment.",
+    "image": {
+      "src": "/images/250-mmscfd-bizra-ms-2.jpg",
+      "alt": "Pipeline valves and filter at Bizra metering station"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Leak detection systems watch a pipeline or facility continuously and raise the alarm when something changes — by monitoring flow and pressure balances, or by sensing gas directly. We engineer, integrate and support these systems as part of the control and safety architecture."
+    },
+    {
+      "type": "list",
+      "id": "lds-scope",
+      "title": "What we deliver",
+      "items": [
+        "Flow / pressure balance leak detection",
+        "Point and open-path gas detection",
+        "Integration with the DCS / SCADA and ESD",
+        "Alarm management and operator response",
+        "Field commissioning and testing",
+        "Ongoing calibration and support"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "lds-why",
+      "eyebrow": "Why it matters",
+      "title": "Find it before anyone else does",
+      "text": "Early, reliable detection limits loss, protects people and keeps a small event from becoming a reportable one.",
+      "link": {
+        "label": "Mobile gas leak detection",
+        "href": "/services/mobile-gas-leak-detection"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Services",
+      "items": [
+        {
+          "label": "FEED Engineering",
+          "href": "/services/feed-engineering",
+          "current": false
+        },
+        {
+          "label": "Process Automation Consulting",
+          "href": "/services/process-automation-consulting",
+          "current": false
+        },
+        {
+          "label": "Installation & Commissioning",
+          "href": "/services/installation-commissioning",
+          "current": false
+        },
+        {
+          "label": "After-Sales Service",
+          "href": "/services/after-sales-service",
+          "current": false
+        },
+        {
+          "label": "Field Calibration",
+          "href": "/services/field-calibration",
+          "current": false
+        },
+        {
+          "label": "Bench Calibration",
+          "href": "/services/bench-calibration",
+          "current": false
+        },
+        {
+          "label": "Leak Detection Systems (LDS)",
+          "href": "/services/leak-detection-systems",
+          "current": true
+        },
+        {
+          "label": "Mobile Gas Leak Detection",
+          "href": "/services/mobile-gas-leak-detection",
+          "current": false
+        },
+        {
+          "label": "Training",
+          "href": "/services/training",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft — client to supply scope"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "cimarron",
+  "slug": "/products/cimarron",
+  "template": "brand-page",
+  "seo": {
+    "title": "Cimarron",
+    "description": "Flare packages for safe combustion and emissions control."
+  },
+  "breadcrumb": [
+    "Home",
+    "Products",
+    "Cimarron"
+  ],
+  "parent": {
+    "label": "Products",
+    "href": "/products"
+  },
+  "hero": {
+    "eyebrow": "Partner brand",
+    "title": "Cimarron",
+    "subtitle": "Flare packages for safe combustion and emissions control.",
+    "logo": {
+      "src": "/images/partners/cimarron.svg",
+      "alt": "Cimarron logo"
+    },
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-1.jpg",
+      "alt": "Process skids and flare stack at a Zicom-built compressor station"
+    },
+    "ctas": [
+      {
+        "label": "Request a quote",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Cimarron engineers combustion and emissions-control equipment for oil & gas — flares, combustors and vapor recovery. We bring that equipment, and the engineering to integrate it, to plants and terminals in Bangladesh where safe disposal of relief and waste gas is a permit and safety requirement."
+    },
+    {
+      "type": "cards",
+      "id": "cimarron-families",
+      "title": "Equipment we supply",
+      "items": [
+        {
+          "title": "Enclosed & ground flares",
+          "text": "Smokeless, radiation-controlled combustion with the flame shielded from view — for sites with strict visibility or thermal-radiation limits."
+        },
+        {
+          "title": "Elevated flares",
+          "text": "Utility and emergency flare stacks sized for peak relief loads, with reliable ignition and flame monitoring."
+        },
+        {
+          "title": "Vapor recovery units",
+          "text": "Recover hydrocarbon vapors from tanks and loading instead of flaring them — cutting emissions and recovering product."
+        },
+        {
+          "title": "Combustors",
+          "text": "Enclosed combustors for continuous low-volume waste-gas streams where destruction efficiency must be demonstrable."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "cimarron-deliver",
+      "title": "What we deliver with it",
+      "items": [
+        "Relief and waste-gas load analysis",
+        "Flare / combustor sizing and selection",
+        "Ignition, pilot and flame-monitoring controls",
+        "Skid integration with the plant control system",
+        "Installation, commissioning and start-up",
+        "Spares and after-sales support"
+      ]
+    },
+    {
+      "type": "text-image",
+      "id": "cimarron-compliance",
+      "imageSide": "left",
+      "eyebrow": "Why it matters",
+      "title": "Safe disposal, on the record",
+      "subtitle": "Flaring and vapor control are safety barriers and permit conditions, not afterthoughts.",
+      "paragraphs": [
+        "A correctly sized, reliably ignited flare protects the plant during upset and relief events; vapor recovery keeps routine emissions within limits. We engineer the package into the wider facility so the controls, interlocks and documentation line up with the rest of the plant."
+      ],
+      "image": {
+        "src": "/images/80-mmscfd-compressor-station-titas-loce-1.jpg",
+        "alt": "Flare stack beside process skids"
+      },
+      "link": {
+        "label": "Safety instrumented systems",
+        "href": "/solutions/process-automation/sis"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Products",
+      "items": [
+        {
+          "label": "Supcon",
+          "href": "/products/supcon",
+          "current": false
+        },
+        {
+          "label": "NexVal",
+          "href": "/products/nexval",
+          "current": false
+        },
+        {
+          "label": "Keckonn",
+          "href": "/products/keckonn",
+          "current": false
+        },
+        {
+          "label": "Cimarron",
+          "href": "/products/cimarron",
+          "current": true
+        },
+        {
+          "label": "Softing",
+          "href": "/products/softing",
+          "current": false
+        },
+        {
+          "label": "Red Lion",
+          "href": "/products/red-lion",
+          "current": false
+        },
+        {
+          "label": "Tancy",
+          "href": "/products/tancy",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft"
+}

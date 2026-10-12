@@ -1,0 +1,202 @@
+{
+  "id": "services",
+  "slug": "/services",
+  "template": "section-overview",
+  "seo": {
+    "title": "Services",
+    "description": "FEED, consulting, installation & commissioning, calibration, leak detection and after-sales support."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services"
+  ],
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Engineering & Support Services",
+    "subtitle": "Expertise across the full project and equipment lifecycle.",
+    "image": {
+      "src": "/images/50-mmscfd-laksam-ms-5.jpg",
+      "alt": "Wide view of Laksam metering station"
+    },
+    "ctas": [
+      {
+        "label": "Request a service",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "id": "engineering",
+      "title": "Engineering",
+      "items": [
+        {
+          "title": "FEED Engineering",
+          "text": "Front-end design that de-risks your project.",
+          "image": {
+            "src": "/images/80-mmscfd-compressor-station-titas-loce-3.jpg",
+            "alt": "Process skids and flare stack at Titas LOC-E"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/services/feed-engineering"
+          }
+        },
+        {
+          "title": "Process Automation Consulting",
+          "text": "Practical guidance to optimize your control strategy.",
+          "image": {
+            "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+            "alt": "Control room with DCS and SCADA screens at the Titas LOC-E compressor station"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/services/process-automation-consulting"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "delivery",
+      "title": "Delivery",
+      "items": [
+        {
+          "title": "Installation & Commissioning",
+          "text": "Safe, on-schedule start-up.",
+          "image": {
+            "src": "/images/50mmscfd-compressor-station-titas-locg-1.jpg",
+            "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 2"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/services/installation-commissioning"
+          }
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "lifecycle",
+      "title": "Lifecycle support",
+      "items": [
+        {
+          "title": "After-Sales Service",
+          "text": "Responsive support long after delivery.",
+          "image": {
+            "src": "/images/projects/titas-loc-e-compressor-station-80-mmscfd/titas-loc-e-compressor-station-80-mmscfd-04.jpg",
+            "alt": "Suction scrubber and compressor at Titas LOC-E"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/services/after-sales-service"
+          }
+        },
+        {
+          "title": "Field Calibration",
+          "text": "On-site accuracy with minimal downtime.",
+          "image": {
+            "src": "/images/50-mmscfd-laksam-ms-2.jpg",
+            "alt": "Filter separators at Laksam metering station"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/services/field-calibration"
+          }
+        },
+        {
+          "title": "Bench Calibration",
+          "text": "Precision testing in a controlled environment.",
+          "image": {
+            "src": "/images/services/calibration-lab.jpg",
+            "alt": "Calibration lab"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/services/bench-calibration"
+          }
+        },
+        {
+          "title": "Leak Detection Systems (LDS)",
+          "text": "Early detection to protect people, assets and the environment.",
+          "image": {
+            "src": "/images/250-mmscfd-bizra-ms-2.jpg",
+            "alt": "Pipeline valves and filter at Bizra metering station"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/services/leak-detection-systems"
+          }
+        },
+        {
+          "title": "Mobile Gas Leak Detection",
+          "text": "Vehicle-mounted and handheld leak surveys.",
+          "image": {
+            "src": "/images/services/mobile-leak-detection.jpg",
+            "alt": "Mobile gas leak detection vehicle"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/services/mobile-gas-leak-detection"
+          }
+        },
+        {
+          "title": "Training",
+          "text": "Operator and maintenance training, on site.",
+          "image": {
+            "src": "/images/services/training.jpg",
+            "alt": "On-site training"
+          },
+          "link": {
+            "label": "Learn more",
+            "href": "/services/training"
+          }
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "services-intro",
+      "title": "Engineering before the build, support after handover",
+      "text": "Our services bracket the project: front-end engineering and consulting that de-risk the design, installation and commissioning that get the plant running, and the calibration, spares and after-sales support that keep it running for years."
+    },
+    {
+      "type": "steps",
+      "id": "services-lifecycle",
+      "title": "Across the lifecycle",
+      "items": [
+        {
+          "title": "Engineer",
+          "text": "FEED studies and process automation consulting."
+        },
+        {
+          "title": "Deliver",
+          "text": "Installation, commissioning and start-up."
+        },
+        {
+          "title": "Sustain",
+          "text": "After-sales service, calibration and spares."
+        },
+        {
+          "title": "Improve",
+          "text": "Brownfield upgrades, leak detection and training."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

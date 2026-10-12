@@ -1,0 +1,145 @@
+{
+  "id": "red-lion",
+  "slug": "/products/red-lion",
+  "template": "brand-page",
+  "seo": {
+    "title": "Red Lion",
+    "description": "Industrial automation, networking and data acquisition."
+  },
+  "breadcrumb": [
+    "Home",
+    "Products",
+    "Red Lion"
+  ],
+  "parent": {
+    "label": "Products",
+    "href": "/products"
+  },
+  "hero": {
+    "eyebrow": "Partner brand",
+    "title": "Red Lion",
+    "subtitle": "Industrial automation, networking and data acquisition.",
+    "logo": {
+      "src": "/images/partners/red-lion.svg",
+      "alt": "Red Lion logo"
+    },
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+      "alt": "Industrial networking and data acquisition in a control room"
+    },
+    "ctas": [
+      {
+        "label": "Request a quote",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Red Lion supplies industrial networking, communication and data-acquisition hardware — the devices that connect field equipment, protocols and control systems and make plant data usable. We supply and integrate them as part of the automation and remote-monitoring scope."
+    },
+    {
+      "type": "cards",
+      "id": "redlion-families",
+      "title": "What we supply",
+      "items": [
+        {
+          "title": "Protocol gateways",
+          "text": "Convert and bridge industrial protocols so legacy and modern equipment talk to one control system."
+        },
+        {
+          "title": "Industrial networking",
+          "text": "Managed switches and cellular/edge devices for rugged plant and field networks."
+        },
+        {
+          "title": "HMIs & data acquisition",
+          "text": "Panel HMIs, data loggers and controllers that capture and present field data."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "redlion-apps",
+      "title": "Typical applications",
+      "items": [
+        "Protocol conversion between field devices and DCS/SCADA",
+        "Remote station connectivity and telemetry",
+        "Edge data collection and buffering",
+        "Local operator interfaces on skids and packages",
+        "Network segregation for control systems",
+        "Integration with remote monitoring"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "redlion-why",
+      "eyebrow": "Why it matters",
+      "title": "Data is only useful if it moves",
+      "text": "The best instruments are wasted if their data can't reach the control room. Reliable, secure connectivity is what turns field signals into decisions.",
+      "link": {
+        "label": "Remote monitoring",
+        "href": "/solutions/process-automation/remote-monitoring"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Products",
+      "items": [
+        {
+          "label": "Supcon",
+          "href": "/products/supcon",
+          "current": false
+        },
+        {
+          "label": "NexVal",
+          "href": "/products/nexval",
+          "current": false
+        },
+        {
+          "label": "Keckonn",
+          "href": "/products/keckonn",
+          "current": false
+        },
+        {
+          "label": "Cimarron",
+          "href": "/products/cimarron",
+          "current": false
+        },
+        {
+          "label": "Softing",
+          "href": "/products/softing",
+          "current": false
+        },
+        {
+          "label": "Red Lion",
+          "href": "/products/red-lion",
+          "current": true
+        },
+        {
+          "label": "Tancy",
+          "href": "/products/tancy",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft"
+}

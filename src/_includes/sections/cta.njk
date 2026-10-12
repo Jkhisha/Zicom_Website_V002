@@ -1,0 +1,10 @@
+{% from "sections/_macros.njk" import arrow %}
+{#- Closing call-to-action band (design = test.html .cta-band). -#}
+<section class="section cta-band" id="{{ s.id }}" data-label="{{ s.title or 'Contact' }}" data-dark><div class="container">
+  <h2 class="section-title">{{ s.title }}</h2>
+  {%- if s.text %}<p class="cta-band__text">{{ s.text }}</p>{% endif %}
+  <div class="cta-band__actions">
+    {%- if s.primary %}<a class="btn" href="{{ s.primary.href }}">{{ s.primary.label }} {{ arrow() }}</a>{% endif %}
+    {%- if s.secondary %}<a class="btn btn--ghost" href="{{ s.secondary.href }}">{{ s.secondary.label }}</a>{% endif %}
+  </div>
+</div></section>

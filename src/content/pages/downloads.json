@@ -1,0 +1,64 @@
+{
+  "id": "downloads",
+  "slug": "/products/downloads",
+  "template": "downloads",
+  "seo": {
+    "title": "Catalogues & Datasheets",
+    "description": "Product catalogues and datasheets from our partner brands."
+  },
+  "breadcrumb": [
+    "Home",
+    "Products",
+    "Catalogues & Datasheets"
+  ],
+  "hero": {
+    "eyebrow": "Products",
+    "title": "Catalogues & Datasheets",
+    "subtitle": "Product catalogues and datasheets from our partner brands."
+  },
+  "filters": {
+    "label": "Filter by brand",
+    "allLabel": "All brands",
+    "field": "brand"
+  },
+  "sections": [
+    {
+      "type": "downloads",
+      "id": "downloads",
+      "items": [
+        {
+          "title": "NexVal Product Catalogue 2026",
+          "brand": "NexVal",
+          "file": "/downloads/nexval-catalogue-2026.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Company profile",
+          "brand": "Zicom",
+          "file": "",
+          "format": "PDF"
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "downloads-intro",
+      "title": "Catalogues & datasheets",
+      "text": "Product catalogues and datasheets from the brands we represent. Looking for something specific that is not listed here yet? Ask us and we will send it."
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

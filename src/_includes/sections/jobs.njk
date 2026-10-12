@@ -1,0 +1,20 @@
+{% from "sections/_macros.njk" import shead %}
+{#- Open positions. Empty list -> emptyText + apply-by-email hint. -#}
+<section class="section" id="{{ s.id }}" data-label="{{ s.title or 'Jobs' }}"><div class="container container--narrow">
+  {{ shead(s) }}
+  {%- if s.items and s.items | length %}
+  <ul class="jobs">
+    {%- for j in s.items %}
+    <li class="job">
+      <h3 class="job__title">{{ j.title }}</h3>
+      <p class="job__meta">{{ j.department }}{% if j.location %} · {{ j.location }}{% endif %}{% if j.type %} · {{ j.type }}{% endif %}</p>
+      {%- if j.summary %}<p class="job__sum">{{ j.summary }}</p>{% endif %}
+      {%- if j.applyUrl %}<a class="link-more" href="{{ j.applyUrl }}">Apply</a>{% endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- else %}
+  <p class="jobs__empty">{{ s.emptyText }}</p>
+  {%- if s.applyEmail and "TBC" not in s.applyEmail %}<a class="btn" href="mailto:{{ s.applyEmail }}">Send your CV</a>{% endif %}
+  {%- endif %}
+</div></section>

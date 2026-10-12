@@ -1,0 +1,142 @@
+{
+  "id": "process-automation-consulting",
+  "slug": "/services/process-automation-consulting",
+  "template": "detail-page",
+  "seo": {
+    "title": "Process Automation Consulting",
+    "description": "Practical guidance to optimize your control strategy."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services",
+    "Process Automation Consulting"
+  ],
+  "parent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Process Automation Consulting",
+    "subtitle": "Practical guidance to optimize your control strategy.",
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+      "alt": "Control room with DCS and SCADA screens at the Titas LOC-E compressor station"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Architecture reviews, platform selection, specification writing and tender support, from engineers who also commission what they specify."
+    },
+    {
+      "type": "list",
+      "id": "includes",
+      "title": "What's included",
+      "items": [
+        "Control system architecture review",
+        "Platform selection: PLC, DCS, SCADA, SIS",
+        "Specification and tender document writing",
+        "Bid evaluation support"
+      ]
+    },
+    {
+      "type": "list",
+      "id": "consult-scope",
+      "title": "Where we help",
+      "items": [
+        "Control system architecture (DCS vs PLC vs SCADA)",
+        "Control and safety philosophy",
+        "Alarm rationalization and HMI design",
+        "Protocol and integration strategy",
+        "Cyber-security and network segregation",
+        "Obsolescence and migration planning"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "consult-why",
+      "eyebrow": "Why it matters",
+      "title": "Specify the protocol, not the brand",
+      "text": "Good automation decisions keep you free to choose the best equipment later and avoid vendor lock-in. We help you write a specification that gets competitive, comparable bids.",
+      "link": {
+        "label": "Remote monitoring",
+        "href": "/solutions/process-automation/remote-monitoring"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Services",
+      "items": [
+        {
+          "label": "FEED Engineering",
+          "href": "/services/feed-engineering",
+          "current": false
+        },
+        {
+          "label": "Process Automation Consulting",
+          "href": "/services/process-automation-consulting",
+          "current": true
+        },
+        {
+          "label": "Installation & Commissioning",
+          "href": "/services/installation-commissioning",
+          "current": false
+        },
+        {
+          "label": "After-Sales Service",
+          "href": "/services/after-sales-service",
+          "current": false
+        },
+        {
+          "label": "Field Calibration",
+          "href": "/services/field-calibration",
+          "current": false
+        },
+        {
+          "label": "Bench Calibration",
+          "href": "/services/bench-calibration",
+          "current": false
+        },
+        {
+          "label": "Leak Detection Systems (LDS)",
+          "href": "/services/leak-detection-systems",
+          "current": false
+        },
+        {
+          "label": "Mobile Gas Leak Detection",
+          "href": "/services/mobile-gas-leak-detection",
+          "current": false
+        },
+        {
+          "label": "Training",
+          "href": "/services/training",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

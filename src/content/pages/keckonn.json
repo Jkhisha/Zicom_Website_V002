@@ -1,0 +1,181 @@
+{
+  "id": "keckonn",
+  "slug": "/products/keckonn",
+  "template": "brand-page",
+  "seo": {
+    "title": "Keckonn",
+    "description": "Manual valves and actuators for demanding service, with the agency and spares held locally."
+  },
+  "breadcrumb": [
+    "Home",
+    "Products",
+    "Keckonn"
+  ],
+  "parent": {
+    "label": "Products",
+    "href": "/products"
+  },
+  "hero": {
+    "eyebrow": "Agency, with local spares",
+    "title": "Keckonn",
+    "subtitle": "Manual valves and actuators for demanding service, with the agency and spares held locally.",
+    "logo": {
+      "src": "/images/partners/keckonn.svg",
+      "alt": "Keckonn logo"
+    },
+    "image": {
+      "src": "/images/50-mmscfd-laksam-ms-1.jpg",
+      "alt": "Valves and metering runs at a Zicom-built station"
+    },
+    "ctas": [
+      {
+        "label": "Request a quote",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "spec-table",
+      "id": "range",
+      "title": "The range we hold",
+      "rows": [
+        {
+          "label": "Valve types",
+          "value": "Ball, plug, gate, check, double block & bleed, choke"
+        },
+        {
+          "label": "Sizes",
+          "value": "1/2 inch to 56 inch"
+        },
+        {
+          "label": "Pressure",
+          "value": "ASME Class 150 to 2500, up to 15,000 psi"
+        },
+        {
+          "label": "Certifications",
+          "value": "China TS Class A · CE/PED · API 6D · API 608 · API 6A · ISO 9001 · API Q1"
+        }
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "support",
+      "title": "Local spares",
+      "text": "We hold the agency and stock spares locally, which is what makes our maintenance commitments credible."
+    },
+    {
+      "type": "richtext",
+      "id": "keckonn-overview",
+      "title": "Overview",
+      "text": "Keckonn supplies industrial valves and valve automation for gas and process service. We hold the agency, specify the right valve and actuator for the duty, and stock spares locally so a station is never waiting on a long import lead time for a routine part."
+    },
+    {
+      "type": "cards",
+      "id": "keckonn-families",
+      "title": "The range we represent",
+      "items": [
+        {
+          "title": "Ball & plug valves",
+          "text": "Quarter-turn isolation for gas and liquid service, soft- and metal-seated, in the pressure classes used on transmission and distribution."
+        },
+        {
+          "title": "Gate, globe & check valves",
+          "text": "Isolation, throttling and non-return valves for process and utility lines."
+        },
+        {
+          "title": "Actuators & automation",
+          "text": "Pneumatic, gas-over-oil, electric and manual gear operators, with limit switches and positioners for remote and automated control."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "keckonn-apps",
+      "title": "Typical applications",
+      "items": [
+        "Station isolation and blow-down",
+        "Regulating and metering skids",
+        "Compressor station manifolds",
+        "ESD and shutdown valves",
+        "Pipeline block and bypass",
+        "Industrial process lines"
+      ]
+    },
+    {
+      "type": "text-image",
+      "id": "keckonn-field",
+      "imageSide": "right",
+      "eyebrow": "Supported locally",
+      "title": "The valve is only half the job",
+      "subtitle": "Selection, actuation and spares decide whether it keeps working.",
+      "paragraphs": [
+        "We match valve and actuator to the service conditions, supply them as part of the skid or station scope, and keep common spares in country — so maintenance is a same-week job, not an import project."
+      ],
+      "image": {
+        "src": "/images/50-mmscfd-laksam-ms-1.jpg",
+        "alt": "Valves and metering runs under a canopy"
+      },
+      "link": {
+        "label": "Field & bench calibration",
+        "href": "/services/field-calibration"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Products",
+      "items": [
+        {
+          "label": "Supcon",
+          "href": "/products/supcon",
+          "current": false
+        },
+        {
+          "label": "NexVal",
+          "href": "/products/nexval",
+          "current": false
+        },
+        {
+          "label": "Keckonn",
+          "href": "/products/keckonn",
+          "current": true
+        },
+        {
+          "label": "Cimarron",
+          "href": "/products/cimarron",
+          "current": false
+        },
+        {
+          "label": "Softing",
+          "href": "/products/softing",
+          "current": false
+        },
+        {
+          "label": "Red Lion",
+          "href": "/products/red-lion",
+          "current": false
+        },
+        {
+          "label": "Tancy",
+          "href": "/products/tancy",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

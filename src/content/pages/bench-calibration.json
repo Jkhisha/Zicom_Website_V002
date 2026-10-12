@@ -1,0 +1,141 @@
+{
+  "id": "bench-calibration",
+  "slug": "/services/bench-calibration",
+  "template": "detail-page",
+  "seo": {
+    "title": "Bench Calibration",
+    "description": "Precision testing in a controlled environment."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services",
+    "Bench Calibration"
+  ],
+  "parent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Bench Calibration",
+    "subtitle": "Precision testing in a controlled environment.",
+    "image": {
+      "src": "/images/services/calibration-lab.jpg",
+      "alt": "Calibration lab"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Instrument calibration and maintenance in our in-house lab."
+    },
+    {
+      "type": "list",
+      "id": "includes",
+      "title": "What's included",
+      "items": [
+        "In-house calibration lab",
+        "Maintenance and repair of instruments",
+        "Traceable certificates"
+      ]
+    },
+    {
+      "type": "list",
+      "id": "benchcal-scope",
+      "title": "In our calibration lab",
+      "items": [
+        "Pressure and differential-pressure transmitters",
+        "Temperature sensors and transmitters",
+        "Flow and level instruments",
+        "Gas detectors and analyzers",
+        "As-found / as-left documentation",
+        "Traceable reference standards"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "benchcal-why",
+      "eyebrow": "Why it matters",
+      "title": "A controlled environment for critical devices",
+      "text": "Some instruments are better calibrated off the plant, under controlled conditions, against traceable standards — then returned ready to install.",
+      "link": {
+        "label": "Field calibration",
+        "href": "/services/field-calibration"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Services",
+      "items": [
+        {
+          "label": "FEED Engineering",
+          "href": "/services/feed-engineering",
+          "current": false
+        },
+        {
+          "label": "Process Automation Consulting",
+          "href": "/services/process-automation-consulting",
+          "current": false
+        },
+        {
+          "label": "Installation & Commissioning",
+          "href": "/services/installation-commissioning",
+          "current": false
+        },
+        {
+          "label": "After-Sales Service",
+          "href": "/services/after-sales-service",
+          "current": false
+        },
+        {
+          "label": "Field Calibration",
+          "href": "/services/field-calibration",
+          "current": false
+        },
+        {
+          "label": "Bench Calibration",
+          "href": "/services/bench-calibration",
+          "current": true
+        },
+        {
+          "label": "Leak Detection Systems (LDS)",
+          "href": "/services/leak-detection-systems",
+          "current": false
+        },
+        {
+          "label": "Mobile Gas Leak Detection",
+          "href": "/services/mobile-gas-leak-detection",
+          "current": false
+        },
+        {
+          "label": "Training",
+          "href": "/services/training",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

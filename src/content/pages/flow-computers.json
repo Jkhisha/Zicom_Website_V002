@@ -1,0 +1,175 @@
+{
+  "id": "flow-computers",
+  "slug": "/solutions/epc-oil-gas/flow-computers",
+  "template": "detail-page",
+  "seo": {
+    "title": "Flow Computers",
+    "description": "Accurate custody transfer and flow measurement, designed and built in house."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "EPC in Oil & Gas",
+    "Flow Computers"
+  ],
+  "parent": {
+    "label": "EPC in Oil & Gas",
+    "href": "/solutions/epc-oil-gas"
+  },
+  "hero": {
+    "eyebrow": "EPC in Oil & Gas",
+    "title": "Flow Computers",
+    "subtitle": "Accurate custody transfer and flow measurement, designed and built in house.",
+    "image": {
+      "src": "/images/products/flow-computer.jpg",
+      "alt": "Flow computer"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "fc-overview",
+      "title": "Custody-grade measurement",
+      "text": "Flow computers turn raw meter signals into corrected, auditable volume and energy figures. We specify, configure and commission them as part of the metering station so the measurement is accurate and the records stand up."
+    },
+    {
+      "type": "spec-table",
+      "id": "specifications",
+      "title": "At a glance",
+      "rows": [
+        {
+          "label": "Application",
+          "value": "Custody transfer and fiscal gas metering"
+        },
+        {
+          "label": "Built",
+          "value": "Designed and built in house"
+        },
+        {
+          "label": "Specifications",
+          "value": "Standards, meter types and I/O configured to the project's measurement basis and confirmed per enquiry"
+        }
+      ]
+    },
+    {
+      "type": "downloads",
+      "id": "downloads",
+      "items": [
+        {
+          "title": "Flow computer datasheet",
+          "file": "",
+          "format": "PDF"
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "filter": {
+        "category": [
+          "metering-stations",
+          "city-gate-stations"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "id": "fc-features",
+      "title": "What they handle",
+      "items": [
+        "Volume and energy correction (AGA / ISO methods)",
+        "Orifice, turbine and ultrasonic meter inputs",
+        "Pressure, temperature and composition compensation",
+        "Audit trails and tamper-evident logs",
+        "Communications to SCADA and billing systems",
+        "Configuration, calibration and commissioning"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "fc-why",
+      "eyebrow": "Why it matters",
+      "title": "Accuracy you can audit",
+      "text": "Custody measurement is only as good as its correction and its records. We set the computers up so the figures are defensible and the logs are complete.",
+      "link": {
+        "label": "Field calibration",
+        "href": "/services/field-calibration"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in EPC in Oil & Gas",
+      "items": [
+        {
+          "label": "Gas Process Plants",
+          "href": "/solutions/epc-oil-gas/gas-process-plants",
+          "current": false
+        },
+        {
+          "label": "Compressor Stations",
+          "href": "/solutions/epc-oil-gas/compressor-stations",
+          "current": false
+        },
+        {
+          "label": "City Gate & Metering Stations",
+          "href": "/solutions/epc-oil-gas/city-gate-metering-stations",
+          "current": false
+        },
+        {
+          "label": "Regulating and Metering Stations",
+          "href": "/solutions/epc-oil-gas/rms-skids",
+          "current": false
+        },
+        {
+          "label": "Flow Computers",
+          "href": "/solutions/epc-oil-gas/flow-computers",
+          "current": true
+        },
+        {
+          "label": "Water Bath Heaters",
+          "href": "/solutions/epc-oil-gas/water-bath-heaters",
+          "current": false
+        },
+        {
+          "label": "Filtration & Separation",
+          "href": "/solutions/epc-oil-gas/filtration-separation",
+          "current": false
+        },
+        {
+          "label": "PIG Launchers & Receivers",
+          "href": "/solutions/epc-oil-gas/pig-launchers-receivers",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft — client to supply photos and specifications"
+}

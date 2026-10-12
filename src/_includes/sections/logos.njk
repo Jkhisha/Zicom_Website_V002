@@ -1,0 +1,14 @@
+{% from "sections/_macros.njk" import shead %}
+{#- Logo grid sourced from the partners data (source: "partners"). -#}
+<section class="section section--cream" id="{{ s.id }}" data-label="{{ s.title or s.id }}"><div class="container">
+  {{ shead(s) }}
+  <div class="logos">
+    {%- for p in partners %}
+    {%- set src = p.logo.src if p.logo.src else p.logo %}
+    <a class="logo-item" href="{{ p.href or '#' }}">
+      <img src="{{ src }}" alt="{{ p.name }}" onload="this.nextElementSibling.style.display='none'" onerror="this.remove()">
+      <span class="logo-name">{{ p.name }}{% if s.showTagline and p.tagline %}<small class="logo-tag">{{ p.tagline }}</small>{% endif %}</span>
+    </a>
+    {%- endfor %}
+  </div>
+</div></section>

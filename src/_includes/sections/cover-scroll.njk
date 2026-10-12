@@ -1,0 +1,21 @@
+{% from "sections/_macros.njk" import arrow %}
+{#- Home hero: scroll-driven cover (design = test.html .section--message cover-scroll).
+    The brand logo docks into the navbar over the first screen (blank first line),
+    then each EPCC phase reveals over its own full-screen image. -#}
+{%- set slides = hero.slides or [] -%}
+<section class="section--message section--message--images section--message--left" id="cover-scroll" data-label="{{ hero.eyebrow or 'Home' }}" data-dark style="height:{{ (slides | length + 2) * 100 }}vh"><div class="message__stage" style="top:0;height:100vh">
+  <div class="message__bg is-active" style="background-image:url('{{ slides[0].image.src if slides else '' }}')"></div>
+  {%- for s in slides %}
+  <div class="message__bg" style="background-image:url('{{ s.image.src }}')"></div>
+  {%- endfor %}
+  <div class="message__overlay"></div>
+  {#- First line intentionally blank: the big logo is the sole focus while it docks. -#}
+  <div class="message__lines"><p class="message__line is-active" aria-hidden="true"></p>
+    {%- for s in slides %}
+    <p class="message__line">{{ s.line }}</p>
+    {%- endfor %}
+  </div>
+  {%- if hero.ctas and hero.ctas | length %}
+  <a class="btn btn--on-dark message__cta" href="{{ hero.ctas[0].href }}">{{ hero.ctas[0].label }} {{ arrow() }}</a>
+  {%- endif %}
+</div></section>

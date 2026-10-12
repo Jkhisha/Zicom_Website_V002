@@ -1,0 +1,171 @@
+{
+  "id": "water-bath-heaters",
+  "slug": "/solutions/epc-oil-gas/water-bath-heaters",
+  "template": "detail-page",
+  "seo": {
+    "title": "Water Bath Heaters",
+    "description": "Safe, efficient gas heating ahead of pressure reduction."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "EPC in Oil & Gas",
+    "Water Bath Heaters"
+  ],
+  "parent": {
+    "label": "EPC in Oil & Gas",
+    "href": "/solutions/epc-oil-gas"
+  },
+  "hero": {
+    "eyebrow": "EPC in Oil & Gas",
+    "title": "Water Bath Heaters",
+    "subtitle": "Safe, efficient gas heating ahead of pressure reduction.",
+    "image": {
+      "src": "/images/50-mmscfd-laksam-ms-3.jpg",
+      "alt": "Water bath heaters and valves at Laksam metering station"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "wbh-overview",
+      "title": "Heat before the pressure drop",
+      "text": "Dropping gas pressure cools it (Joule–Thomson), which can freeze lines and form hydrates. Indirect water bath heaters add heat before regulation to keep the gas above its dew point. We supply and integrate them with the station controls."
+    },
+    {
+      "type": "spec-table",
+      "id": "specifications",
+      "title": "At a glance",
+      "rows": [
+        {
+          "label": "Application",
+          "value": "Gas preheating ahead of pressure reduction, preventing hydrate formation"
+        },
+        {
+          "label": "Specifications",
+          "value": "Duty, burner type and controls sized to the throughput and pressure-drop required, confirmed per enquiry"
+        }
+      ]
+    },
+    {
+      "type": "downloads",
+      "id": "downloads",
+      "items": [
+        {
+          "title": "Water bath heater datasheet",
+          "file": "",
+          "format": "PDF"
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "filter": {
+        "category": [
+          "metering-stations",
+          "city-gate-stations"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "id": "wbh-scope",
+      "title": "What we deliver",
+      "items": [
+        "Indirect (water bath) heater sized to the duty",
+        "Burner management and temperature control",
+        "Integration with station regulation and safety",
+        "Instrumentation and local control panel",
+        "Installation and commissioning",
+        "Spares and after-sales support"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "wbh-why",
+      "eyebrow": "Why it matters",
+      "title": "No heat, no flow",
+      "text": "In cold conditions or across a big pressure cut, heating is what keeps gas flowing and lines clear. Sizing and burner control decide how well it works.",
+      "link": {
+        "label": "City gate stations",
+        "href": "/solutions/epc-oil-gas/city-gate-metering-stations"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in EPC in Oil & Gas",
+      "items": [
+        {
+          "label": "Gas Process Plants",
+          "href": "/solutions/epc-oil-gas/gas-process-plants",
+          "current": false
+        },
+        {
+          "label": "Compressor Stations",
+          "href": "/solutions/epc-oil-gas/compressor-stations",
+          "current": false
+        },
+        {
+          "label": "City Gate & Metering Stations",
+          "href": "/solutions/epc-oil-gas/city-gate-metering-stations",
+          "current": false
+        },
+        {
+          "label": "Regulating and Metering Stations",
+          "href": "/solutions/epc-oil-gas/rms-skids",
+          "current": false
+        },
+        {
+          "label": "Flow Computers",
+          "href": "/solutions/epc-oil-gas/flow-computers",
+          "current": false
+        },
+        {
+          "label": "Water Bath Heaters",
+          "href": "/solutions/epc-oil-gas/water-bath-heaters",
+          "current": true
+        },
+        {
+          "label": "Filtration & Separation",
+          "href": "/solutions/epc-oil-gas/filtration-separation",
+          "current": false
+        },
+        {
+          "label": "PIG Launchers & Receivers",
+          "href": "/solutions/epc-oil-gas/pig-launchers-receivers",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft — client to supply photos and specifications"
+}

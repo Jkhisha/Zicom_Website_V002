@@ -1,0 +1,142 @@
+{
+  "id": "after-sales-service",
+  "slug": "/services/after-sales-service",
+  "template": "detail-page",
+  "seo": {
+    "title": "After-Sales Service",
+    "description": "Responsive support long after delivery."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services",
+    "After-Sales Service"
+  ],
+  "parent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "After-Sales Service",
+    "subtitle": "Responsive support long after delivery.",
+    "image": {
+      "src": "/images/projects/titas-loc-e-compressor-station-80-mmscfd/titas-loc-e-compressor-station-80-mmscfd-04.jpg",
+      "alt": "Suction scrubber and compressor at Titas LOC-E"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "O&M, spares and fault response from a permanent team in Bangladesh, not a flight away."
+    },
+    {
+      "type": "list",
+      "id": "includes",
+      "title": "What's included",
+      "items": [
+        "Operation & maintenance contracts",
+        "Spares held locally",
+        "Fault response and troubleshooting",
+        "Obsolescence and upgrade planning"
+      ]
+    },
+    {
+      "type": "list",
+      "id": "aftersales-scope",
+      "title": "What we cover",
+      "items": [
+        "Scheduled preventive maintenance",
+        "Breakdown and emergency support",
+        "Spare parts supply and management",
+        "Control-system patching and backups",
+        "Health checks and performance reviews",
+        "Annual maintenance contracts"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "aftersales-why",
+      "eyebrow": "Why it matters",
+      "title": "The plant runs for years, not weeks",
+      "text": "Equipment is only as reliable as its upkeep. A local team with spares on the shelf turns a potential outage into a routine service call.",
+      "link": {
+        "label": "Field calibration",
+        "href": "/services/field-calibration"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Services",
+      "items": [
+        {
+          "label": "FEED Engineering",
+          "href": "/services/feed-engineering",
+          "current": false
+        },
+        {
+          "label": "Process Automation Consulting",
+          "href": "/services/process-automation-consulting",
+          "current": false
+        },
+        {
+          "label": "Installation & Commissioning",
+          "href": "/services/installation-commissioning",
+          "current": false
+        },
+        {
+          "label": "After-Sales Service",
+          "href": "/services/after-sales-service",
+          "current": true
+        },
+        {
+          "label": "Field Calibration",
+          "href": "/services/field-calibration",
+          "current": false
+        },
+        {
+          "label": "Bench Calibration",
+          "href": "/services/bench-calibration",
+          "current": false
+        },
+        {
+          "label": "Leak Detection Systems (LDS)",
+          "href": "/services/leak-detection-systems",
+          "current": false
+        },
+        {
+          "label": "Mobile Gas Leak Detection",
+          "href": "/services/mobile-gas-leak-detection",
+          "current": false
+        },
+        {
+          "label": "Training",
+          "href": "/services/training",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{% from "sections/_macros.njk" import shead, arrow %}
+{#- Post cards sourced from postItems. `s.postType` (set by posts-listing pages)
+    filters to one type; `s.limit` caps the count. -#}
+<section class="section" id="{{ s.id }}" data-label="{{ s.title or 'Posts' }}"><div class="container">
+  {{ shead(s) }}
+  {%- set pt = s.postType or listType %}
+  {%- set pool = (postItems | where("type", pt)) if pt else postItems %}
+  <div class="post-grid">
+    {%- for p in pool | limit(s.limit or 24) %}
+    <article class="post-card">
+      {%- if p.image and p.image.src %}<a class="post-card__media" href="{{ p.href }}"><img src="{{ p.image.src }}" alt="{{ p.image.alt }}" loading="lazy" onerror="this.closest('.post-card__media').classList.add('is-empty')"></a>{% endif %}
+      <div class="post-card__body">
+        <p class="post-card__meta"><span class="post-card__type">{{ p.type }}</span>{% if p.date and 'TBC' not in (p.date | string) %}<span class="post-card__date">{{ p.date }}</span>{% endif %}</p>
+        <h3 class="post-card__title"><a href="{{ p.href }}">{{ p.title }}</a></h3>
+        {%- if p.summary %}<p class="post-card__sum">{{ p.summary }}</p>{% endif %}
+        <a class="link-more" href="{{ p.href }}">Read {{ arrow() }}</a>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</div></section>

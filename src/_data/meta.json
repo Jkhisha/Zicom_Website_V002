@@ -1,0 +1,285 @@
+{
+  "$version": "2.0",
+  "build": "full",
+  "updated": "2026-10-01",
+  "notes": {
+    "purpose": "All website copy, navigation and image references. No styling: layout and design live in the templates.",
+    "build": "Full build: every solution, service, brand and company item has its own page. Projects is ONE page; each project opens its own photo gallery.",
+    "placeholders": "Any value containing [TBC] must be supplied or confirmed by the client before launch.",
+    "images": "Image src paths follow /images/<group>/<slug>/<file>. Project photos list their original file name in sourceFile. Export as JPG or WebP, ~1600px wide.",
+    "sectionTypes": "Section 'type' names the content shape (cards, stats, table, spec-table, comparison, list, tags, text-image, cover-scroll, steps, projects, logos, downloads, gallery, jobs, posts, social, feature, richtext, quote, tip, siblings, cta), not its look. Home hero uses type 'cover-scroll' (EPCC phases revealed over full-screen images); 'text-image' sections take imageSide: left|right.",
+    "siblings": "Detail pages end with a 'siblings' block listing the other pages in the same section, with current: true on the page itself.",
+    "sources": "Copy drafted from the Zicom portfolio deck (v4), terminal automation deck, NexVal catalogue 2026 and zicomequipment.com.sg."
+  },
+  "sitemap": {
+    "fixedPageCount": 51,
+    "pages": [
+      {
+        "slug": "/",
+        "title": "Engineering reliable energy & automation",
+        "template": "home"
+      },
+      {
+        "slug": "/solutions",
+        "title": "Solutions",
+        "template": "section-overview"
+      },
+      {
+        "slug": "/solutions/epc-oil-gas",
+        "title": "EPC in Oil & Gas",
+        "template": "section-overview"
+      },
+      {
+        "slug": "/solutions/epc-oil-gas/gas-process-plants",
+        "title": "Gas Process Plants",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/epc-oil-gas/compressor-stations",
+        "title": "Compressor Stations",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/epc-oil-gas/city-gate-metering-stations",
+        "title": "City Gate & Metering Stations",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/epc-oil-gas/rms-skids",
+        "title": "Regulating and Metering Stations",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/epc-oil-gas/flow-computers",
+        "title": "Flow Computers",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/epc-oil-gas/water-bath-heaters",
+        "title": "Water Bath Heaters",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/epc-oil-gas/filtration-separation",
+        "title": "Filtration & Separation",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/epc-oil-gas/pig-launchers-receivers",
+        "title": "PIG Launchers & Receivers",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/process-automation",
+        "title": "Process Automation",
+        "template": "section-overview"
+      },
+      {
+        "slug": "/solutions/process-automation/dcs",
+        "title": "Distributed Control Systems",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/process-automation/plc",
+        "title": "Programmable Logic Controllers",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/process-automation/scada-hmi",
+        "title": "SCADA & HMI",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/process-automation/sis",
+        "title": "Safety Instrumented Systems",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/process-automation/brownfield-upgrades",
+        "title": "Brownfield Upgrades",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/process-automation/remote-monitoring",
+        "title": "Remote Monitoring",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/solutions/terminal-automation",
+        "title": "Terminal Automation",
+        "template": "section-page"
+      },
+      {
+        "slug": "/products",
+        "title": "Products & Partner Brands",
+        "template": "section-overview"
+      },
+      {
+        "slug": "/products/supcon",
+        "title": "Supcon",
+        "template": "brand-page"
+      },
+      {
+        "slug": "/products/nexval",
+        "title": "NexVal",
+        "template": "brand-page"
+      },
+      {
+        "slug": "/products/keckonn",
+        "title": "Keckonn",
+        "template": "brand-page"
+      },
+      {
+        "slug": "/products/cimarron",
+        "title": "Cimarron",
+        "template": "brand-page"
+      },
+      {
+        "slug": "/products/softing",
+        "title": "Softing",
+        "template": "brand-page"
+      },
+      {
+        "slug": "/products/red-lion",
+        "title": "Red Lion",
+        "template": "brand-page"
+      },
+      {
+        "slug": "/products/tancy",
+        "title": "Tancy",
+        "template": "brand-page"
+      },
+      {
+        "slug": "/products/downloads",
+        "title": "Catalogues & Datasheets",
+        "template": "downloads"
+      },
+      {
+        "slug": "/services",
+        "title": "Services",
+        "template": "section-overview"
+      },
+      {
+        "slug": "/services/feed-engineering",
+        "title": "FEED Engineering",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/services/process-automation-consulting",
+        "title": "Process Automation Consulting",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/services/installation-commissioning",
+        "title": "Installation & Commissioning",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/services/after-sales-service",
+        "title": "After-Sales Service",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/services/field-calibration",
+        "title": "Field Calibration",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/services/bench-calibration",
+        "title": "Bench Calibration",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/services/leak-detection-systems",
+        "title": "Leak Detection Systems (LDS)",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/services/mobile-gas-leak-detection",
+        "title": "Mobile Gas Leak Detection",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/services/training",
+        "title": "Training",
+        "template": "detail-page"
+      },
+      {
+        "slug": "/projects",
+        "title": "Projects",
+        "template": "projects"
+      },
+      {
+        "slug": "/company/about",
+        "title": "About Zicom",
+        "template": "content-page"
+      },
+      {
+        "slug": "/company/quality",
+        "title": "QA/QC & ISO Certifications",
+        "template": "content-page"
+      },
+      {
+        "slug": "/company/clients-partners",
+        "title": "Clients & Partners",
+        "template": "content-page"
+      },
+      {
+        "slug": "/careers",
+        "title": "Build your career with us",
+        "template": "content-page"
+      },
+      {
+        "slug": "/resources",
+        "title": "Resources",
+        "template": "section-overview"
+      },
+      {
+        "slug": "/resources/blog",
+        "title": "Blog",
+        "template": "posts-listing"
+      },
+      {
+        "slug": "/resources/news",
+        "title": "News & Moments",
+        "template": "posts-listing"
+      },
+      {
+        "slug": "/resources/specification-guides",
+        "title": "Specification Guides",
+        "template": "posts-listing"
+      },
+      {
+        "slug": "/contact",
+        "title": "Contact Us",
+        "template": "contact"
+      },
+      {
+        "slug": "/contact/thank-you",
+        "title": "Thank you",
+        "template": "utility"
+      },
+      {
+        "slug": "/privacy",
+        "title": "Privacy Policy",
+        "template": "content-page"
+      },
+      {
+        "slug": "/404",
+        "title": "Page not found",
+        "template": "utility"
+      }
+    ]
+  },
+  "openItems": [
+    "Bizra MS capacity: photos say 250 MMSCFD, portfolio deck says 150 MMSCFD.",
+    "Laksam: deck calls it an RMS, photo files call it an MS.",
+    "Group headcount: deck shows both 100+/300+ and 200+/400+.",
+    "Client and year for 11 projects marked [TBC]; no photos yet for 1250 BBL CFP.",
+    "User mentioned 32 projects; 23 are listed here. Send the missing 9 if they exist.",
+    "Office addresses, phone and emails; Facebook and LinkedIn URLs; inquiry form recipient.",
+    "Partner logos and relationship status for Cimarron, Softing, Red Lion, Tancy, NexVal.",
+    "Terminal automation screenshots; Supcon page copy; FEED, LDS and PIG launcher scope.",
+    "Duplicate photos: Titas LOC-G _1 and _4 exist as both .jpg and .jpeg; keep one of each if identical."
+  ]
+}

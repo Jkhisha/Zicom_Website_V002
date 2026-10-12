@@ -1,0 +1,19 @@
+Idealized image paths with no matching file in assets/img/ (supply photos or fix sourceFile):
+
+/images/brand/zicom-logo.svg
+/images/moments/calibration-lab.jpg
+/images/moments/jgtdsl-leak-detection.jpg
+/images/moments/kgdcl-leak-detection.jpg
+/images/moments/tgtdcl-leak-detection.jpg
+/images/moments/training.jpg
+/images/partners/cimarron.svg
+/images/partners/keckonn.svg
+/images/partners/nexval-hero.jpg
+/images/partners/nexval.svg
+/images/partners/red-lion.svg
+/images/partners/softing.svg
+/images/partners/supcon-feature.jpg
+/images/partners/supcon.svg
+/images/partners/tancy-hero.jpg
+/images/partners/tancy.svg
+/images/projects/titas-loc-e-compressor-station-80-mmscfd/titas-loc-e-compressor-station-80-mmscfd-04.jpg

@@ -1,0 +1,10 @@
+{% from "sections/_macros.njk" import arrow %}
+{#- Specification tip: accent-bordered callout. -#}
+<section class="section" id="{{ s.id }}" data-label="{{ s.eyebrow or 'Tip' }}"><div class="container container--narrow">
+  <aside class="tip">
+    {%- if s.eyebrow %}<p class="eyebrow">{{ s.eyebrow }}</p>{% endif %}
+    {%- if s.title %}<p class="tip__title">{{ s.title }}</p>{% endif %}
+    {%- if s.text %}<p class="tip__text">{{ s.text }}</p>{% endif %}
+    {%- if s.link %}<a class="link-more" href="{{ s.link.href }}">{{ s.link.label }} {{ arrow() }}</a>{% endif %}
+  </aside>
+</div></section>

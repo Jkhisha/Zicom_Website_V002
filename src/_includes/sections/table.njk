@@ -1,0 +1,18 @@
+{% from "sections/_macros.njk" import shead %}
+{#- Generic table: columns[] headers + rows[][] cells. -#}
+<section class="section" id="{{ s.id }}" data-label="{{ s.title or s.id }}"><div class="container">
+  {{ shead(s) }}
+  <div class="table-wrap">
+    <table class="data-table">
+      {%- if s.columns and s.columns | length %}
+      <thead><tr>{% for c in s.columns %}<th>{{ c }}</th>{% endfor %}</tr></thead>
+      {%- endif %}
+      <tbody>
+        {%- for row in s.rows %}
+        <tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+  {%- if s.note %}<p class="section-note">{{ s.note }}</p>{% endif %}
+</div></section>

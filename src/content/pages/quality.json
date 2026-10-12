@@ -1,0 +1,144 @@
+{
+  "id": "quality",
+  "slug": "/company/quality",
+  "template": "content-page",
+  "seo": {
+    "title": "QA/QC & ISO Certifications",
+    "description": "Our commitment to quality, safety and international standards."
+  },
+  "breadcrumb": [
+    "Home",
+    "Company",
+    "QA/QC & ISO Certifications"
+  ],
+  "hero": {
+    "eyebrow": "Company",
+    "title": "QA/QC & ISO Certifications",
+    "subtitle": "Our commitment to quality, safety and international standards.",
+    "image": {
+      "src": "/images/projects/titas-loc-e-compressor-station-80-mmscfd/titas-loc-e-compressor-station-80-mmscfd-04.jpg",
+      "alt": "Suction scrubber and compressor at Titas LOC-E"
+    }
+  },
+  "sections": [
+    {
+      "type": "table",
+      "id": "certificates",
+      "title": "Six certificates, two entities, three standards",
+      "text": "Held twice: once by the Singapore parent, once by the Bangladesh company, which is audited independently by TÜV AUSTRIA.",
+      "columns": [
+        "Entity",
+        "Standards",
+        "Certification body"
+      ],
+      "rows": [
+        [
+          "Zicom Equipment Pte Ltd",
+          "ISO 9001 · ISO 14001:2015 · ISO 45001:2018",
+          "ECAAS"
+        ],
+        [
+          "Zicom Equipment Bangladesh",
+          "EN ISO 9001:2015 · EN ISO 14001:2015 · ISO 45001:2018",
+          "TÜV AUSTRIA"
+        ]
+      ],
+      "note": "The Bangladesh scope names process and plant control system and automation explicitly. Valid to August 2027."
+    },
+    {
+      "type": "downloads",
+      "id": "download-certificates",
+      "title": "Download certificates",
+      "items": [
+        {
+          "title": "ISO 9001:2015 — Zicom Equipment Bangladesh (20001240011636)",
+          "file": "/downloads/certificates/zeb-iso-9001.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "ISO 14001:2015 — Zicom Equipment Bangladesh (20051240011637)",
+          "file": "/downloads/certificates/zeb-iso-14001.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "ISO 45001:2018 — Zicom Equipment Bangladesh (20152240011638)",
+          "file": "/downloads/certificates/zeb-iso-45001.pdf",
+          "format": "PDF"
+        },
+        {
+          "title": "Zicom Equipment Pte Ltd certificates",
+          "file": "",
+          "format": "PDF"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "checklist",
+      "title": "How to read any certificate, ours included",
+      "items": [
+        "Entity: which legal company is named?",
+        "Scope: does it cover your kind of work?",
+        "Validity: is it current today?",
+        "Accreditation: who certified it, and are they IAF accredited?"
+      ],
+      "link": {
+        "label": "Read the full guide",
+        "href": "/resources/specification-guides/certificate-checklist"
+      }
+    },
+    {
+      "type": "richtext",
+      "id": "qaqc",
+      "title": "QA/QC on every project",
+      "text": "Quality is planned, not inspected in at the end. Every project runs to an inspection and test plan agreed up front: material traceability on pressure parts, witnessed factory acceptance tests before shipment, site acceptance tests at commissioning, and a documentation dossier — datasheets, certificates, test records and as-builts — handed over at the close."
+    },
+    {
+      "type": "richtext",
+      "id": "hse",
+      "title": "Health, safety & environment",
+      "text": "We work to a health, safety and environment management system covering risk assessment, permit-to-work, toolbox talks and incident reporting on every site. Safe delivery is a condition of the work, not a trade-off against the schedule."
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Company",
+      "items": [
+        {
+          "label": "About Zicom",
+          "href": "/company/about",
+          "current": false
+        },
+        {
+          "label": "QA/QC & ISO Certifications",
+          "href": "/company/quality",
+          "current": true
+        },
+        {
+          "label": "Clients & Partners",
+          "href": "/company/clients-partners",
+          "current": false
+        },
+        {
+          "label": "Careers",
+          "href": "/careers",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

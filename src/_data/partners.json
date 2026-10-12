@@ -1,0 +1,86 @@
+[
+  {
+    "id": "supcon",
+    "name": "Supcon",
+    "tagline": "DCS, SIS and control platforms",
+    "relationship": "Authorized Channel Partner",
+    "website": "[TBC]",
+    "href": "/products/supcon",
+    "logo": {
+      "src": "/images/partners/supcon.svg",
+      "alt": "Supcon logo"
+    }
+  },
+  {
+    "id": "nexval",
+    "name": "NexVal",
+    "tagline": "Control valves engineered for dynamic control",
+    "relationship": "[TBC: distributor / partner]",
+    "website": "https://www.nexval.com",
+    "href": "/products/nexval",
+    "logo": {
+      "src": "/images/partners/nexval.svg",
+      "alt": "NexVal logo"
+    }
+  },
+  {
+    "id": "keckonn",
+    "name": "Keckonn",
+    "tagline": "Manual valves and actuators",
+    "relationship": "Agency, with local spares",
+    "website": "[TBC]",
+    "href": "/products/keckonn",
+    "logo": {
+      "src": "/images/partners/keckonn.svg",
+      "alt": "Keckonn logo"
+    }
+  },
+  {
+    "id": "cimarron",
+    "name": "Cimarron",
+    "tagline": "Flare packages",
+    "relationship": "[TBC]",
+    "website": "[TBC]",
+    "href": "/products/cimarron",
+    "logo": {
+      "src": "/images/partners/cimarron.svg",
+      "alt": "Cimarron logo"
+    }
+  },
+  {
+    "id": "softing",
+    "name": "Softing",
+    "tagline": "Industrial connectivity",
+    "relationship": "[TBC]",
+    "website": "[TBC]",
+    "href": "/products/softing",
+    "logo": {
+      "src": "/images/partners/softing.svg",
+      "alt": "Softing logo"
+    }
+  },
+  {
+    "id": "red-lion",
+    "name": "Red Lion",
+    "tagline": "Industrial networking & data",
+    "relationship": "[TBC]",
+    "website": "[TBC]",
+    "href": "/products/red-lion",
+    "logo": {
+      "src": "/images/partners/red-lion.svg",
+      "alt": "Red Lion logo"
+    }
+  },
+  {
+    "id": "tancy",
+    "name": "Tancy",
+    "tagline": "Ultrasonic gas flow meters",
+    "relationship": "[TBC: confirm partner listing]",
+    "website": "[TBC]",
+    "href": "/products/tancy",
+    "logo": {
+      "src": "/images/partners/tancy.svg",
+      "alt": "Tancy logo"
+    }
+  }
+]

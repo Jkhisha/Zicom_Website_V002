@@ -1,0 +1,194 @@
+{
+  "id": "scada-hmi",
+  "slug": "/solutions/process-automation/scada-hmi",
+  "template": "detail-page",
+  "seo": {
+    "title": "SCADA & HMI",
+    "description": "Supervisory control and operator screens for gas fields, pipelines and terminals: engineered, licensed and supported by our team in Bangladesh."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "Process Automation",
+    "SCADA & HMI"
+  ],
+  "parent": {
+    "label": "Process Automation",
+    "href": "/solutions/process-automation"
+  },
+  "hero": {
+    "eyebrow": "Process Automation",
+    "title": "SCADA & HMI",
+    "subtitle": "Supervisory control and operator screens for gas fields, pipelines and terminals: engineered, licensed and supported by our team in Bangladesh.",
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+      "alt": "Control room with DCS and SCADA screens at the Titas LOC-E compressor station"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "comparison",
+      "id": "hmi-vs-scada",
+      "title": "Two words, two different purchases",
+      "text": "HMI and SCADA are often used interchangeably. They are bought, priced and supported differently.",
+      "columns": [
+        {
+          "title": "HMI",
+          "subtitle": "Human-Machine Interface",
+          "rows": [
+            {
+              "label": "Scope",
+              "value": "One machine, one panel, local"
+            },
+            {
+              "label": "Function",
+              "value": "Operate and observe what is in front of you"
+            },
+            {
+              "label": "Data",
+              "value": "Live values, little or no history"
+            },
+            {
+              "label": "Typical cost",
+              "value": "Bundled with the controller"
+            }
+          ]
+        },
+        {
+          "title": "SCADA",
+          "subtitle": "Supervisory Control & Data Acquisition",
+          "rows": [
+            {
+              "label": "Scope",
+              "value": "Many sites, spread across geography"
+            },
+            {
+              "label": "Function",
+              "value": "Supervise, trend, alarm and report"
+            },
+            {
+              "label": "Data",
+              "value": "Historian, alarms and reports"
+            },
+            {
+              "label": "Licensing",
+              "value": "Separate, usually by tag count"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "id": "deliver",
+      "title": "What we deliver",
+      "items": [
+        {
+          "title": "SCADA licensing & configuration",
+          "text": "Multi-vendor, sized to the tag count you actually need, with room to grow."
+        },
+        {
+          "title": "HMI graphics & alarms",
+          "text": "Operator screens built around how the plant is actually run, with alarm handling that stays readable."
+        },
+        {
+          "title": "Historian & reporting",
+          "text": "Trends, events and shift reports from one data source, so everyone reads the same numbers."
+        },
+        {
+          "title": "Open integration",
+          "text": "Data exposed over OPC UA or Modbus TCP, so your next quote isn't locked to one vendor."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "id": "tip",
+      "eyebrow": "Specification tip",
+      "title": "A tender that says “supply SCADA” without a tag count is a tender with no price.",
+      "text": "Ask for the tag count, what happens when you exceed it, and what a licence renewal costs.",
+      "link": {
+        "label": "Read the specification guide",
+        "href": "/resources/specification-guides/control-system-specification"
+      }
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "ids": [
+        "titas-loc-e-compressor-station-80-mmscfd",
+        "ashulia-cgs-250-mmscfd",
+        "laksam-ms-50-mmscfd"
+      ]
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Process Automation",
+      "items": [
+        {
+          "label": "Overview",
+          "href": "/solutions/process-automation",
+          "current": false
+        },
+        {
+          "label": "DCS",
+          "href": "/solutions/process-automation/dcs",
+          "current": false
+        },
+        {
+          "label": "PLC",
+          "href": "/solutions/process-automation/plc",
+          "current": false
+        },
+        {
+          "label": "SCADA & HMI",
+          "href": "/solutions/process-automation/scada-hmi",
+          "current": true
+        },
+        {
+          "label": "Safety Instrumented Systems",
+          "href": "/solutions/process-automation/sis",
+          "current": false
+        },
+        {
+          "label": "Brownfield Upgrades",
+          "href": "/solutions/process-automation/brownfield-upgrades",
+          "current": false
+        },
+        {
+          "label": "Remote Monitoring",
+          "href": "/solutions/process-automation/remote-monitoring",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

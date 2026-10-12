@@ -1,0 +1,231 @@
+{
+  "id": "nexval",
+  "slug": "/products/nexval",
+  "template": "brand-page",
+  "seo": {
+    "title": "NexVal",
+    "description": "Control valves engineered for dynamic control: globe, rotary and quarter-turn."
+  },
+  "breadcrumb": [
+    "Home",
+    "Products",
+    "NexVal"
+  ],
+  "parent": {
+    "label": "Products",
+    "href": "/products"
+  },
+  "hero": {
+    "eyebrow": "Partner brand",
+    "title": "NexVal",
+    "subtitle": "Control valves engineered for dynamic control: globe, rotary and quarter-turn.",
+    "logo": {
+      "src": "/images/partners/nexval.svg",
+      "alt": "NexVal logo"
+    },
+    "image": {
+      "src": "/images/partners/nexval-hero.jpg",
+      "alt": "NexVal product"
+    },
+    "ctas": [
+      {
+        "label": "Request a quote",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "nexval-overview",
+      "title": "Control valves, specified and supported",
+      "text": "NexVal supplies control valves for gas and process service — globe, ball and rotary. We size and select them for the duty, supply them as part of the station or skid scope, and support them with spares and calibration locally."
+    },
+    {
+      "type": "stats",
+      "id": "range",
+      "items": [
+        {
+          "value": "12",
+          "label": "Valve series"
+        },
+        {
+          "value": "DN15–600",
+          "label": "Size range"
+        },
+        {
+          "value": "PN400",
+          "label": "Max rating"
+        },
+        {
+          "value": "ISO 15848",
+          "label": "Certified"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "series",
+      "title": "The range",
+      "columns": [
+        "Series",
+        "Type",
+        "Key feature"
+      ],
+      "rows": [
+        [
+          "NV81",
+          "Single seat globe",
+          "Top-guided plunger, modular trim, pneumatic actuation"
+        ],
+        [
+          "NV82",
+          "Single seat globe",
+          "Linear motion shutoff, spherical body cavity"
+        ],
+        [
+          "NV83",
+          "Cage guided globe",
+          "Pressure-balanced, split sleeve, ISO 15848 certified"
+        ],
+        [
+          "NV85",
+          "Cage guided globe",
+          "Heavy-duty cage guidance, anti-cavitation trim"
+        ],
+        [
+          "NV87",
+          "Cage guided globe",
+          "Metal piston seal, high dynamic stability"
+        ],
+        [
+          "NV81W",
+          "Bellows globe",
+          "Zero-emission bellows seal for hazardous media"
+        ],
+        [
+          "NV3W",
+          "Three-way globe",
+          "Mixing and diverting service, single actuator"
+        ],
+        [
+          "NV51/52",
+          "Soft seal ball",
+          "O-type, anti-blowout stem, fire-safe and antistatic"
+        ],
+        [
+          "NV53/54",
+          "Metal seal ball",
+          "Floating and trunnion, hard-faced metal seat"
+        ],
+        [
+          "NV-VN",
+          "V-notch ball",
+          "Segmented V-port, shearing action for slurry"
+        ],
+        [
+          "NV-ER",
+          "Eccentric rotary",
+          "Double-eccentric plug, high rangeability"
+        ],
+        [
+          "NV-TO",
+          "Triple offset butterfly",
+          "Zero-leakage metal seat, torque-seated closure"
+        ]
+      ]
+    },
+    {
+      "type": "downloads",
+      "id": "downloads",
+      "items": [
+        {
+          "title": "NexVal Product Catalogue 2026",
+          "brand": "NexVal",
+          "file": "/downloads/nexval-catalogue-2026.pdf",
+          "format": "PDF"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "nexval-apps",
+      "title": "Typical applications",
+      "items": [
+        "Pressure and flow control on gas stations",
+        "Compressor recycle and anti-surge service",
+        "Level and pressure control on process plants",
+        "Regulating and metering skids",
+        "Shutdown and blow-down duties",
+        "Industrial process control loops"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "nexval-why",
+      "eyebrow": "Why it matters",
+      "title": "A valve is a sizing problem",
+      "text": "The wrong trim or actuator turns a control valve into a maintenance headache. We size for the real operating envelope, not just the line size.",
+      "link": {
+        "label": "Calibration & support",
+        "href": "/services/field-calibration"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Products",
+      "items": [
+        {
+          "label": "Supcon",
+          "href": "/products/supcon",
+          "current": false
+        },
+        {
+          "label": "NexVal",
+          "href": "/products/nexval",
+          "current": true
+        },
+        {
+          "label": "Keckonn",
+          "href": "/products/keckonn",
+          "current": false
+        },
+        {
+          "label": "Cimarron",
+          "href": "/products/cimarron",
+          "current": false
+        },
+        {
+          "label": "Softing",
+          "href": "/products/softing",
+          "current": false
+        },
+        {
+          "label": "Red Lion",
+          "href": "/products/red-lion",
+          "current": false
+        },
+        {
+          "label": "Tancy",
+          "href": "/products/tancy",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

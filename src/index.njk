@@ -1,0 +1,14 @@
+---json
+{
+  "layout": "layouts/base.njk",
+  "permalink": "/",
+  "heroLogo": true,
+  "titleSuffix": true,
+  "title": "Engineering reliable energy & automation",
+  "description": "An EPCC company in Bangladesh: gas process plants, compressor stations and metering stations — engineered, procured, built and commissioned by one team, and supported long after handover."
+}
+---
+{% set p = pages.home %}
+{% set hero = p.hero %}
+{% include "sections/cover-scroll.njk" %}
+{% for s in p.sections %}{% include "sections/_render.njk" %}{% endfor %}

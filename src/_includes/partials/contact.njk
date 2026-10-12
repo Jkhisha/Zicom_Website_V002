@@ -1,0 +1,41 @@
+{% from "sections/_macros.njk" import arrow %}
+{#- Contact: inquiry form + office cards. Form is Netlify-ready (data-netlify). -#}
+{%- set f = doc.form or {} %}
+<section class="section" id="contact" data-label="Contact"><div class="container contact">
+  <div class="contact__form-col">
+    {%- if f.title %}<h2 class="section-title">{{ f.title }}</h2>{% endif %}
+    {%- if f.text %}<p class="section-lead">{{ f.text }}</p>{% endif %}
+    <form class="inquiry" name="inquiry" method="POST" data-netlify="true" action="{{ f.successRedirect or '/contact/thank-you' }}">
+      <input type="hidden" name="form-name" value="inquiry">
+      {%- for field in f.fields %}
+      <div class="field{{ ' field--wide' if field.type == 'textarea' or field.type == 'select' }}">
+        <label for="f-{{ field.name }}">{{ field.label }}{% if field.required %} <span class="req">*</span>{% endif %}</label>
+        {%- if field.type == "textarea" %}
+        <textarea id="f-{{ field.name }}" name="{{ field.name }}" rows="5"{% if field.required %} required{% endif %}></textarea>
+        {%- elif field.type == "select" %}
+        <select id="f-{{ field.name }}" name="{{ field.name }}"{% if field.required %} required{% endif %}>
+          <option value="">Select…</option>
+          {%- for opt in field.options %}<option value="{{ opt }}">{{ opt }}</option>{% endfor %}
+        </select>
+        {%- else %}
+        <input id="f-{{ field.name }}" type="{{ field.type }}" name="{{ field.name }}"{% if field.required %} required{% endif %}>
+        {%- endif %}
+      </div>
+      {%- endfor %}
+      {%- if f.consent %}<label class="field--consent"><input type="checkbox" name="consent" required> <span>{{ f.consent }}</span></label>{% endif %}
+      <button class="btn" type="submit">{{ f.submitLabel or "Send" }} {{ arrow() }}</button>
+    </form>
+  </div>
+  <aside class="contact__offices">
+    <h2 class="contact__offices-title">Our offices</h2>
+    {%- for o in site.offices %}
+    <div class="office">
+      <h3 class="office__label">{{ o.label }}</h3>
+      {%- if o.city %}<p class="office__city">{{ o.city }}</p>{% endif %}
+      {%- if o.address | hasReal %}<p class="office__line">{{ o.address }}</p>{% endif %}
+      {%- if o.phone | hasReal %}<p class="office__line"><a href="tel:{{ o.phone }}">{{ o.phone }}</a></p>{% endif %}
+      {%- if o.email | hasReal %}<p class="office__line"><a href="mailto:{{ o.email }}">{{ o.email }}</a></p>{% endif %}
+    </div>
+    {%- endfor %}
+  </aside>
+</div></section>

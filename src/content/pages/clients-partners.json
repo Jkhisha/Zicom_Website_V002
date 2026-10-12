@@ -1,0 +1,188 @@
+{
+  "id": "clients-partners",
+  "slug": "/company/clients-partners",
+  "template": "content-page",
+  "seo": {
+    "title": "Clients & Partners",
+    "description": "The companies we build for, and the brands we build with."
+  },
+  "breadcrumb": [
+    "Home",
+    "Company",
+    "Clients & Partners"
+  ],
+  "hero": {
+    "eyebrow": "Company",
+    "title": "Clients & Partners",
+    "subtitle": "The companies we build for, and the brands we build with.",
+    "image": {
+      "src": "/images/250-mmscfd-bakhrabad-ms-3.jpg",
+      "alt": "Bakhrabad metering station under a blue sky"
+    }
+  },
+  "sections": [
+    {
+      "type": "logos",
+      "id": "clients",
+      "title": "Clients",
+      "items": [
+        {
+          "name": "Bangladesh Gas Fields Company Limited (BGFCL)",
+          "logo": {
+            "src": "/images/clients/bgfcl.svg",
+            "alt": "Bangladesh Gas Fields Company Limited (BGFCL) logo"
+          }
+        },
+        {
+          "name": "Gas Transmission Company Limited (GTCL)",
+          "logo": {
+            "src": "/images/clients/gtcl.svg",
+            "alt": "Gas Transmission Company Limited (GTCL) logo"
+          }
+        },
+        {
+          "name": "Sylhet Gas Fields Limited (SGFL)",
+          "logo": {
+            "src": "/images/clients/sgfl.svg",
+            "alt": "Sylhet Gas Fields Limited (SGFL) logo"
+          }
+        },
+        {
+          "name": "BAPEX",
+          "logo": {
+            "src": "/images/clients/bapex.svg",
+            "alt": "BAPEX logo"
+          }
+        },
+        {
+          "name": "Titas Gas (TGTDCL)",
+          "logo": {
+            "src": "/images/clients/tgtdcl.svg",
+            "alt": "Titas Gas (TGTDCL) logo"
+          }
+        },
+        {
+          "name": "Jalalabad Gas (JGTDSL)",
+          "logo": {
+            "src": "/images/clients/jgtdsl.svg",
+            "alt": "Jalalabad Gas (JGTDSL) logo"
+          }
+        },
+        {
+          "name": "Karnaphuli Gas (KGDCL)",
+          "logo": {
+            "src": "/images/clients/kgdcl.svg",
+            "alt": "Karnaphuli Gas (KGDCL) logo"
+          }
+        },
+        {
+          "name": "Padma Oil Company",
+          "logo": {
+            "src": "/images/clients/padma-oil.svg",
+            "alt": "Padma Oil Company logo"
+          }
+        },
+        {
+          "name": "BPDB",
+          "logo": {
+            "src": "/images/clients/bpdb.svg",
+            "alt": "BPDB logo"
+          }
+        },
+        {
+          "name": "KSRM",
+          "logo": {
+            "src": "/images/clients/ksrm.svg",
+            "alt": "KSRM logo"
+          }
+        },
+        {
+          "name": "Abul Khair",
+          "logo": {
+            "src": "/images/clients/abul-khair.svg",
+            "alt": "Abul Khair logo"
+          }
+        },
+        {
+          "name": "Pidilite",
+          "logo": {
+            "src": "/images/clients/pidilite.svg",
+            "alt": "Pidilite logo"
+          }
+        }
+      ]
+    },
+    {
+      "type": "logos",
+      "id": "partners",
+      "title": "Partners",
+      "source": "partners"
+    },
+    {
+      "type": "richtext",
+      "id": "clients-intro",
+      "title": "Who we work with",
+      "text": "We deliver for the national gas transmission and distribution companies and their operating entities, and we represent a focused set of international equipment manufacturers. The same team sits on both sides — which is why what we specify is what we can support."
+    },
+    {
+      "type": "stats",
+      "id": "clients-stats",
+      "title": "By the numbers",
+      "items": [
+        {
+          "value": "50+",
+          "label": "Stations and plants delivered"
+        },
+        {
+          "value": "7",
+          "label": "Partner brands represented"
+        },
+        {
+          "value": "20+",
+          "label": "Years operating in Bangladesh"
+        }
+      ]
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Company",
+      "items": [
+        {
+          "label": "About Zicom",
+          "href": "/company/about",
+          "current": false
+        },
+        {
+          "label": "QA/QC & ISO Certifications",
+          "href": "/company/quality",
+          "current": false
+        },
+        {
+          "label": "Clients & Partners",
+          "href": "/company/clients-partners",
+          "current": true
+        },
+        {
+          "label": "Careers",
+          "href": "/careers",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

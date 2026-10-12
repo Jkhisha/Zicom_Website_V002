@@ -1,0 +1,133 @@
+{
+  "id": "solutions",
+  "slug": "/solutions",
+  "template": "section-overview",
+  "seo": {
+    "title": "Solutions",
+    "description": "EPC in oil & gas, process automation and terminal automation."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions"
+  ],
+  "hero": {
+    "eyebrow": "Solutions",
+    "title": "Engineered systems, delivered whole",
+    "subtitle": "EPC packages, control systems and terminal software, designed, built and commissioned by one team.",
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-3.jpg",
+      "alt": "Process skids and flare stack at Titas LOC-E"
+    }
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "id": "solutions",
+      "items": [
+        {
+          "title": "EPC in Oil & Gas",
+          "text": "Complete, field-ready systems for gas processing, compression and metering.",
+          "image": {
+            "src": "/images/80-mmscfd-compressor-station-titas-loce-3.jpg",
+            "alt": "Process skids and flare stack at Titas LOC-E"
+          },
+          "link": {
+            "label": "Explore",
+            "href": "/solutions/epc-oil-gas"
+          }
+        },
+        {
+          "title": "Process Automation",
+          "text": "Control, monitoring and safety systems that keep the plant running.",
+          "image": {
+            "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+            "alt": "Control room with DCS and SCADA screens at the Titas LOC-E compressor station"
+          },
+          "link": {
+            "label": "Explore",
+            "href": "/solutions/process-automation"
+          }
+        },
+        {
+          "title": "Terminal Automation",
+          "text": "Smarter control of loading, storage and inventory.",
+          "image": {
+            "src": "/images/terminal/console.jpg",
+            "alt": "Terminal automation operator console"
+          },
+          "link": {
+            "label": "Explore",
+            "href": "/solutions/terminal-automation"
+          }
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how-we-work",
+      "title": "Between the specification and the plant",
+      "items": [
+        {
+          "title": "You specify",
+          "text": "Scope, standards, certifications required."
+        },
+        {
+          "title": "We engineer",
+          "text": "Design, procurement, panel build, programming."
+        },
+        {
+          "title": "We construct",
+          "text": "Civil, mechanical, electrical, instrumentation."
+        },
+        {
+          "title": "We commission",
+          "text": "Testing, start-up, handover, documentation."
+        },
+        {
+          "title": "We stay",
+          "text": "O&M, calibration, spares, training."
+        }
+      ],
+      "note": "The last box is the one most contractors leave to somebody else."
+    },
+    {
+      "type": "richtext",
+      "id": "solutions-intro",
+      "title": "One team, from design to year fifteen",
+      "text": "Zicom engineers, procures, builds and commissions energy and automation infrastructure — then supports it. Because the same team owns the process, the control system and the construction, the pieces fit the first time and there is one accountable party from FEED to long-term operations."
+    },
+    {
+      "type": "stats",
+      "id": "solutions-stats",
+      "title": "Track record",
+      "items": [
+        {
+          "value": "50+",
+          "label": "Stations and plants delivered"
+        },
+        {
+          "value": "20+",
+          "label": "Years in oil & gas EPC"
+        },
+        {
+          "value": "3",
+          "label": "Core disciplines under one roof"
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

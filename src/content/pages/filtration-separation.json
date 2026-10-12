@@ -1,0 +1,165 @@
+{
+  "id": "filtration-separation",
+  "slug": "/solutions/epc-oil-gas/filtration-separation",
+  "template": "detail-page",
+  "seo": {
+    "title": "Filtration & Separation",
+    "description": "Filter separators, knock-out drums and liquid separators."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "EPC in Oil & Gas",
+    "Filtration & Separation"
+  ],
+  "parent": {
+    "label": "EPC in Oil & Gas",
+    "href": "/solutions/epc-oil-gas"
+  },
+  "hero": {
+    "eyebrow": "EPC in Oil & Gas",
+    "title": "Filtration & Separation",
+    "subtitle": "Filter separators, knock-out drums and liquid separators.",
+    "image": {
+      "src": "/images/50-mmscfd-laksam-ms-2.jpg",
+      "alt": "Filter separators at Laksam metering station"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "list",
+      "id": "range",
+      "title": "Range",
+      "items": [
+        "Filter separators",
+        "Knock-out drums",
+        "Liquid separators"
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Clean gas protects everything downstream — meters, regulators, compressors and burners. We supply filtration and separation equipment, from inlet separators to fine filter-coalescers, sized and integrated for the service."
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "filter": {
+        "category": [
+          "metering-stations",
+          "city-gate-stations"
+        ]
+      }
+    },
+    {
+      "type": "spec-table",
+      "id": "fs-spec",
+      "title": "At a glance",
+      "rows": [
+        {
+          "label": "Application",
+          "value": "Removal of liquids and solids from gas to protect downstream equipment"
+        },
+        {
+          "label": "Equipment",
+          "value": "Inlet separators, filter separators, filter-coalescers, strainers"
+        },
+        {
+          "label": "Selection",
+          "value": "Vessel size, element rating and design code to the service and flow"
+        },
+        {
+          "label": "Delivery",
+          "value": "Standalone or integrated into the station/plant skid"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "fs-why",
+      "eyebrow": "Why it matters",
+      "title": "Dirty gas is expensive gas",
+      "text": "Particulates and liquids wreck meters and chew up valves and burners. Right-sized separation up front is the cheapest insurance on the station.",
+      "link": {
+        "label": "Pig launchers & receivers",
+        "href": "/solutions/epc-oil-gas/pig-launchers-receivers"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in EPC in Oil & Gas",
+      "items": [
+        {
+          "label": "Gas Process Plants",
+          "href": "/solutions/epc-oil-gas/gas-process-plants",
+          "current": false
+        },
+        {
+          "label": "Compressor Stations",
+          "href": "/solutions/epc-oil-gas/compressor-stations",
+          "current": false
+        },
+        {
+          "label": "City Gate & Metering Stations",
+          "href": "/solutions/epc-oil-gas/city-gate-metering-stations",
+          "current": false
+        },
+        {
+          "label": "Regulating and Metering Stations",
+          "href": "/solutions/epc-oil-gas/rms-skids",
+          "current": false
+        },
+        {
+          "label": "Flow Computers",
+          "href": "/solutions/epc-oil-gas/flow-computers",
+          "current": false
+        },
+        {
+          "label": "Water Bath Heaters",
+          "href": "/solutions/epc-oil-gas/water-bath-heaters",
+          "current": false
+        },
+        {
+          "label": "Filtration & Separation",
+          "href": "/solutions/epc-oil-gas/filtration-separation",
+          "current": true
+        },
+        {
+          "label": "PIG Launchers & Receivers",
+          "href": "/solutions/epc-oil-gas/pig-launchers-receivers",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft — client to supply photos and specifications"
+}

@@ -1,0 +1,73 @@
+{
+  "categories": [
+    {
+      "id": "process-plants",
+      "label": "Process Plants",
+      "description": "Gas dehydration and processing plants, TEG and silica gel.",
+      "count": 6,
+      "href": "/projects?type=process-plants#other-projects"
+    },
+    {
+      "id": "compressor-stations",
+      "label": "Compressor Stations",
+      "description": "Gas compression facilities with integrated control systems.",
+      "count": 4,
+      "href": "/projects?type=compressor-stations#other-projects"
+    },
+    {
+      "id": "city-gate-stations",
+      "label": "City Gate Stations",
+      "description": "Pressure reduction and metering where transmission meets distribution.",
+      "count": 4,
+      "href": "/projects?type=city-gate-stations#other-projects"
+    },
+    {
+      "id": "metering-stations",
+      "label": "Metering Stations",
+      "description": "Custody transfer metering on transmission pipelines.",
+      "count": 4,
+      "href": "/projects?type=metering-stations#other-projects"
+    },
+    {
+      "id": "tbs-rms",
+      "label": "TBS & RMS",
+      "description": "Town border and regulating and metering stations.",
+      "count": 4,
+      "href": "/projects?type=tbs-rms#other-projects"
+    },
+    {
+      "id": "other",
+      "label": "Other",
+      "description": "Condensate fractionation and other process facilities.",
+      "count": 1,
+      "href": "/projects?type=other#other-projects"
+    }
+  ],
+  "featured": [
+    "haripur-process-plant-45-mmscfd",
+    "loc-j-process-plant-75-mmscfd",
+    "titas-loc-e-compressor-station-80-mmscfd",
+    "titas-loc-c-compressor-station-180-mmscfd",
+    "ashulia-cgs-250-mmscfd",
+    "bakhrabad-ms-250-mmscfd"
+  ],
+  "other": [
+    "process-plant-20-mmscfd",
+    "process-plant-30-mmscfd",
+    "process-plant-60-mmscfd",
+    "loc-i-process-plant-75-mmscfd",
+    "narsingdi-compressor-station-30-mmscfd",
+    "titas-loc-g-compressor-station-50-mmscfd",
+    "saidpur-cgs-100-mmscfd",
+    "mirsharai-cgs-200-mmscfd",
+    "demra-cgs-250-mmscfd",
+    "bizra-ms",
+    "gararan-ms-300-mmscfd",
+    "laksam-ms-50-mmscfd",
+    "pirganj-tbs-20-mmscfd",
+    "rangpur-tbs-50-mmscfd",
+    "mithachora-rms-50-mmscfd",
+    "nizkunjara-rms-50-mmscfd",
+    "cfp-1250-bbl"
+  ]
+}

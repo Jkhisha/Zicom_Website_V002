@@ -1,0 +1,194 @@
+{
+  "id": "process-automation",
+  "slug": "/solutions/process-automation",
+  "template": "section-overview",
+  "seo": {
+    "title": "Process Automation",
+    "description": "DCS, PLC, SCADA, safety systems and brownfield upgrades for oil & gas."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "Process Automation"
+  ],
+  "hero": {
+    "eyebrow": "Solutions",
+    "title": "Process Automation",
+    "subtitle": "Control, safety and supervisory systems for gas plants, compressor stations and terminals, from the field instrument to the control room.",
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+      "alt": "Control room with DCS and SCADA screens at the Titas LOC-E compressor station"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Platforms",
+        "value": "Supcon · ABB · Rockwell · Honeywell"
+      },
+      {
+        "label": "Open protocols",
+        "value": "OPC UA · Modbus TCP · HART · Profibus"
+      },
+      {
+        "label": "Local support",
+        "value": "80+ engineers and technicians in Bangladesh"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "pa-intro",
+      "title": "Control, safety and visibility",
+      "text": "Process automation is what turns a collection of equipment into a plant you can run, protect and see. We design the control philosophy, build and configure the system, and commission it — DCS, PLC, SCADA and safety systems, chosen for the duty rather than the brochure."
+    },
+    {
+      "type": "steps",
+      "id": "layers",
+      "title": "Five layers, bottom to top",
+      "items": [
+        {
+          "title": "Field",
+          "text": "Instruments and final elements: transmitters, valves, actuators."
+        },
+        {
+          "title": "Control",
+          "text": "PLC, DCS or RTU. Reads, decides, acts."
+        },
+        {
+          "title": "Supervisory",
+          "text": "SCADA and HMI. Where a human sees and intervenes."
+        },
+        {
+          "title": "Information",
+          "text": "Historian, alarms, reports, batch records."
+        },
+        {
+          "title": "Business",
+          "text": "ERP, planning, scheduling."
+        }
+      ],
+      "note": "Most specification disputes come from confusing layer two with layer three."
+    },
+    {
+      "type": "cards",
+      "id": "capabilities",
+      "title": "What we deliver",
+      "items": [
+        {
+          "title": "DCS",
+          "text": "Distributed control for continuous, plant-wide processes.",
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/process-automation/dcs"
+          }
+        },
+        {
+          "title": "PLC",
+          "text": "Fast discrete logic for skids, compressors and packages.",
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/process-automation/plc"
+          }
+        },
+        {
+          "title": "SCADA & HMI",
+          "text": "Supervisory control and operator screens.",
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/process-automation/scada-hmi"
+          }
+        },
+        {
+          "title": "Safety Instrumented Systems",
+          "text": "Independent safety systems, SIL rated.",
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/process-automation/sis"
+          }
+        },
+        {
+          "title": "Brownfield Upgrades",
+          "text": "Upgrades on plants that cannot stop.",
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/process-automation/brownfield-upgrades"
+          }
+        },
+        {
+          "title": "Remote Monitoring",
+          "text": "Real-time visibility across stations.",
+          "link": {
+            "label": "Learn more",
+            "href": "/solutions/process-automation/remote-monitoring"
+          }
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Where it's running",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "ids": [
+        "titas-loc-e-compressor-station-80-mmscfd",
+        "titas-loc-c-compressor-station-180-mmscfd",
+        "haripur-process-plant-45-mmscfd"
+      ]
+    },
+    {
+      "type": "stats",
+      "id": "pa-stats",
+      "title": "What we bring",
+      "items": [
+        {
+          "value": "DCS·PLC·SIS",
+          "label": "Platforms engineered in-house"
+        },
+        {
+          "value": "FAT→SAT",
+          "label": "Tested before and after shipment"
+        },
+        {
+          "value": "24/7",
+          "label": "Systems we support after handover"
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "pa-why",
+      "eyebrow": "Why it matters",
+      "title": "Specify the protocol, not the brand",
+      "text": "Good automation keeps you free to choose the best equipment later and avoids lock-in. We help you write a specification that gets comparable, competitive bids.",
+      "link": {
+        "label": "Automation consulting",
+        "href": "/services/process-automation-consulting"
+      }
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

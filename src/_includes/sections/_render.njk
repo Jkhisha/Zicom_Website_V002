@@ -1,0 +1,27 @@
+{#- Dispatch a section object (`s`) to its partial by `s.type`. -#}
+{%- if s.type == "text-image" %}{% include "sections/text-image.njk" %}
+{%- elif s.type == "cover-scroll" %}{% set hero = s %}{% include "sections/cover-scroll.njk" %}
+{%- elif s.type == "cards" %}{% include "sections/cards.njk" %}
+{%- elif s.type == "stats" %}{% include "sections/stats.njk" %}
+{%- elif s.type == "logos" %}{% include "sections/logos.njk" %}
+{%- elif s.type == "list" %}{% include "sections/list.njk" %}
+{%- elif s.type == "spec-table" %}{% include "sections/spec-table.njk" %}
+{%- elif s.type == "table" %}{% include "sections/table.njk" %}
+{%- elif s.type == "comparison" %}{% include "sections/comparison.njk" %}
+{%- elif s.type == "steps" %}{% include "sections/steps.njk" %}
+{%- elif s.type == "tags" %}{% include "sections/tags.njk" %}
+{%- elif s.type == "feature" %}{% include "sections/feature.njk" %}
+{%- elif s.type == "tip" %}{% include "sections/tip.njk" %}
+{%- elif s.type == "quote" %}{% include "sections/quote.njk" %}
+{%- elif s.type == "richtext" %}{% include "sections/richtext.njk" %}
+{%- elif s.type == "downloads" %}{% include "sections/downloads.njk" %}
+{%- elif s.type == "siblings" %}{% include "sections/siblings.njk" %}
+{%- elif s.type == "social" %}{% include "sections/social.njk" %}
+{%- elif s.type == "gallery" %}{% include "sections/gallery.njk" %}
+{%- elif s.type == "posts" %}{% include "sections/posts.njk" %}
+{%- elif s.type == "projects" %}{% include "sections/projects.njk" %}
+{%- elif s.type == "jobs" %}{% include "sections/jobs.njk" %}
+{%- elif s.type == "cta" %}{% include "sections/cta.njk" %}
+{%- else %}
+<!-- TODO: no partial yet for section type "{{ s.type }}" (id: {{ s.id }}) -->
+{%- endif %}

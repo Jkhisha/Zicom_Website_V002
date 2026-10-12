@@ -1,0 +1,18 @@
+---
+pagination:
+  data: postItems
+  size: 1
+  alias: post
+  resolve: values
+layout: layouts/base.njk
+heroDocked: true
+eleventyComputed:
+  permalink: "/resources/{{ post.type }}/{{ post.slug }}/"
+  title: "{{ post.title }}"
+  titleSuffix: true
+  description: "{{ post.summary }}"
+---
+{%- set doc = { hero: { eyebrow: post.type, title: post.title, subtitle: post.summary, image: post.image }, breadcrumb: ["Home", "Resources", post.title] } %}
+{% include "partials/page-head.njk" %}
+{% if post.body %}{% for s in post.body %}{% include "sections/_render.njk" %}{% endfor %}{% endif %}
+{% set s = pages["post-detail"].sections[0] %}{% include "sections/cta.njk" %}

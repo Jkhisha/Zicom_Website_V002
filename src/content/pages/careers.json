@@ -1,0 +1,115 @@
+{
+  "id": "careers",
+  "slug": "/careers",
+  "template": "content-page",
+  "seo": {
+    "title": "Build your career with us",
+    "description": "Join a team engineering the future of energy and automation."
+  },
+  "breadcrumb": [
+    "Home",
+    "Careers"
+  ],
+  "hero": {
+    "eyebrow": "Careers",
+    "title": "Build your career with us",
+    "subtitle": "Join a team engineering the future of energy and automation.",
+    "image": {
+      "src": "/images/50mmscfd-compressor-station-titas-locg-1.jpg",
+      "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 2"
+    }
+  },
+  "sections": [
+    {
+      "type": "cards",
+      "id": "why",
+      "title": "Why Zicom",
+      "items": [
+        {
+          "title": "Real projects",
+          "text": "Work on plants and stations that run the country's gas network."
+        },
+        {
+          "title": "Ten disciplines",
+          "text": "Process, civil, mechanical, electrical, I&C, QA/QC, HSE and more, under one roof."
+        },
+        {
+          "title": "Learn from the field",
+          "text": "Engineers who design, build and commission, not just draw."
+        }
+      ]
+    },
+    {
+      "type": "jobs",
+      "id": "openings",
+      "title": "Open positions",
+      "emptyText": "No open positions right now. Send us your CV and we'll keep it on file.",
+      "items": [],
+      "applyEmail": "[TBC: careers email]",
+      "itemFields": [
+        "title",
+        "department",
+        "location",
+        "type",
+        "summary",
+        "applyUrl"
+      ]
+    },
+    {
+      "type": "social",
+      "id": "follow",
+      "title": "Follow our journey",
+      "links": [
+        {
+          "label": "Facebook",
+          "href": "[TBC: Facebook page URL]"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "[TBC: LinkedIn page URL]"
+        }
+      ]
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Company",
+      "items": [
+        {
+          "label": "About Zicom",
+          "href": "/company/about",
+          "current": false
+        },
+        {
+          "label": "QA/QC & ISO Certifications",
+          "href": "/company/quality",
+          "current": false
+        },
+        {
+          "label": "Clients & Partners",
+          "href": "/company/clients-partners",
+          "current": false
+        },
+        {
+          "label": "Careers",
+          "href": "/careers",
+          "current": true
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

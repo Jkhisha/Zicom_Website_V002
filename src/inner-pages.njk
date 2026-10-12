@@ -1,0 +1,19 @@
+---
+pagination:
+  data: innerPages
+  size: 1
+  alias: pg
+layout: layouts/base.njk
+heroDocked: true
+eleventyComputed:
+  permalink: "{% if pg.slug == '/404' %}/404.html{% else %}{{ pg.slug }}/{% endif %}"
+  title: "{{ pg.seo.title or pg.title }}"
+  titleSuffix: true
+  description: "{{ pg.seo.description }}"
+---
+{%- set doc = pg %}
+{#- posts-listing pages filter the posts section to one type (by page id). -#}
+{%- set listType = { "blog": "blog", "news": "news", "specification-guides": "guide" }[pg.id] %}
+{% include "partials/page-head.njk" %}
+{% if pg.template == "contact" %}{% include "partials/contact.njk" %}
+{% else %}{% for s in pg.sections %}{% include "sections/_render.njk" %}{% endfor %}{% endif %}

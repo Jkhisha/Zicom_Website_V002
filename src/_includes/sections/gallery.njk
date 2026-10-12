@@ -1,0 +1,17 @@
+{% from "sections/_macros.njk" import shead %}
+{#- Moments gallery: image cards with year/title/client. -#}
+<section class="section" id="{{ s.id }}" data-label="{{ s.title or 'Gallery' }}"><div class="container">
+  {{ shead(s) }}
+  <div class="gallery">
+    {%- for it in s.items %}
+    <figure class="gallery__item">
+      {%- if it.image and it.image.src %}<div class="gallery__media"><img src="{{ it.image.src }}" alt="{{ it.image.alt }}" loading="lazy" onerror="this.closest('.gallery__media').classList.add('is-empty')"></div>{% endif %}
+      <figcaption class="gallery__cap">
+        {%- if (it.year | string) | hasReal %}<span class="gallery__year">{{ it.year }}</span>{% endif %}
+        {%- if it.title | hasReal %}<span class="gallery__title">{{ it.title }}</span>{% endif %}
+        {%- if it.client | hasReal %}<span class="gallery__client">{{ it.client }}</span>{% endif %}
+      </figcaption>
+    </figure>
+    {%- endfor %}
+  </div>
+</div></section>

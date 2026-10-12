@@ -1,0 +1,7 @@
+{#- Pull quote. -#}
+<section class="section section--cream" id="{{ s.id }}" data-label="Quote"><div class="container container--narrow">
+  <blockquote class="pullquote">
+    <p>{{ s.text }}</p>
+    {%- if s.attribution %}<cite>{{ s.attribution }}</cite>{% endif %}
+  </blockquote>
+</div></section>

@@ -1,0 +1,158 @@
+{
+  "id": "about",
+  "slug": "/company/about",
+  "template": "content-page",
+  "seo": {
+    "title": "About Zicom",
+    "description": "Part of ASX-listed Zicom Group, headquartered in Singapore, with a permanent engineering team in Bangladesh."
+  },
+  "breadcrumb": [
+    "Home",
+    "Company",
+    "About Zicom"
+  ],
+  "hero": {
+    "eyebrow": "Company",
+    "title": "About Zicom",
+    "subtitle": "Part of ASX-listed Zicom Group, headquartered in Singapore, with a permanent engineering team in Bangladesh.",
+    "image": {
+      "src": "/images/50mmscfd-compressor-station-titas-locg-4.jpg",
+      "alt": "Compressor shed at Titas LOC-G"
+    }
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "group",
+      "title": "One group, four clusters",
+      "text": "Zicom Group is listed on the Australian Securities Exchange and headquartered in Singapore. Of its four operating clusters, Marine, Oil & Gas covers gas processing, compression, metering, industrial control and automation. The other three are Construction Equipment, Precision Engineering & Technologies, and MedTacc."
+    },
+    {
+      "type": "richtext",
+      "id": "bangladesh",
+      "title": "Not a liaison office, an operating company",
+      "text": "Zicom Equipment Bangladesh runs a permanent engineering and after-sales organisation supporting the turnkey projects it delivers. Held in country: process, civil, mechanical, electrical, instrumentation & control, QA/QC and HSE, procurement, marketing and sales."
+    },
+    {
+      "type": "stats",
+      "id": "numbers",
+      "items": [
+        {
+          "value": "200+",
+          "label": "Engineers and technicians (group)"
+        },
+        {
+          "value": "400+",
+          "label": "Total workforce (group)"
+        },
+        {
+          "value": "10",
+          "label": "Engineering disciplines"
+        },
+        {
+          "value": "9",
+          "label": "Countries with a Zicom office"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "facilities",
+      "title": "Where the work physically happens",
+      "columns": [
+        "Facility",
+        "Area"
+      ],
+      "rows": [
+        [
+          "Singapore — Marine, Oil & Gas projects",
+          "6,000 sqm"
+        ],
+        [
+          "Singapore — Marine equipment",
+          "5,100 sqm"
+        ],
+        [
+          "Huzhou, China",
+          "9,000 sqm"
+        ],
+        [
+          "Brisbane, Australia",
+          "20,000 sqm"
+        ],
+        [
+          "Chonburi, Thailand · Batam, Indonesia",
+          "4,700 · 2,300 sqm"
+        ]
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how-we-work",
+      "title": "Between the specification and the plant",
+      "items": [
+        {
+          "title": "You specify",
+          "text": "Scope, standards, certifications required."
+        },
+        {
+          "title": "We engineer",
+          "text": "Design, procurement, panel build, programming."
+        },
+        {
+          "title": "We construct",
+          "text": "Civil, mechanical, electrical, instrumentation."
+        },
+        {
+          "title": "We commission",
+          "text": "Testing, start-up, handover, documentation."
+        },
+        {
+          "title": "We stay",
+          "text": "O&M, calibration, spares, training."
+        }
+      ]
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Company",
+      "items": [
+        {
+          "label": "About Zicom",
+          "href": "/company/about",
+          "current": true
+        },
+        {
+          "label": "QA/QC & ISO Certifications",
+          "href": "/company/quality",
+          "current": false
+        },
+        {
+          "label": "Clients & Partners",
+          "href": "/company/clients-partners",
+          "current": false
+        },
+        {
+          "label": "Careers",
+          "href": "/careers",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

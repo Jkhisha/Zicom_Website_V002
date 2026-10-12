@@ -1,0 +1,543 @@
+{
+  "header": {
+    "items": [
+      {
+        "id": "solutions",
+        "label": "Solutions",
+        "href": "/solutions",
+        "menu": {
+          "intro": {
+            "eyebrow": "Solutions",
+            "title": "Engineered systems, delivered whole",
+            "text": "EPC packages, control systems and terminal software, designed, built and commissioned by one team.",
+            "link": {
+              "label": "All solutions",
+              "href": "/solutions"
+            }
+          },
+          "columns": [
+            {
+              "heading": "EPC in Oil & Gas",
+              "href": "/solutions/epc-oil-gas",
+              "links": [
+                {
+                  "label": "Gas Process Plants",
+                  "href": "/solutions/epc-oil-gas/gas-process-plants"
+                },
+                {
+                  "label": "Compressor Stations",
+                  "href": "/solutions/epc-oil-gas/compressor-stations"
+                },
+                {
+                  "label": "City Gate & Metering Stations",
+                  "href": "/solutions/epc-oil-gas/city-gate-metering-stations"
+                },
+                {
+                  "label": "Regulating and Metering Stations",
+                  "href": "/solutions/epc-oil-gas/rms-skids"
+                },
+                {
+                  "label": "Flow Computers",
+                  "href": "/solutions/epc-oil-gas/flow-computers"
+                },
+                {
+                  "label": "Water Bath Heaters",
+                  "href": "/solutions/epc-oil-gas/water-bath-heaters"
+                },
+                {
+                  "label": "Filtration & Separation",
+                  "href": "/solutions/epc-oil-gas/filtration-separation"
+                },
+                {
+                  "label": "PIG Launchers & Receivers",
+                  "href": "/solutions/epc-oil-gas/pig-launchers-receivers"
+                }
+              ]
+            },
+            {
+              "heading": "Process Automation",
+              "href": "/solutions/process-automation",
+              "links": [
+                {
+                  "label": "Overview",
+                  "href": "/solutions/process-automation"
+                },
+                {
+                  "label": "DCS",
+                  "href": "/solutions/process-automation/dcs"
+                },
+                {
+                  "label": "PLC",
+                  "href": "/solutions/process-automation/plc"
+                },
+                {
+                  "label": "SCADA & HMI",
+                  "href": "/solutions/process-automation/scada-hmi"
+                },
+                {
+                  "label": "Safety Instrumented Systems",
+                  "href": "/solutions/process-automation/sis"
+                },
+                {
+                  "label": "Brownfield Upgrades",
+                  "href": "/solutions/process-automation/brownfield-upgrades"
+                },
+                {
+                  "label": "Remote Monitoring",
+                  "href": "/solutions/process-automation/remote-monitoring"
+                }
+              ]
+            },
+            {
+              "heading": "Terminal Automation",
+              "href": "/solutions/terminal-automation",
+              "links": [
+                {
+                  "label": "Overview",
+                  "href": "/solutions/terminal-automation"
+                },
+                {
+                  "label": "Loading Bay & Gate Control",
+                  "href": "/solutions/terminal-automation#loading"
+                },
+                {
+                  "label": "Tank Farm Monitoring",
+                  "href": "/solutions/terminal-automation#storage"
+                },
+                {
+                  "label": "ESD, Fire & Gas",
+                  "href": "/solutions/terminal-automation#safety"
+                },
+                {
+                  "label": "SAP Integration",
+                  "href": "/solutions/terminal-automation#integration"
+                },
+                {
+                  "label": "Reporting & Custody Transfer",
+                  "href": "/solutions/terminal-automation#reporting"
+                }
+              ]
+            }
+          ],
+          "featured": {
+            "eyebrow": "Featured · 2025",
+            "title": "Titas LOC-E & G compressor stations",
+            "text": "Central DCS on Rockwell PlantPAx for BGFCL",
+            "image": {
+              "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+              "alt": "Control room with DCS and SCADA screens at the Titas LOC-E compressor station"
+            },
+            "href": "/projects#titas-loc-e-compressor-station-80-mmscfd"
+          }
+        }
+      },
+      {
+        "id": "products",
+        "label": "Products",
+        "href": "/products",
+        "menu": {
+          "intro": {
+            "eyebrow": "Products",
+            "title": "Partner brands, supported locally",
+            "text": "Authorized distribution of control platforms, valves and instrumentation, with spares held in country.",
+            "link": {
+              "label": "All partner brands",
+              "href": "/products"
+            }
+          },
+          "columns": [
+            {
+              "heading": "Control & instrumentation",
+              "links": [
+                {
+                  "label": "Supcon",
+                  "href": "/products/supcon",
+                  "description": "DCS, SIS and control platforms"
+                },
+                {
+                  "label": "Softing",
+                  "href": "/products/softing",
+                  "description": "Industrial connectivity"
+                },
+                {
+                  "label": "Red Lion",
+                  "href": "/products/red-lion",
+                  "description": "Industrial networking & data"
+                },
+                {
+                  "label": "Tancy",
+                  "href": "/products/tancy",
+                  "description": "Ultrasonic gas flow meters"
+                }
+              ]
+            },
+            {
+              "heading": "Valves & process equipment",
+              "links": [
+                {
+                  "label": "NexVal",
+                  "href": "/products/nexval",
+                  "description": "Control valves"
+                },
+                {
+                  "label": "Keckonn",
+                  "href": "/products/keckonn",
+                  "description": "Manual valves & actuators"
+                },
+                {
+                  "label": "Cimarron",
+                  "href": "/products/cimarron",
+                  "description": "Flare packages"
+                },
+                {
+                  "label": "Catalogues & Datasheets",
+                  "href": "/products/downloads"
+                }
+              ]
+            }
+          ],
+          "featured": {
+            "eyebrow": "Authorized Channel Partner",
+            "title": "Our Supcon partnership",
+            "text": "ECS-700 DCS · TCS-900 SIS (SIL 3) · Nyx UCS",
+            "image": {
+              "src": "/images/80-mmscfd-compressor-station-titas-loce-5.jpg",
+              "alt": "Supcon DCS and SCADA deployed in a Zicom-commissioned control room"
+            },
+            "href": "/products/supcon"
+          }
+        }
+      },
+      {
+        "id": "services",
+        "label": "Services",
+        "href": "/services",
+        "menu": {
+          "intro": {
+            "eyebrow": "Services",
+            "title": "From first design to year fifteen",
+            "text": "Engineering before the build, and the support that keeps a plant running after handover.",
+            "link": {
+              "label": "All services",
+              "href": "/services"
+            }
+          },
+          "columns": [
+            {
+              "heading": "Engineering",
+              "links": [
+                {
+                  "label": "FEED Engineering",
+                  "href": "/services/feed-engineering"
+                },
+                {
+                  "label": "Process Automation Consulting",
+                  "href": "/services/process-automation-consulting"
+                }
+              ]
+            },
+            {
+              "heading": "Delivery",
+              "links": [
+                {
+                  "label": "Installation & Commissioning",
+                  "href": "/services/installation-commissioning"
+                }
+              ]
+            },
+            {
+              "heading": "Lifecycle support",
+              "links": [
+                {
+                  "label": "After-Sales Service",
+                  "href": "/services/after-sales-service"
+                },
+                {
+                  "label": "Field Calibration",
+                  "href": "/services/field-calibration"
+                },
+                {
+                  "label": "Bench Calibration",
+                  "href": "/services/bench-calibration"
+                },
+                {
+                  "label": "Leak Detection Systems (LDS)",
+                  "href": "/services/leak-detection-systems"
+                },
+                {
+                  "label": "Mobile Gas Leak Detection",
+                  "href": "/services/mobile-gas-leak-detection"
+                },
+                {
+                  "label": "Training",
+                  "href": "/services/training"
+                }
+              ]
+            }
+          ],
+          "featured": {
+            "eyebrow": "After handover",
+            "title": "Calibration, spares and O&M",
+            "text": "Field and bench calibration from our in-house lab in Bangladesh.",
+            "image": {
+              "src": "/images/50-mmscfd-laksam-ms-2.jpg",
+              "alt": "Filter separators at Laksam metering station"
+            },
+            "href": "/services/field-calibration"
+          }
+        }
+      },
+      {
+        "id": "projects",
+        "label": "Projects",
+        "href": "/projects",
+        "menu": null
+      },
+      {
+        "id": "company",
+        "label": "Company",
+        "href": "/company/about",
+        "menu": {
+          "intro": {
+            "eyebrow": "Company",
+            "title": "Who stands behind the work",
+            "text": "Part of ASX-listed Zicom Group, with a permanent engineering team in Bangladesh.",
+            "link": {
+              "label": "About Zicom",
+              "href": "/company/about"
+            }
+          },
+          "columns": [
+            {
+              "heading": "About",
+              "links": [
+                {
+                  "label": "About Zicom",
+                  "href": "/company/about"
+                },
+                {
+                  "label": "QA/QC & ISO Certifications",
+                  "href": "/company/quality"
+                },
+                {
+                  "label": "Clients & Partners",
+                  "href": "/company/clients-partners"
+                }
+              ]
+            },
+            {
+              "heading": "Join us",
+              "links": [
+                {
+                  "label": "Careers",
+                  "href": "/careers",
+                  "description": "Open roles and life at Zicom"
+                }
+              ]
+            }
+          ],
+          "featured": {
+            "eyebrow": "Quality",
+            "title": "Six certificates, two entities",
+            "text": "ISO 9001, 14001 and 45001, held by both the Singapore and Bangladesh companies.",
+            "image": {
+              "src": "/images/250-mmscfd-demra-cgs-1.jpg",
+              "alt": "A city gate station delivered by Zicom in Bangladesh"
+            },
+            "href": "/company/quality"
+          }
+        }
+      },
+      {
+        "id": "resources",
+        "label": "Resources",
+        "href": "/resources",
+        "menu": {
+          "intro": {
+            "eyebrow": "Resources",
+            "title": "What we know, shared",
+            "text": "Project news, field notes, specification guides and product downloads.",
+            "link": {
+              "label": "All resources",
+              "href": "/resources"
+            }
+          },
+          "columns": [
+            {
+              "heading": "Read",
+              "links": [
+                {
+                  "label": "Blog",
+                  "href": "/resources/blog"
+                },
+                {
+                  "label": "News & Moments",
+                  "href": "/resources/news"
+                },
+                {
+                  "label": "Specification Guides",
+                  "href": "/resources/specification-guides",
+                  "description": "Clauses you can lift into a tender"
+                }
+              ]
+            },
+            {
+              "heading": "Download",
+              "links": [
+                {
+                  "label": "Catalogues & Datasheets",
+                  "href": "/products/downloads"
+                }
+              ]
+            }
+          ],
+          "featured": {
+            "eyebrow": "Specification guide",
+            "title": "What a good control system specification contains",
+            "text": "Architecture, I/O, safety, interfaces, security, lifecycle.",
+            "image": {
+              "src": "/images/80-mmscfd-compressor-station-titas-loce-1.jpg",
+              "alt": "Gas compressor package with cooler at Titas LOC-E"
+            },
+            "href": "/resources/specification-guides/control-system-specification"
+          }
+        }
+      }
+    ],
+    "utilityLinks": [
+      {
+        "label": "Careers",
+        "href": "/careers"
+      }
+    ],
+    "cta": {
+      "label": "Contact Us",
+      "href": "/contact"
+    },
+    "search": {
+      "placeholder": "Search products, projects, services"
+    }
+  },
+  "mobile": {
+    "note": "Same items as header. Menu opens level by level; Contact Us stays pinned at the bottom.",
+    "backLabel": "Back",
+    "closeLabel": "Close menu",
+    "openLabel": "Open menu"
+  },
+  "footer": {
+    "tagline": "EPC, process automation and field services for oil & gas.",
+    "columns": [
+      {
+        "heading": "Solutions",
+        "links": [
+          {
+            "label": "EPC in Oil & Gas",
+            "href": "/solutions/epc-oil-gas"
+          },
+          {
+            "label": "Process Automation",
+            "href": "/solutions/process-automation"
+          },
+          {
+            "label": "Terminal Automation",
+            "href": "/solutions/terminal-automation"
+          }
+        ]
+      },
+      {
+        "heading": "Products",
+        "links": [
+          {
+            "label": "Supcon",
+            "href": "/products/supcon"
+          },
+          {
+            "label": "NexVal",
+            "href": "/products/nexval"
+          },
+          {
+            "label": "Keckonn",
+            "href": "/products/keckonn"
+          },
+          {
+            "label": "Cimarron",
+            "href": "/products/cimarron"
+          },
+          {
+            "label": "Softing",
+            "href": "/products/softing"
+          },
+          {
+            "label": "Red Lion",
+            "href": "/products/red-lion"
+          },
+          {
+            "label": "Tancy",
+            "href": "/products/tancy"
+          }
+        ]
+      },
+      {
+        "heading": "Services",
+        "links": [
+          {
+            "label": "FEED Engineering",
+            "href": "/services/feed-engineering"
+          },
+          {
+            "label": "Process Automation Consulting",
+            "href": "/services/process-automation-consulting"
+          },
+          {
+            "label": "Installation & Commissioning",
+            "href": "/services/installation-commissioning"
+          },
+          {
+            "label": "Calibration",
+            "href": "/services/field-calibration"
+          },
+          {
+            "label": "Leak Detection",
+            "href": "/services/leak-detection-systems"
+          }
+        ]
+      },
+      {
+        "heading": "Company",
+        "links": [
+          {
+            "label": "About Zicom",
+            "href": "/company/about"
+          },
+          {
+            "label": "QA/QC & ISO",
+            "href": "/company/quality"
+          },
+          {
+            "label": "Projects",
+            "href": "/projects"
+          },
+          {
+            "label": "Careers",
+            "href": "/careers"
+          },
+          {
+            "label": "Resources",
+            "href": "/resources"
+          }
+        ]
+      }
+    ],
+    "legalLinks": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy"
+      },
+      {
+        "label": "Contact Us",
+        "href": "/contact"
+      }
+    ],
+    "copyright": "© {year} Zicom Equipment Private Limited. All rights reserved."
+  }
+}

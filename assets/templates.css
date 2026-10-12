@@ -1,0 +1,349 @@
+/* =========================================================
+   ZICOM — TEMPLATES (design system)
+   Single source of truth for section designs + tokens.
+   Consumed by the production site AND the section-templates lab.
+   Theme is token-driven; override the :root vars to re-skin.
+   ========================================================= */
+
+:root {
+  --ink: #16181d;          /* primary text        */
+  --muted: #5c616b;        /* secondary text      */
+  --line: #e7e7e4;         /* hairlines           */
+  --bg: #ffffff;           /* page background     */
+  --bg-cream: #f7f5f1;     /* warm section band   */
+  --bg-gray: #f3f4f6;      /* cool section band   */
+  --accent: #e10600;       /* ZICOM red           */
+  --accent-ink: #ffffff;
+  --accent-deep: #b30500;
+  --font: "Red Hat Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --serif: "Red Hat Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --container: 1200px;
+  --nav-h: 48px;
+  /* Full-view height budget: the viewport MINUS the fixed navbar.
+     Use these for any section meant to fill "one screen" — never raw 100vh,
+     otherwise the top of the view hides behind the navbar.
+     --view-h-s uses svh (mobile-safe); it invalidates & falls back to --view-h
+     on browsers without svh support. */
+  --view-h: calc(100vh - var(--nav-h));
+  --view-h-s: calc(100svh - var(--nav-h));
+  /* Frosted-glass chrome: shared by the navbar (scrolled state) AND the
+     scroll-spy rail (hover) so both read as the same material. */
+  --glass-bg: rgba(255,255,255,0.72);
+  --glass-filter: saturate(180%) blur(20px);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-snap-type: y proximity; scroll-padding-top: var(--nav-h); }
+/* Every top-level section is a snap target: its top aligns just below the fixed
+   navbar (scroll-padding-top: --nav-h) — NOT the viewport top — so the section
+   head isn't hidden behind the bar. Same offset governs #anchor jumps and the
+   scroll-spy's smooth-scroll, keeping them consistent with the sticky panes
+   (.covers__sticky / .message__stage) which also pin at top: --nav-h.
+   Because <html> uses `proximity` (not `mandatory`), a section only snaps when
+   you're already scrolled close to its edge — so the tall `section--message`
+   and `section--covers` blocks still scroll freely through their middle. */
+main > section {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+body {
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+
+.container { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: clamp(1.25rem, 5vw, 3rem); }
+
+/* ---------- primitives ---------- */
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 10px;
+  margin: 0 0 1rem;
+  font-size: 0.78rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--accent);
+}
+.eyebrow::before { content: ""; width: 26px; height: 2px; background: var(--accent); }
+
+.section-title {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.7rem, 3.6vw, 2.8rem);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  max-width: 22ch;
+}
+.section-head { margin-bottom: clamp(2rem, 4vw, 3.5rem); }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 0.55rem;
+  padding: 0.85rem 1.5rem; border-radius: 100px;
+  font-weight: 600; font-size: 0.95rem;
+  background: var(--accent); color: var(--accent-ink);
+  border: 1px solid var(--accent);
+  transition: background 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+.btn:hover { background: var(--accent-deep); border-color: var(--accent-deep); transform: translateY(-2px); }
+.btn--ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+.btn--ghost:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+.btn--on-dark { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); color: #fff; }
+.btn--on-dark:hover { background: rgba(255,255,255,0.2); }
+.arrow { transition: transform 0.2s ease; }
+.link-more:hover .arrow, .btn:hover .arrow { transform: translateX(4px); }
+
+.link-more {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-weight: 600; font-size: 0.95rem; color: var(--accent);
+}
+
+/* section rhythm */
+.section { padding-block: clamp(4rem, 9vw, 8rem); }
+.section--cream { background: var(--bg-cream); }
+.section--gray { background: var(--bg-gray); }
+
+/* =========================================================
+   Cover-scroll hero (PowerPoint "Cover" transition)
+   ========================================================= */
+.section--covers { position: relative; height: 400vh; }  /* JS sets exact */
+/* Immersive full-bleed pane: fills the WHOLE viewport (top:0), so the
+   transparent navbar floats over the cover image. Do NOT subtract --nav-h here
+   — that would drop the image below the bar and leave a blank strip behind it. */
+.covers__sticky { position: sticky; top: 0; height: 100vh; height: 100svh; width: 100%; overflow: hidden; }
+.cover {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end;
+  text-align: left; padding: clamp(2rem, 8vw, 7rem); padding-bottom: clamp(4rem, 12vh, 8rem);
+  color: #fff; background: #1b1d22 center/cover no-repeat; will-change: transform;
+}
+.cover::before { content: ""; position: absolute; inset: 0;
+  /* diagonal veil: darkest at bottom-left (behind the text), clear at top-right */
+  background: linear-gradient(to top right,
+    rgba(8,8,10,0.85) 0%,
+    rgba(8,8,10,0.45) 40%,
+    rgba(8,8,10,0.12) 72%,
+    rgba(8,8,10,0) 100%); }
+.cover__inner { position: relative; z-index: 1; }
+.cover__index { display: block; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.3em; color: var(--accent); margin-bottom: 1rem; }
+.cover__title { margin: 0; font-weight: 800; font-size: clamp(2.4rem, 9vw, 6rem); line-height: 1.02; letter-spacing: -0.02em; text-shadow: 0 2px 24px rgba(0,0,0,0.5); }
+.cover__subtitle { margin: 1.6vh 0 0; max-width: 44ch; font-size: clamp(1rem, 2.4vw, 1.55rem); font-weight: 300; text-shadow: 0 1px 12px rgba(0,0,0,0.5); }
+.covers__hint { position: absolute; z-index: 1; bottom: 3.5vh; right: 6vw; font-size: 0.72rem; letter-spacing: 0.3em; text-transform: uppercase; opacity: 0.85; animation: bob 2s ease-in-out infinite; }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+
+/* =========================================================
+   Intro
+   ========================================================= */
+.intro__grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: clamp(1.5rem, 5vw, 4rem); align-items: start; }
+.intro__title { font-family: var(--serif); font-weight: 600; font-size: clamp(1.8rem, 4vw, 3rem); line-height: 1.1; letter-spacing: -0.01em; }
+.intro__text { font-size: clamp(1.05rem, 1.5vw, 1.25rem); color: var(--muted); line-height: 1.75; }
+
+/* =========================================================
+   Cards
+   ========================================================= */
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1rem, 2vw, 1.6rem); }
+.card {
+  position: relative; display: flex; flex-direction: column;
+  padding: clamp(1.6rem, 2.4vw, 2.4rem);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 14px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.card::before { content: ""; position: absolute; left: 0; top: 1.6rem; bottom: 1.6rem; width: 3px; background: var(--accent); border-radius: 3px; opacity: 0; transition: opacity 0.25s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 24px 50px -30px rgba(0,0,0,0.35); border-color: transparent; }
+.card:hover::before { opacity: 1; }
+.card__num { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.15em; color: var(--accent); margin-bottom: 1rem; }
+.card__title { font-size: 1.25rem; font-weight: 700; margin-bottom: 0.6rem; }
+.card__text { color: var(--muted); font-size: 0.98rem; margin-bottom: 1.4rem; flex: 1; }
+
+/* =========================================================
+   Stats
+   ========================================================= */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(1rem, 2vw, 2rem); }
+.stat { padding-top: 1.4rem; border-top: 2px solid var(--accent); }
+.stat__value { font-family: var(--serif); font-weight: 600; font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1; color: var(--ink); }
+.stat__label { margin-top: 0.6rem; color: var(--muted); font-size: 0.95rem; max-width: 22ch; }
+
+/* =========================================================
+   Teasers
+   ========================================================= */
+.teasers { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1rem, 2vw, 1.6rem); }
+.teaser { display: flex; flex-direction: column; padding: clamp(1.6rem, 2.4vw, 2.2rem); background: var(--bg); border-radius: 14px; border: 1px solid var(--line); }
+.teaser__title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.6rem; }
+.teaser__text { color: var(--muted); font-size: 0.98rem; margin-bottom: 1.4rem; flex: 1; }
+
+/* =========================================================
+   Logos
+   ========================================================= */
+.logos { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; }
+.logo-item {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 96px; padding: 1.2rem;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+  color: var(--muted); font-weight: 700; letter-spacing: 0.02em; font-size: 1.05rem;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.logo-item img { max-height: 42px; width: auto; opacity: 0.85; }
+.logo-item:hover { color: var(--accent); border-color: var(--accent); }
+
+/* =========================================================
+   Message reveal (+ optional background images / frame)
+   ========================================================= */
+.section--message { position: relative; height: 460vh; background: #0c0c0e; color: #fff; }
+/* Message reveal pane. Unlike .covers__sticky (transparent nav floats over the
+   cover image), the navbar is SOLID over message sections — so the stage sits
+   BELOW the bar: pin at top:--nav-h and take the --view-h budget so the centered
+   lines never scroll up under the navbar. The section's own #0c0c0e fills the
+   thin strip behind the bar, so there's no blank gap. */
+.message__stage { position: sticky; top: var(--nav-h); height: var(--view-h); height: var(--view-h-s); display: grid; place-items: center; overflow: hidden; text-align: center; }
+.message__bg { position: absolute; inset: 0; z-index: 0; background: #0c0c0e center/cover no-repeat; opacity: 0; transition: opacity 0.8s ease; }
+.message__bg.is-active { opacity: 1; }
+.message__overlay { position: absolute; inset: 0; z-index: 1; pointer-events: none; background: rgba(8,8,10,0.58); }
+.message__frame { position: absolute; z-index: 2; inset: clamp(1.2rem, 3vw, 2.4rem); border: 1px solid rgba(225,6,0,0.55); pointer-events: none; }
+/* Desktop only: the scroll-spy dot rail sits on the left (~48px). Push the frame's
+   left edge in past it so the red hairline doesn't collide with the rail. The spy
+   is hidden below 720px (site.css), so there the frame stays symmetric. */
+@media (min-width: 721px) { .message__frame { left: clamp(3.5rem, 6vw, 5.5rem); } }
+.message__eyebrow { position: absolute; z-index: 3; top: clamp(3rem, 14vh, 7rem); left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 12px; color: var(--accent); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.28em; text-transform: uppercase; }
+.message__eyebrow::before, .message__eyebrow::after { content: ""; width: clamp(20px, 4vw, 40px); height: 1px; background: currentColor; opacity: 0.7; }
+.message__lines { position: relative; z-index: 3; display: grid; place-items: center; }
+.message__line { grid-area: 1 / 1; max-width: 22ch; margin: 0; font-weight: 800; font-size: clamp(1.9rem, 6vw, 4.2rem); line-height: 1.1; letter-spacing: -0.02em; opacity: 0; transition: opacity 0.55s ease; }
+.message__line.is-active { opacity: 1; }
+.message__cta { position: absolute; z-index: 3; bottom: clamp(3rem, 14vh, 7rem); left: 50%; transform: translateX(-50%); opacity: 0; transition: opacity 0.55s ease; pointer-events: none; }
+.message__cta.is-shown { opacity: 1; pointer-events: auto; }
+
+/* message-left: same reveal, but label + lines + CTA stack at the bottom-left */
+.section--message--left .message__stage {
+  display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end;
+  text-align: left; padding: clamp(2rem, 8vw, 7rem); padding-bottom: clamp(3rem, 12vh, 7rem);
+}
+.section--message--left .message__eyebrow { position: static; transform: none; margin: 0 0 1rem; }
+.section--message--left .message__eyebrow::after { display: none; }
+.section--message--left .message__lines { justify-items: start; width: 100%; }
+.section--message--left .message__line { max-width: min(90%, 22ch); text-align: left; }
+.section--message--left .message__cta { position: static; transform: none; margin-top: clamp(1.5rem, 4vh, 2.5rem); }
+/* Left-aligned variant: dark at the bottom-left where the text sits, fully clear
+   past 40% through to the top-right. */
+.section--message--left .message__overlay { background: linear-gradient(to top right, rgba(8,8,10,1) 0%, rgba(8,8,10,.9) 20%,  rgba(8,8,10,0) 60%);  }
+
+/* =========================================================
+   CTA band
+   ========================================================= */
+.cta-band { background: var(--ink); color: #fff; text-align: center; }
+.cta-band .section-title { max-width: 20ch; margin-inline: auto; color: #fff; }
+.cta-band__text { margin: 1rem auto 2rem; max-width: 46ch; color: rgba(255,255,255,0.75); font-size: 1.1rem; }
+.cta-band__actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+/* =========================================================
+   Responsive + motion (content)
+   ========================================================= */
+@media (max-width: 900px) {
+  .intro__grid { grid-template-columns: 1fr; }
+  .cards, .teasers { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .covers__hint { animation: none; }
+  .message__line, .message__cta, .message__bg, .card, .btn,
+  .carousel__slide, .carousel__dot { transition: none; }
+}
+
+/* =========================================================
+   Hero designs — split (left/right-image), full-image,
+   centered, framed, overlap   (+ carousel)
+   Data shape: subtitle, title, paragraphs, images[], buttonText, buttonLink
+   ========================================================= */
+:root {
+  --bg-alt: #f5f5f8;
+  --full-overlay-rgb: 0, 0, 0;
+  --content-max: 560px;
+  --gold: #a97e3f;
+  --champagne: #e6d6ad;
+}
+
+/* primitives used by these designs */
+.title { margin: 0 0 1.25rem; font-size: clamp(2rem, 4.6vw, 3.4rem); line-height: 1.08; letter-spacing: -0.02em; font-weight: 700; }
+.paragraphs { color: var(--muted); font-size: clamp(1rem, 1.1vw, 1.075rem); line-height: 1.75; }
+.paragraphs p { margin: 0 0 1rem; }
+.paragraphs p:last-child { margin-bottom: 0; }
+.content-inner { width: 100%; max-width: var(--content-max); }
+.content-inner .btn { margin-top: 1.75rem; }
+.btn--light { background: #fff; color: var(--ink); border-color: #fff; box-shadow: 0 10px 26px -10px rgba(0,0,0,0.4); }
+.btn--light:hover { background: #fff; color: var(--ink); border-color: #fff; box-shadow: 0 16px 32px -12px rgba(0,0,0,0.5); }
+
+/* carousel */
+.carousel { position: relative; width: 100%; height: 100%; overflow: hidden; }
+.carousel--full { position: absolute; inset: 0; }
+.carousel__slide { position: absolute; inset: 0; opacity: 0; transition: opacity 0.9s ease; }
+.carousel__slide.is-active { opacity: 1; }
+.carousel__slide img { width: 100%; height: 100%; object-fit: cover; }
+.carousel__dots { position: absolute; z-index: 3; left: 50%; bottom: 1.4rem; transform: translateX(-50%); display: flex; gap: 0.5rem; align-items: center; }
+.carousel__dot { width: 9px; height: 9px; padding: 0; border: none; cursor: pointer; border-radius: 50%; background: rgba(255,255,255,0.55); box-shadow: 0 1px 4px rgba(0,0,0,0.28); transition: width 0.35s ease, background 0.35s ease, border-radius 0.35s ease; }
+.carousel__dot:hover { background: rgba(255,255,255,0.8); }
+.carousel__dot.is-active { width: 28px; border-radius: 6px; background: #fff; }
+.carousel__dots--full { left: auto; right: 2rem; bottom: 2rem; transform: none; }
+
+/* split (left-image / right-image) */
+.section--split { display: grid; grid-template-columns: 1fr 1fr; min-height: var(--view-h); min-height: var(--view-h-s); }
+.split__media { position: relative; overflow: hidden; background: var(--bg-alt); }
+.split__content { display: flex; align-items: center; padding: clamp(2rem, 6vw, 6rem); background: var(--bg); }
+.section--right-image .split__media { order: 2; }
+.section--right-image .split__content { order: 1; }
+
+/* full-image */
+.section--full { position: relative; display: flex; align-items: flex-end; justify-content: flex-start; min-height: var(--view-h); min-height: var(--view-h-s); overflow: hidden; }
+.full__overlay { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(to top right, rgba(var(--full-overlay-rgb),0.88) 0%, rgba(var(--full-overlay-rgb),0.45) 40%, rgba(var(--full-overlay-rgb),0.12) 72%, rgba(var(--full-overlay-rgb),0) 100%); }
+.full__content { position: relative; z-index: 3; max-width: 70vw; padding: clamp(2rem, 6vw, 5rem); color: #fff; }
+.section--full .eyebrow { color: #fff; opacity: 0.9; }
+.section--full .eyebrow::before { background: currentColor; }
+.section--full .title { color: #fff; }
+.section--full .paragraphs { color: rgba(255,255,255,0.82); }
+.section--full .content-inner { max-width: 50vw; }
+
+/* serif titles for the aristocratic trio */
+.section--centered .title, .section--framed .title, .section--overlap .title { font-family: var(--serif); font-weight: 500; letter-spacing: -0.005em; font-size: clamp(2.4rem, 5.2vw, 4.2rem); line-height: 1.06; }
+.section--centered .eyebrow, .section--framed .eyebrow { display: flex; align-items: center; justify-content: center; gap: 14px; color: var(--champagne); }
+.section--centered .eyebrow::before, .section--centered .eyebrow::after, .section--framed .eyebrow::before, .section--framed .eyebrow::after { content: ""; width: clamp(24px,5vw,46px); height: 1px; background: currentColor; opacity: 0.6; }
+.section--centered .btn, .section--framed .btn { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.6); color: #fff; box-shadow: none; -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px); }
+.section--centered .btn:hover, .section--framed .btn:hover { background: rgba(255,255,255,0.18); box-shadow: none; }
+
+/* centered */
+.section--centered { position: relative; display: flex; align-items: center; justify-content: center; min-height: var(--view-h); min-height: var(--view-h-s); overflow: hidden; }
+.center__overlay { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(to bottom, rgba(10,10,12,0.55) 0%, rgba(10,10,12,0.30) 45%, rgba(10,10,12,0.68) 100%); }
+.center__content { position: relative; z-index: 3; width: 100%; padding: clamp(2rem,6vw,5rem); color: #fff; text-align: center; }
+.section--centered .content-inner { max-width: 680px; margin-inline: auto; }
+.section--centered .title { color: #fff; }
+.section--centered .paragraphs { color: rgba(255,255,255,0.85); }
+
+/* framed */
+.section--framed { position: relative; display: flex; align-items: flex-end; justify-content: center; min-height: var(--view-h); min-height: var(--view-h-s); overflow: hidden; padding: clamp(1.4rem,3vw,2.6rem); text-align: center; }
+.frame__overlay { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(to top, rgba(10,10,12,0.72) 0%, rgba(10,10,12,0.18) 55%, rgba(10,10,12,0.38) 100%); }
+.frame__border { position: absolute; z-index: 3; inset: clamp(1.4rem,3vw,2.6rem); border: 1px solid rgba(255,255,255,0.55); pointer-events: none; }
+/* Desktop only: clear the left scroll-spy dot rail (~48px), same as .message__frame.
+   Spy is hidden below 720px (site.css), so there the frame stays symmetric. */
+@media (min-width: 721px) { .frame__border { left: clamp(3.5rem, 6vw, 5.5rem); } }
+.frame__content { position: relative; z-index: 4; padding: clamp(2rem,5vw,4rem); color: #fff; }
+.section--framed .content-inner { max-width: 660px; margin-inline: auto; }
+.section--framed .title { color: #fff; }
+.section--framed .paragraphs { color: rgba(255,255,255,0.85); }
+
+/* overlap */
+.section--overlap { position: relative; background: var(--bg); padding-bottom: clamp(3rem,8vw,6rem); }
+.overlap__media { position: relative; height: 68vh; height: 68svh; min-height: 320px; overflow: hidden; }
+.overlap__card { position: relative; z-index: 3; width: min(760px,92%); margin: -9vh auto 0; background: #faf8f4; padding: clamp(2rem,5vw,4rem); box-shadow: 0 30px 60px -30px rgba(0,0,0,0.35); }
+.section--overlap .content-inner { max-width: 100%; }
+.section--overlap .eyebrow { color: var(--gold); }
+.section--overlap .btn { background: var(--ink); color: #fff; border-color: var(--ink); box-shadow: none; }
+.section--overlap .btn:hover { background: #000; border-color: #000; box-shadow: none; }
+
+@media (max-width: 860px) {
+  .section--split { grid-template-columns: 1fr; min-height: auto; }
+  .section--split .split__media { order: 0; height: 56vh; min-height: 320px; }
+  .section--split .split__content { order: 1; padding: clamp(2rem,8vw,3.5rem); }
+  .carousel__dots { bottom: 1.1rem; }
+  .carousel__dots--full { top: 1.2rem; right: 1.2rem; bottom: auto; left: auto; }
+  .full__content, .section--full .content-inner { max-width: 100%; }
+  .overlap__media { height: 52vh; height: 52svh; }
+  .overlap__card { margin-top: -7vh; width: 92%; }
+}

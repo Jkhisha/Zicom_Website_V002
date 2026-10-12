@@ -1,0 +1,204 @@
+{
+  "id": "home",
+  "slug": "/",
+  "template": "home",
+  "seo": {
+    "title": "Engineering reliable energy & automation",
+    "description": "An EPCC company in Bangladesh: gas process plants, compressor stations and metering stations — engineered, procured, built and commissioned by one team, and supported long after handover."
+  },
+  "hero": {
+    "type": "cover-scroll",
+    "eyebrow": "EPCC · Oil & Gas",
+    "title": "One team, the whole project",
+    "subtitle": "Zicom engineers, procures, builds and commissions energy and automation infrastructure across Bangladesh — then supports it for years.",
+    "note": "Scroll-driven cover (design = test.html .section--message cover-scroll): the brand logo docks into the navbar, then each EPCC phase below reveals over its own full-screen image.",
+    "slides": [
+      {
+        "line": "Engineering",
+        "text": "FEED and detailed design that de-risks the build.",
+        "image": {
+          "src": "/images/Home_Cover_Engineering.jpg",
+          "alt": "Engineering and design of a gas process facility"
+        }
+      },
+      {
+        "line": "Procurement",
+        "text": "Globally sourced equipment, with spares held in country.",
+        "image": {
+          "src": "/images/Home_Cover_Procurement.jpg",
+          "alt": "Procured process equipment and skids on site"
+        }
+      },
+      {
+        "line": "Construction",
+        "text": "Fabrication and installation by our own crews.",
+        "image": {
+          "src": "/images/Home_Cover_Construction.jpg",
+          "alt": "Construction of a compressor station"
+        }
+      },
+      {
+        "line": "Commissioning",
+        "text": "Safe start-up and on-schedule handover.",
+        "image": {
+          "src": "/images/Home_Cover_Commissioning.jpg",
+          "alt": "Commissioning the control system in the field"
+        }
+      },
+      {
+        "line": "One EPCC team",
+        "text": "Engineered, built and commissioned — then supported long after handover.",
+        "image": {
+          "src": "/images/Home_Cover_Final.jpg",
+          "alt": "Completed and operating gas infrastructure"
+        }
+      }
+    ],
+    "ctas": [
+      {
+        "label": "Explore our solutions",
+        "href": "/solutions"
+      },
+      {
+        "label": "Contact Us",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "text-image",
+      "id": "intro-solutions",
+      "imageSide": "left",
+      "eyebrow": "Solutions",
+      "title": "Engineered systems, delivered whole",
+      "subtitle": "EPC, process automation and terminal automation.",
+      "paragraphs": [
+        "EPC packages, control systems and terminal software — designed, built and commissioned by one team.",
+        "From gas process plants, compressor stations and metering stations to DCS, SCADA and safety systems, and terminal automation that runs a fuel depot from one screen."
+      ],
+      "image": {
+        "src": "/images/80-mmscfd-compressor-station-titas-loce-1.jpg",
+        "alt": "Process skids and flare stack at the Titas LOC-E compressor station"
+      },
+      "link": {
+        "label": "Explore solutions",
+        "href": "/solutions"
+      }
+    },
+    {
+      "type": "text-image",
+      "id": "intro-products",
+      "imageSide": "right",
+      "eyebrow": "Products",
+      "title": "Partner brands, supported locally",
+      "subtitle": "Control platforms, valves and instrumentation.",
+      "paragraphs": [
+        "Authorized distribution of control platforms, valves and instrumentation, with spares held in country.",
+        "Supcon DCS and safety systems, NexVal and Keckonn valves, Cimarron flare packages, plus Softing, Red Lion and Tancy instrumentation."
+      ],
+      "image": {
+        "src": "/images/products-partner-brands.jpg",
+        "alt": "Partner-brand control and instrumentation products"
+      },
+      "link": {
+        "label": "Explore products",
+        "href": "/products"
+      }
+    },
+    {
+      "type": "text-image",
+      "id": "intro-services",
+      "imageSide": "left",
+      "eyebrow": "Services",
+      "title": "From first design to year fifteen",
+      "subtitle": "Engineering, commissioning and lifecycle support.",
+      "paragraphs": [
+        "Engineering before the build, and the support that keeps a plant running after handover.",
+        "FEED and automation consulting, installation and commissioning, field and bench calibration, and pipeline leak-detection surveys."
+      ],
+      "image": {
+        "src": "/images/50-mmscfd-laksam-ms-1.jpg",
+        "alt": "Field service at the Laksam metering station"
+      },
+      "link": {
+        "label": "Explore services",
+        "href": "/services"
+      }
+    },
+    {
+      "type": "text-image",
+      "id": "intro-projects",
+      "imageSide": "right",
+      "eyebrow": "Projects",
+      "title": "Built, commissioned, running",
+      "subtitle": "Proven delivery on critical infrastructure.",
+      "paragraphs": [
+        "Process plants, compressor stations, city gate and metering stations delivered across Bangladesh.",
+        "Explore the portfolio — each project opens its own photo gallery from the field."
+      ],
+      "image": {
+        "src": "/images/250-mmscfd-ashulia-cgs-1.jpg",
+        "alt": "250 MMSCFD Ashulia city gate station"
+      },
+      "link": {
+        "label": "View all projects",
+        "href": "/projects"
+      }
+    },
+    {
+      "type": "text-image",
+      "id": "intro-company",
+      "imageSide": "left",
+      "eyebrow": "Company",
+      "title": "A permanent team, not a liaison office",
+      "subtitle": "Part of ASX-listed Zicom Group.",
+      "paragraphs": [
+        "A permanent engineering team in Bangladesh — 80+ engineers and technicians across 10 disciplines, held in country.",
+        "Zicom Equipment Bangladesh is audited in its own name to ISO 9001, 14001 and 45001 by TÜV AUSTRIA."
+      ],
+      "image": {
+        "src": "/images/company-team.jpg",
+        "alt": "The Zicom engineering team in Bangladesh"
+      },
+      "link": {
+        "label": "About Zicom",
+        "href": "/company"
+      }
+    },
+    {
+      "type": "text-image",
+      "id": "intro-resources",
+      "imageSide": "right",
+      "eyebrow": "Resources",
+      "title": "What we know, shared",
+      "subtitle": "News, field notes and specification guides.",
+      "paragraphs": [
+        "Project news, field notes, specification guides and product downloads.",
+        "Plain-language guidance you can lift straight into a tender or specification."
+      ],
+      "image": {
+        "src": "/images/resources-insights.jpg",
+        "alt": "Specification guides and resources"
+      },
+      "link": {
+        "label": "All resources",
+        "href": "/resources"
+      }
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

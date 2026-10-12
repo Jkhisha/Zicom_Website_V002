@@ -1,0 +1,39 @@
+{
+  "id": "narsingdi-compressor-station-30-mmscfd",
+  "slug": "narsingdi-compressor-station-30-mmscfd",
+  "href": "/projects#narsingdi-compressor-station-30-mmscfd",
+  "title": "30 MMSCFD Compressor Station, Narsingdi",
+  "capacity": "30 MMSCFD",
+  "category": "compressor-stations",
+  "location": "Narsingdi",
+  "client": "Bangladesh Gas Fields Company Limited (BGFCL)",
+  "year": 2021,
+  "scope": "Gas compression facilities for Narsingdi gas field",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/30mmscfd-compressor-station-narsingdi-2.jpg",
+    "alt": "30 MMSCFD Compressor Station, Narsingdi, photo 1",
+    "sourceFile": "30MMSCFD COMPRESSOR STATION NARSINGDI_2.jpg"
+  },
+  "gallery": {
+    "count": 3,
+    "images": [
+      {
+        "src": "/images/30mmscfd-compressor-station-narsingdi-2.jpg",
+        "alt": "30 MMSCFD Compressor Station, Narsingdi, photo 1",
+        "sourceFile": "30MMSCFD COMPRESSOR STATION NARSINGDI_2.jpg"
+      },
+      {
+        "src": "/images/30mmscfd-compressor-station-narsingdi-4.jpg",
+        "alt": "30 MMSCFD Compressor Station, Narsingdi, photo 2",
+        "sourceFile": "30MMSCFD COMPRESSOR STATION NARSINGDI_4.jpg"
+      },
+      {
+        "src": "/images/30mmscfd-compressor-station-narsingdi-5.jpg",
+        "alt": "30 MMSCFD Compressor Station, Narsingdi, photo 3",
+        "sourceFile": "30MMSCFD COMPRESSOR STATION NARSINGDI_5.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "specification-guides",
+  "slug": "/resources/specification-guides",
+  "template": "posts-listing",
+  "seo": {
+    "title": "Specification Guides",
+    "description": "Plain-language guides, each ending with clauses you can lift straight into a tender."
+  },
+  "breadcrumb": [
+    "Home",
+    "Resources",
+    "Specification Guides"
+  ],
+  "hero": {
+    "eyebrow": "Resources",
+    "title": "Specification Guides",
+    "subtitle": "Plain-language guides, each ending with clauses you can lift straight into a tender."
+  },
+  "sections": [
+    {
+      "type": "posts",
+      "id": "posts",
+      "source": "posts",
+      "filter": {
+        "type": "guide"
+      },
+      "emptyText": "Nothing here yet."
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Resources",
+      "items": [
+        {
+          "label": "All resources",
+          "href": "/resources",
+          "current": false
+        },
+        {
+          "label": "Blog",
+          "href": "/resources/blog",
+          "current": false
+        },
+        {
+          "label": "News & Moments",
+          "href": "/resources/news",
+          "current": false
+        },
+        {
+          "label": "Specification Guides",
+          "href": "/resources/specification-guides",
+          "current": true
+        }
+      ]
+    }
+  ]
+}

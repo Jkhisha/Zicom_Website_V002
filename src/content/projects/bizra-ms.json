@@ -1,0 +1,34 @@
+{
+  "id": "bizra-ms",
+  "slug": "bizra-ms",
+  "href": "/projects#bizra-ms",
+  "title": "Bizra MS",
+  "capacity": "[TBC: 250 MMSCFD per photo files, 150 MMSCFD per portfolio deck]",
+  "category": "metering-stations",
+  "location": "Bizra",
+  "client": "Gas Transmission Company Limited (GTCL)",
+  "year": 2025,
+  "scope": "Metering station, lump-sum turnkey",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/250-mmscfd-bizra-ms-2.jpg",
+    "alt": "Bizra MS, photo 1",
+    "sourceFile": "250 MMSCFD BIZRA MS_2.jpeg"
+  },
+  "gallery": {
+    "count": 2,
+    "images": [
+      {
+        "src": "/images/250-mmscfd-bizra-ms-2.jpg",
+        "alt": "Bizra MS, photo 1",
+        "sourceFile": "250 MMSCFD BIZRA MS_2.jpeg"
+      },
+      {
+        "src": "/images/250-mmscfd-bizra-ms-4.jpg",
+        "alt": "Bizra MS, photo 2",
+        "sourceFile": "250 MMSCFD BIZRA MS_4.jpeg"
+      }
+    ]
+  }
+}

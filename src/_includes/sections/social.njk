@@ -1,0 +1,10 @@
+{% from "sections/_macros.njk" import shead %}
+<section class="section" id="{{ s.id }}" data-label="{{ s.title or 'Social' }}"><div class="container container--narrow">
+  {{ shead(s) }}
+  <ul class="social-links">
+    {%- for l in s.links %}
+    {%- set ready = l.href and "TBC" not in l.href %}
+    <li>{% if ready %}<a class="btn btn--ghost" href="{{ l.href }}">{{ l.label }}</a>{% else %}<span class="btn btn--ghost is-disabled">{{ l.label }}</span>{% endif %}</li>
+    {%- endfor %}
+  </ul>
+</div></section>

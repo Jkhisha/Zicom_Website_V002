@@ -1,0 +1,175 @@
+{
+  "id": "rms-skids",
+  "slug": "/solutions/epc-oil-gas/rms-skids",
+  "template": "detail-page",
+  "seo": {
+    "title": "Regulating and Metering Stations",
+    "description": "Compact, pre-tested regulating and metering stations."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "EPC in Oil & Gas",
+    "Regulating and Metering Stations"
+  ],
+  "parent": {
+    "label": "EPC in Oil & Gas",
+    "href": "/solutions/epc-oil-gas"
+  },
+  "hero": {
+    "eyebrow": "EPC in Oil & Gas",
+    "title": "Regulating and Metering Stations",
+    "subtitle": "Compact, pre-tested regulating and metering stations.",
+    "image": {
+      "src": "/images/50-mmscfd-laksam-ms-1.jpg",
+      "alt": "Metering runs under a canopy at Laksam"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "rms-overview",
+      "title": "Regulating and metering, on a skid",
+      "text": "A regulating and metering station controls pressure and measures flow for distribution and industrial supply. We build them skid-mounted and factory tested, so installation on site is fast and the station arrives proven."
+    },
+    {
+      "type": "spec-table",
+      "id": "specifications",
+      "title": "At a glance",
+      "rows": [
+        {
+          "label": "Application",
+          "value": "Pressure regulation and metering for distribution and industrial supply"
+        },
+        {
+          "label": "Delivery",
+          "value": "Skid-mounted, factory tested before shipment"
+        },
+        {
+          "label": "Specifications",
+          "value": "Capacity, pressure class and design code sized to the project duty and confirmed per enquiry"
+        }
+      ]
+    },
+    {
+      "type": "downloads",
+      "id": "downloads",
+      "items": [
+        {
+          "title": "Regulating and Metering Station datasheet",
+          "file": "",
+          "format": "PDF"
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "filter": {
+        "category": [
+          "tbs-rms",
+          "metering-stations"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "id": "rms-scope",
+      "title": "What we deliver",
+      "items": [
+        "Pressure regulation with active and monitor streams",
+        "Filtration and, where needed, pre-heating",
+        "Custody or check metering runs",
+        "Flow computers and station instrumentation",
+        "Overpressure protection (slam-shut / relief)",
+        "Skid fabrication, factory test and commissioning"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "rms-why",
+      "eyebrow": "Why it matters",
+      "title": "Pre-tested beats on-site surprises",
+      "text": "Building and testing the station as a skid in the shop means fewer unknowns in the field and a faster, cleaner commissioning.",
+      "link": {
+        "label": "Installation & commissioning",
+        "href": "/services/installation-commissioning"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in EPC in Oil & Gas",
+      "items": [
+        {
+          "label": "Gas Process Plants",
+          "href": "/solutions/epc-oil-gas/gas-process-plants",
+          "current": false
+        },
+        {
+          "label": "Compressor Stations",
+          "href": "/solutions/epc-oil-gas/compressor-stations",
+          "current": false
+        },
+        {
+          "label": "City Gate & Metering Stations",
+          "href": "/solutions/epc-oil-gas/city-gate-metering-stations",
+          "current": false
+        },
+        {
+          "label": "Regulating and Metering Stations",
+          "href": "/solutions/epc-oil-gas/rms-skids",
+          "current": true
+        },
+        {
+          "label": "Flow Computers",
+          "href": "/solutions/epc-oil-gas/flow-computers",
+          "current": false
+        },
+        {
+          "label": "Water Bath Heaters",
+          "href": "/solutions/epc-oil-gas/water-bath-heaters",
+          "current": false
+        },
+        {
+          "label": "Filtration & Separation",
+          "href": "/solutions/epc-oil-gas/filtration-separation",
+          "current": false
+        },
+        {
+          "label": "PIG Launchers & Receivers",
+          "href": "/solutions/epc-oil-gas/pig-launchers-receivers",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft — client to supply photos and specifications"
+}

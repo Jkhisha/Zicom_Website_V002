@@ -1,0 +1,92 @@
+/* =========================================================
+   ZICOM — SITE CHROME (navbar, footer, scroll-spy)
+   Loaded after templates.css. Site-only shell; not a section design.
+   ========================================================= */
+
+/* ---------- Navbar: transparent over hero, blurs on scroll ---------- */
+.nav {
+  position: fixed; inset: 0 0 auto 0; z-index: 50;
+  height: var(--nav-h);
+  display: flex; align-items: center;
+  transition: background 0.3s ease, box-shadow 0.3s ease, backdrop-filter 0.3s ease;
+}
+.nav__inner { width: 100%; max-width: var(--container); margin-inline: auto;
+  padding-inline: clamp(1.25rem, 5vw, 3rem);
+  display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
+.nav__logo { display: inline-flex; align-items: center; gap: 0.5rem; margin-right: auto; font-weight: 700; font-size: 1rem; letter-spacing: 0.01em; }
+.nav__logo img { width: 22px; height: auto; }
+.nav__logo span { color: #fff; transition: color 0.3s ease; }
+.nav__links { display: flex; gap: clamp(0.9rem, 2vw, 1.6rem); list-style: none; }
+.nav__links a { font-weight: 400; font-size: 0.82rem; letter-spacing: 0.005em; color: rgba(255,255,255,0.88); transition: color 0.3s ease; }
+.nav__links a:hover { color: #fff; }
+.nav__right { display: flex; align-items: center; gap: 0.85rem; }
+.nav__cta { padding: 0.4rem 0.95rem; font-size: 0.8rem; font-weight: 500; }
+.nav__toggle { display: none; background: none; border: 0; cursor: pointer; width: 30px; height: 30px; }
+.nav__toggle span { display: block; height: 2px; background: #fff; margin: 5px 0; transition: background 0.3s ease; }
+
+/* scrolled state: bright blurred bar, dark text */
+.nav.is-scrolled {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-filter);
+  backdrop-filter: var(--glass-filter);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+}
+.nav.is-scrolled .nav__logo span,
+.nav.is-scrolled .nav__links a { color: var(--ink); }
+.nav.is-scrolled .nav__links a:hover { color: var(--accent); }
+.nav.is-scrolled .nav__toggle span { background: var(--ink); }
+
+/* ---------- Footer ---------- */
+.site-footer { background: #0c0c0e; color: rgba(255,255,255,0.7); padding-block: clamp(2.5rem, 5vw, 4rem); }
+.site-footer__inner { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; justify-content: space-between; }
+.site-footer__logo { display: inline-flex; align-items: center; gap: 0.6rem; color: #fff; font-weight: 800; }
+.site-footer__logo img { width: 26px; }
+.site-footer small { color: rgba(255,255,255,0.5); }
+
+/* ---------- Scroll-spy: left side dot rail, expands to labels on hover ---------- */
+.spy { position: fixed; z-index: 40; left: clamp(0.5rem, 1.5vw, 1rem); top: 50%; transform: translateY(-50%); }
+.spy__rail {
+  box-sizing: border-box; padding: 8px 10px; border-radius: 14px;
+  border: 1px solid transparent; background: transparent;
+  transition: background-color .24s ease, box-shadow .24s ease, border-color .24s ease, backdrop-filter .24s ease, padding .32s cubic-bezier(.2,.8,.2,1);
+}
+/* Same frosted glass as the scrolled navbar (--glass-bg/--glass-filter). */
+.spy:hover .spy__rail {
+  background: var(--glass-bg); border-color: var(--line);
+  -webkit-backdrop-filter: var(--glass-filter); backdrop-filter: var(--glass-filter);
+  box-shadow: 0 18px 40px rgba(21,25,30,0.12); padding-right: 16px;
+}
+.spy.on-cover .spy__rail { display: none; }
+.spy__list { display: flex; flex-direction: column; }
+.spy__item {
+  height: 36px; display: flex; align-items: center;
+  background: none; border: 0; padding: 0; cursor: pointer; text-align: left;
+}
+.spy__dotwrap { width: 24px; height: 36px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+.spy__dot {
+  width: 8px; height: 8px; border-radius: 50%; background: #b9bdb6;
+  transition: transform .25s cubic-bezier(.2,.8,.2,1), background-color .25s ease;
+}
+.spy__label {
+  display: flex; align-items: baseline; gap: 10px; overflow: hidden; white-space: nowrap; padding-left: 12px;
+  max-width: 0; opacity: 0; transform: translateX(-8px);
+  transition: max-width .32s cubic-bezier(.2,.8,.2,1), opacity .22s ease, transform .26s cubic-bezier(.2,.8,.2,1);
+}
+.spy:hover .spy__label { max-width: 260px; opacity: 1; transform: none; transition-delay: calc(var(--i, 0) * 22ms); }
+.spy__text { font-size: 14px; color: #4a5059; font-weight: 400; }
+.spy__item.is-active .spy__dot { background: var(--accent); transform: scale(1.5); }
+.spy__item.is-active .spy__text { color: var(--ink); font-weight: 600; }
+/* collapsed dots over dark sections read light; on hover the panel is frosted so revert */
+.spy.on-dark:not(:hover) .spy__dot { background: rgba(255,255,255,0.55); }
+.spy.on-dark:not(:hover) .spy__item.is-active .spy__dot { background: var(--accent); }
+/* Expanded: the panel is frosted-light whatever the section behind it, so the pale
+   default dot washes out (worst over dark sections). Darken inactive dots to a
+   mid grey; the active dot keeps the accent red. */
+.spy:hover .spy__item:not(.is-active) .spy__dot { background: #8a9088; }
+
+/* ---------- Responsive (chrome) ---------- */
+@media (max-width: 720px) {
+  .nav__links, .nav__cta { display: none; }
+  .nav__toggle { display: block; }
+  .spy { display: none; }
+}

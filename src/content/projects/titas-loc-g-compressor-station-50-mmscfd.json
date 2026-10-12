@@ -1,0 +1,54 @@
+{
+  "id": "titas-loc-g-compressor-station-50-mmscfd",
+  "slug": "titas-loc-g-compressor-station-50-mmscfd",
+  "href": "/projects#titas-loc-g-compressor-station-50-mmscfd",
+  "title": "50 MMSCFD Compressor Station, Titas LOC-G",
+  "capacity": "50 MMSCFD",
+  "category": "compressor-stations",
+  "location": "Titas Gas Field, Location G",
+  "client": "Bangladesh Gas Fields Company Limited (BGFCL)",
+  "year": 2025,
+  "scope": "Compressor station with central DCS on Rockwell PlantPAx",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/50mmscfd-compressor-station-titas-locg-1.jpg",
+    "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 1",
+    "sourceFile": "50MMSCFD COMPRESSOR STATION TITAS LOCG_1.jpeg"
+  },
+  "gallery": {
+    "count": 6,
+    "images": [
+      {
+        "src": "/images/50mmscfd-compressor-station-titas-locg-1.jpg",
+        "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 1",
+        "sourceFile": "50MMSCFD COMPRESSOR STATION TITAS LOCG_1.jpeg"
+      },
+      {
+        "src": "/images/50mmscfd-compressor-station-titas-locg-1.jpg",
+        "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 2",
+        "sourceFile": "50MMSCFD COMPRESSOR STATION TITAS LOCG_1.jpg"
+      },
+      {
+        "src": "/images/50mmscfd-compressor-station-titas-locg-2.jpg",
+        "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 3",
+        "sourceFile": "50MMSCFD COMPRESSOR STATION TITAS LOCG_2.jpeg"
+      },
+      {
+        "src": "/images/50mmscfd-compressor-station-titas-locg-3.jpg",
+        "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 4",
+        "sourceFile": "50MMSCFD COMPRESSOR STATION TITAS LOCG_3.jpg"
+      },
+      {
+        "src": "/images/50mmscfd-compressor-station-titas-locg-4.jpg",
+        "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 5",
+        "sourceFile": "50MMSCFD COMPRESSOR STATION TITAS LOCG_4.jpeg"
+      },
+      {
+        "src": "/images/50mmscfd-compressor-station-titas-locg-4.jpg",
+        "alt": "50 MMSCFD Compressor Station, Titas LOC-G, photo 6",
+        "sourceFile": "50MMSCFD COMPRESSOR STATION TITAS LOCG_4.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rangpur-tbs-50-mmscfd",
+  "slug": "rangpur-tbs-50-mmscfd",
+  "href": "/projects#rangpur-tbs-50-mmscfd",
+  "title": "50 MMSCFD Rangpur TBS",
+  "capacity": "50 MMSCFD",
+  "category": "tbs-rms",
+  "location": "Rangpur",
+  "client": "[TBC]",
+  "year": "[TBC]",
+  "scope": "[TBC]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/50-mmscfd-rangpur-tbs-5.jpg",
+    "alt": "50 MMSCFD Rangpur TBS, photo 1",
+    "sourceFile": "50 MMSCFD RANGPUR TBS_5.jpg"
+  },
+  "gallery": {
+    "count": 1,
+    "images": [
+      {
+        "src": "/images/50-mmscfd-rangpur-tbs-5.jpg",
+        "alt": "50 MMSCFD Rangpur TBS, photo 1",
+        "sourceFile": "50 MMSCFD RANGPUR TBS_5.jpg"
+      }
+    ]
+  }
+}

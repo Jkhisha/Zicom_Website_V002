@@ -1,0 +1,22 @@
+{
+  "id": "cfp-1250-bbl",
+  "slug": "cfp-1250-bbl",
+  "href": "/projects#cfp-1250-bbl",
+  "title": "1250 BBL CFP",
+  "capacity": "1250 BBL",
+  "category": "other",
+  "location": "[TBC]",
+  "client": "[TBC]",
+  "year": "[TBC]",
+  "scope": "Condensate fractionation plant [TBC: confirm]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "",
+    "alt": "1250 BBL CFP"
+  },
+  "gallery": {
+    "count": 0,
+    "images": []
+  }
+}

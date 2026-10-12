@@ -1,0 +1,155 @@
+{
+  "id": "feed-engineering",
+  "slug": "/services/feed-engineering",
+  "template": "detail-page",
+  "seo": {
+    "title": "FEED Engineering",
+    "description": "Front-end design that de-risks your project."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services",
+    "FEED Engineering"
+  ],
+  "parent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "FEED Engineering",
+    "subtitle": "Front-end design that de-risks your project.",
+    "image": {
+      "src": "/images/80-mmscfd-compressor-station-titas-loce-3.jpg",
+      "alt": "Process skids and flare stack at Titas LOC-E"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Front-end engineering design turns a concept into a costable, buildable project. We establish the process design basis, develop P&IDs and equipment sizing, and produce the cost estimate and schedule the rest of the project is built on — so you go to sanction with the risks understood."
+    },
+    {
+      "type": "list",
+      "id": "includes",
+      "title": "What's included",
+      "items": [
+        "Process design basis and philosophy",
+        "PFDs and P&IDs",
+        "Equipment and line sizing",
+        "Major equipment datasheets",
+        "Cost estimate for the sanction decision",
+        "Project schedule and execution plan"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "feed-process",
+      "title": "How a FEED runs",
+      "items": [
+        {
+          "title": "Basis of design",
+          "text": "Capacities, feed composition, standards and battery limits agreed."
+        },
+        {
+          "title": "Process design",
+          "text": "Heat and mass balance, PFDs and P&IDs."
+        },
+        {
+          "title": "Sizing & selection",
+          "text": "Equipment sizing, line sizing and major equipment specs."
+        },
+        {
+          "title": "Estimate & plan",
+          "text": "Cost estimate, schedule and execution strategy."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "why",
+      "eyebrow": "Why it matters",
+      "title": "Decisions made early are the cheap ones",
+      "text": "Getting the process basis, control philosophy and equipment selection right at the front end is what keeps the build on schedule and the plant safe. The expensive surprises are the ones found during commissioning.",
+      "link": {
+        "label": "Our EPC approach",
+        "href": "/solutions/epc-oil-gas"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Services",
+      "items": [
+        {
+          "label": "FEED Engineering",
+          "href": "/services/feed-engineering",
+          "current": true
+        },
+        {
+          "label": "Process Automation Consulting",
+          "href": "/services/process-automation-consulting",
+          "current": false
+        },
+        {
+          "label": "Installation & Commissioning",
+          "href": "/services/installation-commissioning",
+          "current": false
+        },
+        {
+          "label": "After-Sales Service",
+          "href": "/services/after-sales-service",
+          "current": false
+        },
+        {
+          "label": "Field Calibration",
+          "href": "/services/field-calibration",
+          "current": false
+        },
+        {
+          "label": "Bench Calibration",
+          "href": "/services/bench-calibration",
+          "current": false
+        },
+        {
+          "label": "Leak Detection Systems (LDS)",
+          "href": "/services/leak-detection-systems",
+          "current": false
+        },
+        {
+          "label": "Mobile Gas Leak Detection",
+          "href": "/services/mobile-gas-leak-detection",
+          "current": false
+        },
+        {
+          "label": "Training",
+          "href": "/services/training",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ],
+  "status": "draft — client to supply scope"
+}

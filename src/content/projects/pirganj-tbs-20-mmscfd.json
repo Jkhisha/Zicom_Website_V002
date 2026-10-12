@@ -1,0 +1,29 @@
+{
+  "id": "pirganj-tbs-20-mmscfd",
+  "slug": "pirganj-tbs-20-mmscfd",
+  "href": "/projects#pirganj-tbs-20-mmscfd",
+  "title": "20 MMSCFD Pirganj TBS",
+  "capacity": "20 MMSCFD",
+  "category": "tbs-rms",
+  "location": "Pirganj",
+  "client": "[TBC]",
+  "year": "[TBC]",
+  "scope": "[TBC]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/20-mmscfd-pirganj-tbs-2.jpg",
+    "alt": "20 MMSCFD Pirganj TBS, photo 1",
+    "sourceFile": "20 MMSCFD PIRGANJ TBS_2.jpg"
+  },
+  "gallery": {
+    "count": 1,
+    "images": [
+      {
+        "src": "/images/20-mmscfd-pirganj-tbs-2.jpg",
+        "alt": "20 MMSCFD Pirganj TBS, photo 1",
+        "sourceFile": "20 MMSCFD PIRGANJ TBS_2.jpg"
+      }
+    ]
+  }
+}

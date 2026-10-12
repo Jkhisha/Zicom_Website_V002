@@ -1,0 +1,57 @@
+{
+  "id": "blog",
+  "slug": "/resources/blog",
+  "template": "posts-listing",
+  "seo": {
+    "title": "Blog",
+    "description": "Field notes and engineering perspectives."
+  },
+  "breadcrumb": [
+    "Home",
+    "Resources",
+    "Blog"
+  ],
+  "hero": {
+    "eyebrow": "Resources",
+    "title": "Blog",
+    "subtitle": "Field notes and engineering perspectives."
+  },
+  "sections": [
+    {
+      "type": "posts",
+      "id": "posts",
+      "source": "posts",
+      "filter": {
+        "type": "blog"
+      },
+      "emptyText": "Nothing here yet."
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Resources",
+      "items": [
+        {
+          "label": "All resources",
+          "href": "/resources",
+          "current": false
+        },
+        {
+          "label": "Blog",
+          "href": "/resources/blog",
+          "current": true
+        },
+        {
+          "label": "News & Moments",
+          "href": "/resources/news",
+          "current": false
+        },
+        {
+          "label": "Specification Guides",
+          "href": "/resources/specification-guides",
+          "current": false
+        }
+      ]
+    }
+  ]
+}

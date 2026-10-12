@@ -1,0 +1,49 @@
+{
+  "id": "loc-j-process-plant-75-mmscfd",
+  "slug": "loc-j-process-plant-75-mmscfd",
+  "href": "/projects#loc-j-process-plant-75-mmscfd",
+  "title": "75 MMSCFD Process Plant, LOC-J",
+  "capacity": "75 MMSCFD",
+  "category": "process-plants",
+  "location": "Titas Gas Field, Location J",
+  "client": "[TBC: BGFCL?]",
+  "year": "[TBC]",
+  "scope": "Process plant with central DCS on ABB 800xA and SIL 3 safety system [TBC: confirm]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": true,
+  "coverImage": {
+    "src": "/images/75mmscfd-process-plant-locj-3.jpg",
+    "alt": "75 MMSCFD Process Plant, LOC-J, photo 1",
+    "sourceFile": "75MMSCFD PROCESS PLANT LOCJ_3.jpg"
+  },
+  "gallery": {
+    "count": 5,
+    "images": [
+      {
+        "src": "/images/75mmscfd-process-plant-locj-3.jpg",
+        "alt": "75 MMSCFD Process Plant, LOC-J, photo 1",
+        "sourceFile": "75MMSCFD PROCESS PLANT LOCJ_3.jpg"
+      },
+      {
+        "src": "/images/75mmscfd-process-plant-locj-4.jpg",
+        "alt": "75 MMSCFD Process Plant, LOC-J, photo 2",
+        "sourceFile": "75MMSCFD PROCESS PLANT LOCJ_4.jpg"
+      },
+      {
+        "src": "/images/75mmscfd-process-plant-locj-5.jpg",
+        "alt": "75 MMSCFD Process Plant, LOC-J, photo 3",
+        "sourceFile": "75MMSCFD PROCESS PLANT LOCJ_5.jpg"
+      },
+      {
+        "src": "/images/75mmscfd-process-plant-locj-6.jpg",
+        "alt": "75 MMSCFD Process Plant, LOC-J, photo 4",
+        "sourceFile": "75MMSCFD PROCESS PLANT LOCJ_6.jpg"
+      },
+      {
+        "src": "/images/75mmscfd-process-plant-locj-9.jpg",
+        "alt": "75 MMSCFD Process Plant, LOC-J, photo 5",
+        "sourceFile": "75MMSCFD PROCESS PLANT LOCJ_9.jpg"
+      }
+    ]
+  }
+}

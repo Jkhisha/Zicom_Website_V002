@@ -1,0 +1,33 @@
+{% from "sections/_macros.njk" import shead, arrow %}
+{#- Project cards. Source resolves to a set of project items:
+    - s.ids                -> those ids, in order
+    - source "projects.featured" / "projects.other" -> the curated id lists
+    - otherwise            -> all projects, capped by s.limit                      -#}
+{%- if s.ids %}{% set items = projectItems.byId | byIds(s.ids) %}
+{%- elif s.source == "projects.featured" %}{% set items = projectItems.byId | byIds(projectsMeta.featured) %}
+{%- elif s.source == "projects.other" %}{% set items = projectItems.byId | byIds(projectsMeta.other) %}
+{%- else %}{% set items = projectItems.list | limit(s.limit) %}{% endif %}
+<section class="section" id="{{ s.id }}" data-label="{{ s.eyebrow or s.title or 'Projects' }}"><div class="container">
+  {{ shead(s) }}
+  <div class="project-grid">
+    {%- for p in items %}
+    <article class="project-card" data-category="{{ p.category }}">
+      <div class="project-card__media">
+        {%- if p.coverImage and p.coverImage.src %}<img src="{{ p.coverImage.src }}" alt="{{ p.coverImage.alt }}" loading="lazy" onerror="this.closest('.project-card__media').classList.add('is-empty')">{% endif %}
+        {%- if p.gallery and p.gallery.count %}<span class="project-card__count">{{ p.gallery.count }} photos</span>{% endif %}
+      </div>
+      <div class="project-card__body">
+        {%- if p.capacity | hasReal %}<span class="project-card__cap">{{ p.capacity }}</span>{% endif %}
+        <h3 class="project-card__title">{{ p.title }}</h3>
+        <dl class="project-card__meta">
+          {%- if p.client | hasReal %}<div><dt>Client</dt><dd>{{ p.client }}</dd></div>{% endif %}
+          {%- if p.location | hasReal %}<div><dt>Location</dt><dd>{{ p.location }}</dd></div>{% endif %}
+          {%- if p.year | hasReal %}<div><dt>Year</dt><dd>{{ p.year }}</dd></div>{% endif %}
+        </dl>
+        {%- if p.summary | hasReal %}<p class="project-card__sum">{{ p.summary }}</p>{% endif %}
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+  {%- if s.link %}<div class="section-cta"><a class="btn btn--ghost" href="{{ s.link.href }}">{{ s.link.label }} {{ arrow() }}</a></div>{% endif %}
+</div></section>

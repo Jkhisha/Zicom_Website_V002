@@ -1,0 +1,141 @@
+{
+  "id": "training",
+  "slug": "/services/training",
+  "template": "detail-page",
+  "seo": {
+    "title": "Training",
+    "description": "Operator and maintenance training, on site."
+  },
+  "breadcrumb": [
+    "Home",
+    "Services",
+    "Training"
+  ],
+  "parent": {
+    "label": "Services",
+    "href": "/services"
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Training",
+    "subtitle": "Operator and maintenance training, on site.",
+    "image": {
+      "src": "/images/services/training.jpg",
+      "alt": "On-site training"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Operator and maintenance training, on site and through local institutes, registered with the Singapore Workforce Development Agency."
+    },
+    {
+      "type": "list",
+      "id": "includes",
+      "title": "What's included",
+      "items": [
+        "On-site operator training",
+        "Maintenance training",
+        "Training through local institutes"
+      ]
+    },
+    {
+      "type": "list",
+      "id": "training-scope",
+      "title": "What we train",
+      "items": [
+        "Operator training on the delivered control system",
+        "Maintenance and troubleshooting",
+        "Calibration and instrumentation practice",
+        "Safety system and shutdown procedures",
+        "Alarm response and abnormal-situation handling",
+        "Refresher and on-site sessions"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "training-why",
+      "eyebrow": "Why it matters",
+      "title": "The system is only as good as the team running it",
+      "text": "We hand plants over to operators who understand them — trained on the actual system they will run, not a generic course.",
+      "link": {
+        "label": "After-sales service",
+        "href": "/services/after-sales-service"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Services",
+      "items": [
+        {
+          "label": "FEED Engineering",
+          "href": "/services/feed-engineering",
+          "current": false
+        },
+        {
+          "label": "Process Automation Consulting",
+          "href": "/services/process-automation-consulting",
+          "current": false
+        },
+        {
+          "label": "Installation & Commissioning",
+          "href": "/services/installation-commissioning",
+          "current": false
+        },
+        {
+          "label": "After-Sales Service",
+          "href": "/services/after-sales-service",
+          "current": false
+        },
+        {
+          "label": "Field Calibration",
+          "href": "/services/field-calibration",
+          "current": false
+        },
+        {
+          "label": "Bench Calibration",
+          "href": "/services/bench-calibration",
+          "current": false
+        },
+        {
+          "label": "Leak Detection Systems (LDS)",
+          "href": "/services/leak-detection-systems",
+          "current": false
+        },
+        {
+          "label": "Mobile Gas Leak Detection",
+          "href": "/services/mobile-gas-leak-detection",
+          "current": false
+        },
+        {
+          "label": "Training",
+          "href": "/services/training",
+          "current": true
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

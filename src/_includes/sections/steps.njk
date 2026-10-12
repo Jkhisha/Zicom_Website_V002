@@ -1,0 +1,15 @@
+{% from "sections/_macros.njk" import shead %}
+{#- Numbered process steps. -#}
+<section class="section" id="{{ s.id }}" data-label="{{ s.title or s.id }}"><div class="container">
+  {{ shead(s) }}
+  <ol class="steps">
+    {%- for it in s.items %}
+    <li class="step">
+      <span class="step__num">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span>
+      <h3 class="step__title">{{ it.title }}</h3>
+      {%- if it.text %}<p class="step__text">{{ it.text }}</p>{% endif %}
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- if s.note %}<p class="section-note">{{ s.note }}</p>{% endif %}
+</div></section>

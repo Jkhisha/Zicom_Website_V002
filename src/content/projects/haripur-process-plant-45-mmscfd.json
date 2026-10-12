@@ -1,0 +1,39 @@
+{
+  "id": "haripur-process-plant-45-mmscfd",
+  "slug": "haripur-process-plant-45-mmscfd",
+  "href": "/projects#haripur-process-plant-45-mmscfd",
+  "title": "45 MMSCFD Process Plant, Haripur",
+  "capacity": "45 MMSCFD",
+  "category": "process-plants",
+  "location": "Haripur",
+  "client": "Sylhet Gas Fields Limited (SGFL)",
+  "year": 2024,
+  "scope": "Natural gas silica gel dehydration process plant, lump-sum turnkey, with DCS",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": true,
+  "coverImage": {
+    "src": "/images/45mmscfd-process-plant-haripur-3.jpg",
+    "alt": "45 MMSCFD Process Plant, Haripur, photo 1",
+    "sourceFile": "45MMSCFD PROCESS PLANT HARIPUR_3.png"
+  },
+  "gallery": {
+    "count": 3,
+    "images": [
+      {
+        "src": "/images/45mmscfd-process-plant-haripur-3.jpg",
+        "alt": "45 MMSCFD Process Plant, Haripur, photo 1",
+        "sourceFile": "45MMSCFD PROCESS PLANT HARIPUR_3.png"
+      },
+      {
+        "src": "/images/45mmscfd-process-plant-haripur-5.jpg",
+        "alt": "45 MMSCFD Process Plant, Haripur, photo 2",
+        "sourceFile": "45MMSCFD PROCESS PLANT HARIPUR_5.png"
+      },
+      {
+        "src": "/images/45mmscfd-process-plant-haripur-6.jpg",
+        "alt": "45 MMSCFD Process Plant, Haripur, photo 3",
+        "sourceFile": "45MMSCFD PROCESS PLANT HARIPUR_6.jpg"
+      }
+    ]
+  }
+}

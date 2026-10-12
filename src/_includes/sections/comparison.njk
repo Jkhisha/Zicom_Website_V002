@@ -1,0 +1,18 @@
+{% from "sections/_macros.njk" import shead %}
+{#- Side-by-side comparison: columns[] each with a title and label/value rows. -#}
+<section class="section section--cream" id="{{ s.id }}" data-label="{{ s.title or s.id }}"><div class="container">
+  {{ shead(s) }}
+  <div class="compare" style="--cols:{{ s.columns | length }}">
+    {%- for col in s.columns %}
+    <div class="compare__col">
+      <h3 class="compare__title">{{ col.title }}</h3>
+      <dl class="compare__rows">
+        {%- for r in col.rows %}
+        <div class="compare__row"><dt>{{ r.label }}</dt><dd>{{ r.value }}</dd></div>
+        {%- endfor %}
+      </dl>
+    </div>
+    {%- endfor %}
+  </div>
+  {%- if s.note %}<p class="section-note">{{ s.note }}</p>{% endif %}
+</div></section>

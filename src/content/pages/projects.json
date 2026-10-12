@@ -1,0 +1,163 @@
+{
+  "id": "projects",
+  "slug": "/projects",
+  "template": "projects",
+  "seo": {
+    "title": "Projects",
+    "description": "Process plants, compressor stations, city gate and metering stations delivered across Bangladesh."
+  },
+  "breadcrumb": [
+    "Home",
+    "Projects"
+  ],
+  "hero": {
+    "eyebrow": "Projects",
+    "title": "Our Projects",
+    "subtitle": "A track record of complex installations delivered to specification.",
+    "image": {
+      "src": "/images/250-mmscfd-ashulia-cgs-1.jpg",
+      "alt": "Ashulia city gate station at night"
+    }
+  },
+  "filters": {
+    "label": "Filter by type",
+    "allLabel": "All projects",
+    "source": "projects.categories",
+    "note": "Filters the list on this page; no page change."
+  },
+  "labels": {
+    "client": "Client",
+    "capacity": "Capacity",
+    "location": "Location",
+    "year": "Year",
+    "scope": "Scope",
+    "viewPhotos": "View photos",
+    "photoCount": "{count} photos",
+    "noPhotos": "Photos coming soon",
+    "galleryClose": "Close",
+    "galleryPrev": "Previous photo",
+    "galleryNext": "Next photo",
+    "galleryCounter": "{index} of {count}"
+  },
+  "sectionRail": [
+    {
+      "label": "Major Projects",
+      "anchor": "featured"
+    },
+    {
+      "label": "Other Projects",
+      "anchor": "other-projects"
+    },
+    {
+      "label": "Control Systems",
+      "anchor": "control-systems"
+    },
+    {
+      "label": "Beyond Oil & Gas",
+      "anchor": "other-sectors"
+    }
+  ],
+  "sections": [
+    {
+      "type": "projects",
+      "id": "featured",
+      "eyebrow": "Major projects",
+      "title": "Proven delivery on critical infrastructure",
+      "source": "projects.featured",
+      "gallery": "per-project"
+    },
+    {
+      "type": "projects",
+      "id": "other-projects",
+      "eyebrow": "Other Projects",
+      "title": "More of our work",
+      "source": "projects.other",
+      "groupBy": "category",
+      "gallery": "per-project"
+    },
+    {
+      "type": "table",
+      "id": "control-systems",
+      "title": "Control system deliveries",
+      "columns": [
+        "Client",
+        "System",
+        "Year"
+      ],
+      "rows": [
+        [
+          "BGFCL · Titas E and G",
+          "Rockwell PlantPAx, ControlLogix compressor control",
+          "2025"
+        ],
+        [
+          "BAPEX · Srikail",
+          "ABB Freelance with SIL 3 dedicated safety system",
+          "2016"
+        ],
+        [
+          "Pidilite · Bhaluka",
+          "Honeywell DCS engineering and integration",
+          "2019"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "id": "other-sectors",
+      "title": "Beyond oil & gas",
+      "columns": [
+        "Customer",
+        "Project",
+        "Scope",
+        "Year"
+      ],
+      "rows": [
+        [
+          "Kakenaka Corporation",
+          "Changi Terminal 4 car park fire fan system",
+          "MV fan monitoring and control",
+          "2017"
+        ],
+        [
+          "Padma Oil Company",
+          "Aircraft refuelling, Shahjalal International",
+          "EPCC lump-sum turnkey",
+          "2016"
+        ],
+        [
+          "Nanyang Technological University",
+          "Membrane RO research rig",
+          "LabVIEW SCADA",
+          "2015"
+        ],
+        [
+          "Siyuan Survey & Design",
+          "Parking guidance, Wuhan",
+          "313 bays, design and implementation",
+          "2012"
+        ],
+        [
+          "BPDB · KSRM · Abul Khair",
+          "Power plants and steel melting",
+          "Control and instrumentation",
+          "Various"
+        ]
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

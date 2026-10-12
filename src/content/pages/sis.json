@@ -1,0 +1,202 @@
+{
+  "id": "sis",
+  "slug": "/solutions/process-automation/sis",
+  "template": "detail-page",
+  "seo": {
+    "title": "Safety Instrumented Systems",
+    "description": "Control and safety must be separate systems. IEC 61511 requires the SIS to be independent of the basic process control system."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "Process Automation",
+    "Safety Instrumented Systems"
+  ],
+  "parent": {
+    "label": "Process Automation",
+    "href": "/solutions/process-automation"
+  },
+  "hero": {
+    "eyebrow": "Process Automation",
+    "title": "Safety Instrumented Systems",
+    "subtitle": "Control and safety must be separate systems. IEC 61511 requires the SIS to be independent of the basic process control system.",
+    "image": {
+      "src": "/images/projects/titas-loc-e-compressor-station-80-mmscfd/titas-loc-e-compressor-station-80-mmscfd-04.jpg",
+      "alt": "Suction scrubber and compressor at Titas LOC-E"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "comparison",
+      "id": "sis-vs-bpcs",
+      "title": "Control and safety must be separate systems",
+      "columns": [
+        {
+          "title": "SIS",
+          "subtitle": "Safety Instrumented System",
+          "rows": [
+            {
+              "label": "Job",
+              "value": "Take the process to a safe state when control fails"
+            },
+            {
+              "label": "Fails how",
+              "value": "People get hurt"
+            },
+            {
+              "label": "Availability",
+              "value": "Provable, SIL rated"
+            },
+            {
+              "label": "Certification",
+              "value": "IEC 61508 / 61511, independently assessed"
+            }
+          ]
+        },
+        {
+          "title": "BPCS",
+          "subtitle": "Basic Process Control System",
+          "rows": [
+            {
+              "label": "Job",
+              "value": "Keep the process at setpoint"
+            },
+            {
+              "label": "Fails how",
+              "value": "Process drifts, quality suffers"
+            },
+            {
+              "label": "Availability",
+              "value": "High"
+            },
+            {
+              "label": "Certification",
+              "value": "None required"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "id": "sil",
+      "title": "What a SIL rating actually buys you",
+      "columns": [
+        "Level",
+        "Risk reduction",
+        "Typical use"
+      ],
+      "rows": [
+        [
+          "SIL 1",
+          "10 to 100",
+          "Low-consequence trips"
+        ],
+        [
+          "SIL 2",
+          "100 to 1,000",
+          "Most process shutdown functions"
+        ],
+        [
+          "SIL 3",
+          "1,000 to 10,000",
+          "Fire, gas, high-pressure release"
+        ],
+        [
+          "SIL 4",
+          "10,000 to 100,000",
+          "Rare in process industry; usually redesign instead"
+        ]
+      ],
+      "note": "SIL is a property of a safety function, not of a box."
+    },
+    {
+      "type": "feature",
+      "id": "platform",
+      "eyebrow": "Platform",
+      "title": "Supcon TCS-900",
+      "text": "IEC 61508, TÜV Rheinland SIL 3, triple modular redundancy.",
+      "link": {
+        "label": "Supcon partnership",
+        "href": "/products/supcon"
+      }
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "ids": [
+        "titas-loc-c-compressor-station-180-mmscfd",
+        "loc-j-process-plant-75-mmscfd"
+      ]
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Process Automation",
+      "items": [
+        {
+          "label": "Overview",
+          "href": "/solutions/process-automation",
+          "current": false
+        },
+        {
+          "label": "DCS",
+          "href": "/solutions/process-automation/dcs",
+          "current": false
+        },
+        {
+          "label": "PLC",
+          "href": "/solutions/process-automation/plc",
+          "current": false
+        },
+        {
+          "label": "SCADA & HMI",
+          "href": "/solutions/process-automation/scada-hmi",
+          "current": false
+        },
+        {
+          "label": "Safety Instrumented Systems",
+          "href": "/solutions/process-automation/sis",
+          "current": true
+        },
+        {
+          "label": "Brownfield Upgrades",
+          "href": "/solutions/process-automation/brownfield-upgrades",
+          "current": false
+        },
+        {
+          "label": "Remote Monitoring",
+          "href": "/solutions/process-automation/remote-monitoring",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

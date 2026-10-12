@@ -1,0 +1,10 @@
+{% from "sections/_macros.njk" import shead %}
+<section class="section" id="{{ s.id }}" data-label="{{ s.title or s.id }}"><div class="container">
+  {{ shead(s) }}
+  <ul class="feature-list">
+    {%- for it in s.items %}
+    {%- set txt = it if it is string else it.text %}
+    {%- if "[TBC" not in txt %}<li class="feature-list__item">{{ txt }}</li>{% endif %}
+    {%- endfor %}
+  </ul>
+</div></section>

@@ -1,0 +1,15 @@
+{% from "sections/_macros.njk" import shead, arrow %}
+{#- Download list: each item title + file + format. [TBC] files render disabled. -#}
+<section class="section section--cream" id="{{ s.id }}" data-label="{{ s.title or 'Downloads' }}"><div class="container container--narrow">
+  {{ shead(s) }}
+  <ul class="downloads">
+    {%- for it in s.items %}
+    {%- set ready = it.file and "TBC" not in it.file %}
+    <li class="download{{ ' download--pending' if not ready }}">
+      <span class="download__name">{{ it.title }}</span>
+      <span class="download__meta">{% if it.format %}<span class="download__fmt">{{ it.format }}</span>{% endif %}
+      {%- if ready %}<a class="link-more" href="{{ it.file }}">Download {{ arrow() }}</a>{% else %}<span class="download__soon">Coming soon</span>{% endif %}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+</div></section>

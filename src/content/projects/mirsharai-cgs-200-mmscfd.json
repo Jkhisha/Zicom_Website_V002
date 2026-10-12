@@ -1,0 +1,34 @@
+{
+  "id": "mirsharai-cgs-200-mmscfd",
+  "slug": "mirsharai-cgs-200-mmscfd",
+  "href": "/projects#mirsharai-cgs-200-mmscfd",
+  "title": "200 MMSCFD Mirsharai CGS",
+  "capacity": "200 MMSCFD",
+  "category": "city-gate-stations",
+  "location": "Mirsharai",
+  "client": "[TBC]",
+  "year": "[TBC]",
+  "scope": "[TBC]",
+  "summary": "[TBC: one or two sentences on the scope, challenge and outcome]",
+  "featured": false,
+  "coverImage": {
+    "src": "/images/200mmscfd-mirsharai-cgs-1.jpg",
+    "alt": "200 MMSCFD Mirsharai CGS, photo 1",
+    "sourceFile": "200MMSCFD MIRSHARAI CGS_1.jpg"
+  },
+  "gallery": {
+    "count": 2,
+    "images": [
+      {
+        "src": "/images/200mmscfd-mirsharai-cgs-1.jpg",
+        "alt": "200 MMSCFD Mirsharai CGS, photo 1",
+        "sourceFile": "200MMSCFD MIRSHARAI CGS_1.jpg"
+      },
+      {
+        "src": "/images/200mmscfd-mirsharai-cgs-2.jpg",
+        "alt": "200 MMSCFD Mirsharai CGS, photo 2",
+        "sourceFile": "200MMSCFD MIRSHARAI CGS_2.jpg"
+      }
+    ]
+  }
+}

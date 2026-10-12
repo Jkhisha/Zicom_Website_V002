@@ -1,0 +1,27 @@
+{
+  "id": "thank-you",
+  "slug": "/contact/thank-you",
+  "template": "utility",
+  "seo": {
+    "title": "Thank you",
+    "description": ""
+  },
+  "hero": {
+    "title": "Thank you",
+    "subtitle": "Your inquiry has been sent. We'll reply as soon as we can."
+  },
+  "sections": [
+    {
+      "type": "cta",
+      "id": "next",
+      "primary": {
+        "label": "Back to home",
+        "href": "/"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "privacy",
+  "slug": "/privacy",
+  "template": "content-page",
+  "seo": {
+    "title": "Privacy Policy",
+    "description": "How we handle your data."
+  },
+  "hero": {
+    "title": "Privacy Policy"
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "policy",
+      "text": "Our full privacy policy is being finalised. In the meantime, if you have any question about how we collect, use or store your information, please contact us and we will be glad to help."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "ZICOM",
+  "legalName": "Zicom Equipment Private Limited [TBC: exact legal name for this site]",
+  "logo": {
+    "src": "/images/brand/zicom-logo.svg",
+    "alt": "ZICOM Equipment Private Limited",
+    "wordmark": "ZICOM",
+    "subline": "EQUIPMENT PRIVATE LIMITED"
+  },
+  "tagline": "Engineering reliable energy & automation solutions",
+  "defaultSeo": {
+    "titleTemplate": "{page} | ZICOM Equipment",
+    "description": "EPC, process automation, terminal automation and field services for the oil & gas industry in Bangladesh and the region.",
+    "ogImage": "/images/250-mmscfd-bakhrabad-ms-3.jpg"
+  },
+  "social": {
+    "facebook": "[TBC: Facebook page URL]",
+    "linkedin": "[TBC: LinkedIn page URL]"
+  },
+  "offices": [
+    {
+      "id": "hq",
+      "label": "Corporate Headquarters",
+      "city": "Singapore",
+      "address": "[TBC: full address]",
+      "phone": "+65 6861 1388",
+      "email": "[TBC]"
+    },
+    {
+      "id": "branch",
+      "label": "Branch Operations",
+      "city": "Dhaka, Bangladesh",
+      "address": "[TBC: full address], Mirpur DOHS, Dhaka",
+      "phone": "[TBC]",
+      "email": "[TBC]"
+    }
+  ],
+  "group": {
+    "name": "Zicom Group Limited",
+    "listing": "Australian Securities Exchange (ASX)",
+    "headquarters": "Singapore"
+  }
+}

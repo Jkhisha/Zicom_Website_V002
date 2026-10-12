@@ -1,0 +1,9 @@
+{% from "sections/_macros.njk" import shead %}
+{#- Prose block. `text` may be a string or an array of paragraphs. -#}
+<section class="section" id="{{ s.id }}" data-label="{{ s.title or s.id }}"><div class="container container--narrow">
+  {{ shead(s) }}
+  <div class="prose">
+    {%- if s.text is string %}{% if s.text | hasReal %}<p>{{ s.text }}</p>{% endif %}
+    {%- else %}{% for para in s.text %}{% if para | hasReal %}<p>{{ para }}</p>{% endif %}{% endfor %}{% endif %}
+  </div>
+</div></section>

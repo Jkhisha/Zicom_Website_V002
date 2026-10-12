@@ -1,0 +1,118 @@
+{
+  "site": {
+    "name": "ZICOM",
+    "logo": "assets/zicom-mark.svg",
+    "tagline": "Engineering reliable energy & automation solutions",
+    "nav": [
+      { "label": "Solutions", "href": "/solutions" },
+      { "label": "Products", "href": "/products" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Projects", "href": "/projects" },
+      { "label": "Company", "href": "/company/about" },
+      { "label": "Resources", "href": "/resources" }
+    ],
+    "cta": { "label": "Contact", "href": "/contact" }
+  },
+
+  "page": {
+    "id": "home",
+    "title": "ZICOM — Engineering reliable energy & automation solutions",
+    "description": "Gas process plants, compressor stations and metering stations, engineered, built and commissioned by one team in Bangladesh.",
+    "sections": [
+      {
+        "type": "cover-scroll",
+        "id": "top",
+        "covers": [
+          { "title": "Engineering", "subtitle": "FEED, detailed design and simulation — the plant proven before a single weld.", "image": "assets/img/Home_Cover_Engineering.jpg" },
+          { "title": "Procurement", "subtitle": "Specified, sourced and expedited to spec — from valves to flow computers.", "image": "assets/img/Home_Cover_Procurement.jpg" },
+          { "title": "Construction", "subtitle": "Skid fabrication, installation and mechanical completion by our own crews.", "image": "assets/img/Home_Cover_Construction.jpg" },
+          { "title": "Commissioning", "subtitle": "Tested, calibrated and handed over — running from day one.", "image": "assets/img/Home_Cover_Commissioning.jpg" },
+          { "title": "Delivered", "subtitle": "45 MMSCFD process plant, Haripur — engineered, built and commissioned by one team.", "image": "assets/img/45mmscfd-process-plant-haripur-6.jpg" }
+        ]
+      },
+      {
+        "type": "intro",
+        "id": "intro",
+        "eyebrow": "Who we are",
+        "title": "One team, from the first drawing to long-term support",
+        "text": "ZICOM engineers reliable energy and automation systems — gas process plants, compressor and metering stations, process and terminal automation — designed, built and commissioned in-house, and supported long after handover."
+      },
+      {
+        "type": "cards",
+        "id": "what-we-do",
+        "eyebrow": "What we do",
+        "title": "Integrated solutions, from design to commissioning",
+        "items": [
+          { "title": "EPC in Oil & Gas", "text": "Process plants, compressor stations, metering and regulating stations, delivered lump-sum turnkey.", "link": { "label": "Explore EPC", "href": "/solutions/epc-oil-gas" } },
+          { "title": "Process Automation", "text": "DCS, PLC, SCADA and safety systems on the platform that fits the plant.", "link": { "label": "Explore automation", "href": "/solutions/process-automation" } },
+          { "title": "Terminal Automation", "text": "One screen to run a fuel terminal: loading, tanks, safety and reconciliation.", "link": { "label": "Explore terminals", "href": "/solutions/terminal-automation" } }
+        ]
+      },
+      {
+        "type": "stats",
+        "id": "stats",
+        "eyebrow": "In country",
+        "title": "A permanent team, not a liaison office",
+        "items": [
+          { "value": "80+", "label": "Engineers and technicians in Bangladesh" },
+          { "value": "250+", "label": "People in the Bangladesh operation" },
+          { "value": "10", "label": "Engineering disciplines held in country" },
+          { "value": "50+", "label": "Regulating and metering stations delivered" }
+        ]
+      },
+      {
+        "type": "teasers",
+        "id": "explore",
+        "eyebrow": "Explore",
+        "title": "More of what Zicom delivers",
+        "items": [
+          { "title": "Products", "text": "Flow computers, RTUs, HMIs and field instruments — supplied, configured and supported locally.", "link": { "label": "View products", "href": "/products" } },
+          { "title": "Services", "text": "FEED, installation & commissioning, calibration and leak detection across the asset lifecycle.", "link": { "label": "View services", "href": "/services" } },
+          { "title": "Projects", "text": "Regulating and metering stations and process plants delivered across Bangladesh.", "link": { "label": "View projects", "href": "/projects" } }
+        ]
+      },
+      {
+        "type": "logos",
+        "id": "partners",
+        "eyebrow": "Partners",
+        "title": "Trusted global brands, delivered locally",
+        "items": [
+          { "name": "Supcon", "logo": "assets/img/partners/supcon.svg" },
+          { "name": "NexVal", "logo": "assets/img/partners/nexval.svg" },
+          { "name": "Keckonn", "logo": "assets/img/partners/keckonn.svg" },
+          { "name": "Cimarron", "logo": "assets/img/partners/cimarron.svg" },
+          { "name": "Softing", "logo": "assets/img/partners/softing.svg" },
+          { "name": "Red Lion", "logo": "assets/img/partners/red-lion.svg" },
+          { "name": "Tancy", "logo": "assets/img/partners/tancy.svg" }
+        ]
+      },
+      {
+        "type": "message-images-framed",
+        "id": "what-is-zicom",
+        "eyebrow": "What is Zicom",
+        "messages": [
+          "What is Zicom?",
+          "Engineers, not middlemen.",
+          "One team — design, build, commission.",
+          "Audited in our own name.",
+          "This is Zicom."
+        ],
+        "images": [
+          "assets/img/Home_Cover_Engineering.jpg",
+          "assets/img/Home_Cover_Construction.jpg",
+          "assets/img/Home_Cover_Commissioning.jpg",
+          "assets/img/45mmscfd-process-plant-haripur-6.jpg"
+        ],
+        "cta": { "label": "About Zicom", "href": "/company/about" }
+      },
+      {
+        "type": "cta",
+        "id": "contact",
+        "title": "Let's discuss your next project",
+        "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+        "primary": { "label": "Contact us", "href": "/contact" },
+        "secondary": { "label": "Explore solutions", "href": "/solutions" }
+      }
+    ]
+  }
+}

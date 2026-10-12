@@ -1,0 +1,157 @@
+{
+  "id": "remote-monitoring",
+  "slug": "/solutions/process-automation/remote-monitoring",
+  "template": "detail-page",
+  "seo": {
+    "title": "Remote Monitoring",
+    "description": "Real-time visibility across transmission and interconnected stations, retrofitted into running systems."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "Process Automation",
+    "Remote Monitoring"
+  ],
+  "parent": {
+    "label": "Process Automation",
+    "href": "/solutions/process-automation"
+  },
+  "hero": {
+    "eyebrow": "Process Automation",
+    "title": "Remote Monitoring",
+    "subtitle": "Real-time visibility across transmission and interconnected stations, retrofitted into running systems.",
+    "image": {
+      "src": "/images/250-mmscfd-ashulia-cgs-1.jpg",
+      "alt": "Ashulia city gate station at night"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "tags",
+      "id": "protocols",
+      "title": "Protocols are how you avoid being trapped",
+      "text": "Specify the protocol, not the brand.",
+      "items": [
+        "OPC UA",
+        "Modbus RTU / TCP",
+        "HART",
+        "WirelessHART",
+        "Foundation Fieldbus",
+        "Profibus",
+        "PROFINET",
+        "EtherNet/IP",
+        "IEC 61850",
+        "MQTT"
+      ]
+    },
+    {
+      "type": "richtext",
+      "id": "overview",
+      "title": "Overview",
+      "text": "Remote monitoring brings station and plant data back to a central room — and to engineers' screens — so problems are seen early and trips are understood fast. We deliver the field connectivity, the SCADA and the reporting, built on open protocols."
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "filter": {
+        "category": [
+          "city-gate-stations",
+          "metering-stations"
+        ]
+      }
+    },
+    {
+      "type": "list",
+      "id": "rm-scope",
+      "title": "What we deliver",
+      "items": [
+        "Field RTUs and station connectivity",
+        "Central SCADA and historian",
+        "Secure, segregated communications",
+        "Alarming and operator notifications",
+        "Dashboards and automated reports",
+        "Commissioning and ongoing support"
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "rm-why",
+      "eyebrow": "Why it matters",
+      "title": "See it before it trips",
+      "text": "Continuous visibility turns a midnight call-out into a planned intervention — and gives you the data to prove what happened.",
+      "link": {
+        "label": "Leak detection",
+        "href": "/services/leak-detection-systems"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Process Automation",
+      "items": [
+        {
+          "label": "Overview",
+          "href": "/solutions/process-automation",
+          "current": false
+        },
+        {
+          "label": "DCS",
+          "href": "/solutions/process-automation/dcs",
+          "current": false
+        },
+        {
+          "label": "PLC",
+          "href": "/solutions/process-automation/plc",
+          "current": false
+        },
+        {
+          "label": "SCADA & HMI",
+          "href": "/solutions/process-automation/scada-hmi",
+          "current": false
+        },
+        {
+          "label": "Safety Instrumented Systems",
+          "href": "/solutions/process-automation/sis",
+          "current": false
+        },
+        {
+          "label": "Brownfield Upgrades",
+          "href": "/solutions/process-automation/brownfield-upgrades",
+          "current": false
+        },
+        {
+          "label": "Remote Monitoring",
+          "href": "/solutions/process-automation/remote-monitoring",
+          "current": true
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}

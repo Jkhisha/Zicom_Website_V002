@@ -1,0 +1,189 @@
+{
+  "id": "brownfield-upgrades",
+  "slug": "/solutions/process-automation/brownfield-upgrades",
+  "template": "detail-page",
+  "seo": {
+    "title": "Brownfield Upgrades",
+    "description": "Tie-ins executed inside planned shutdown windows, on plants that could not stop."
+  },
+  "breadcrumb": [
+    "Home",
+    "Solutions",
+    "Process Automation",
+    "Brownfield Upgrades"
+  ],
+  "parent": {
+    "label": "Process Automation",
+    "href": "/solutions/process-automation"
+  },
+  "hero": {
+    "eyebrow": "Process Automation",
+    "title": "Brownfield Upgrades",
+    "subtitle": "Tie-ins executed inside planned shutdown windows, on plants that could not stop.",
+    "image": {
+      "src": "/images/50mmscfd-compressor-station-titas-locg-4.jpg",
+      "alt": "Compressor shed at Titas LOC-G"
+    },
+    "ctas": [
+      {
+        "label": "Discuss your project",
+        "href": "/contact"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "richtext",
+      "id": "bf-overview",
+      "title": "Upgrade without starting over",
+      "text": "Ageing controls become a spares and support risk long before the plant does. We migrate obsolete DCS/PLC systems to current platforms with minimal downtime — keeping what still works and replacing what doesn't."
+    },
+    {
+      "type": "table",
+      "id": "platforms",
+      "title": "The platform is a partnership. The expertise is ours.",
+      "columns": [
+        "Platform",
+        "Delivered"
+      ],
+      "rows": [
+        [
+          "ABB 800xA · Freelance",
+          "Titas LOC-C, J and Srikail, with SIL 3 safety system"
+        ],
+        [
+          "Rockwell PlantPAx",
+          "Titas LOC-E and G, central DCS"
+        ],
+        [
+          "Allen-Bradley ControlLogix 5000",
+          "Compressor control, Titas"
+        ],
+        [
+          "Honeywell Experion",
+          "Pidilite chemical plant DCS engineering, graphics, point configuration"
+        ],
+        [
+          "SCADA, multi-vendor",
+          "Licensing, configuration, integration, site support"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "id": "questions",
+      "title": "The 15-year questions",
+      "items": [
+        "Redundancy: which parts are redundant — controller, power, network, I/O?",
+        "Cybersecurity: which IEC 62443 security level does the design target?",
+        "Obsolescence: what is the vendor's declared support horizon and migration path?"
+      ]
+    },
+    {
+      "type": "projects",
+      "id": "related",
+      "title": "Related projects",
+      "source": "projects",
+      "limit": 3,
+      "link": {
+        "label": "All projects",
+        "href": "/projects"
+      },
+      "filter": {
+        "category": [
+          "compressor-stations"
+        ]
+      }
+    },
+    {
+      "type": "steps",
+      "id": "bf-steps",
+      "title": "How a migration runs",
+      "items": [
+        {
+          "title": "Assess",
+          "text": "Audit the existing system, I/O and documentation."
+        },
+        {
+          "title": "Plan",
+          "text": "Migration strategy, cutover sequence and rollback."
+        },
+        {
+          "title": "Stage",
+          "text": "Configure and test the new system off-line (FAT)."
+        },
+        {
+          "title": "Cut over",
+          "text": "Phased changeover during a planned window, then SAT."
+        }
+      ]
+    },
+    {
+      "type": "feature",
+      "id": "bf-why",
+      "eyebrow": "Why it matters",
+      "title": "The clock starts at obsolescence",
+      "text": "Once a platform goes end-of-life, every breakdown is a scramble for parts. Migrating on your schedule beats migrating on a failure's.",
+      "link": {
+        "label": "Lifecycle support",
+        "href": "/services/after-sales-service"
+      }
+    },
+    {
+      "type": "siblings",
+      "id": "more",
+      "title": "More in Process Automation",
+      "items": [
+        {
+          "label": "Overview",
+          "href": "/solutions/process-automation",
+          "current": false
+        },
+        {
+          "label": "DCS",
+          "href": "/solutions/process-automation/dcs",
+          "current": false
+        },
+        {
+          "label": "PLC",
+          "href": "/solutions/process-automation/plc",
+          "current": false
+        },
+        {
+          "label": "SCADA & HMI",
+          "href": "/solutions/process-automation/scada-hmi",
+          "current": false
+        },
+        {
+          "label": "Safety Instrumented Systems",
+          "href": "/solutions/process-automation/sis",
+          "current": false
+        },
+        {
+          "label": "Brownfield Upgrades",
+          "href": "/solutions/process-automation/brownfield-upgrades",
+          "current": true
+        },
+        {
+          "label": "Remote Monitoring",
+          "href": "/solutions/process-automation/remote-monitoring",
+          "current": false
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "id": "cta",
+      "title": "Let's discuss your next project",
+      "text": "Tell us what you are planning. An engineer will reply, not a sales queue.",
+      "primary": {
+        "label": "Contact Us",
+        "href": "/contact"
+      },
+      "secondary": {
+        "label": "See our projects",
+        "href": "/projects"
+      }
+    }
+  ]
+}
