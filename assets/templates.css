@@ -226,6 +226,12 @@ a { color: inherit; text-decoration: none; }
    past 40% through to the top-right. */
 .section--message--left .message__overlay { background: linear-gradient(to top right, rgba(8,8,10,1) 0%, rgba(8,8,10,.9) 20%,  rgba(8,8,10,0) 60%);  }
 
+/* Home hero (cover-scroll): each EPCC phase reveals its title plus a one-line
+   message over its own cover; the final "One EPCC team" slide is the summary.
+   Widen the line past the default 22ch so the sentence can breathe. */
+#cover-scroll .message__line { max-width: min(92%, 42ch); }
+#cover-scroll .message__sub { display: block; margin-top: clamp(0.5rem, 1.6vh, 1.1rem); font-size: clamp(1rem, 2vw, 1.5rem); font-weight: 300; line-height: 1.4; letter-spacing: 0; }
+
 /* =========================================================
    CTA band
    ========================================================= */

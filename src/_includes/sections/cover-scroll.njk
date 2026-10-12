@@ -12,7 +12,7 @@
   {#- First line intentionally blank: the big logo is the sole focus while it docks. -#}
   <div class="message__lines"><p class="message__line is-active" aria-hidden="true"></p>
     {%- for s in slides %}
-    <p class="message__line">{{ s.line }}</p>
+    <p class="message__line">{{ s.line }}{% if s.text %}<span class="message__sub">{{ s.text }}</span>{% endif %}</p>
     {%- endfor %}
   </div>
   {%- if hero.ctas and hero.ctas | length %}
